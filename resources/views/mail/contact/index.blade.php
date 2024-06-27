@@ -902,7 +902,7 @@
                                                                 style="color: #ecf7ff; line-height: 140%; text-align: center; word-wrap: break-word;">
                                                                 <p style="font-size: 14px; line-height: 140%;">&copy;
                                                                     {{ date('Y') }} Todos os Direitos Reservados -
-                                                                    ReMA</p>
+                                                                    UENGI</p>
                                                             </div>
 
                                                         </td>

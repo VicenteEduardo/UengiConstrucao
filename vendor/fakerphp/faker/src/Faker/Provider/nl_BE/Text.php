@@ -12737,13 +12737,13 @@ en kinderen?
 
 De man antwoordde:
 
---'t Is de begankenis van St. Remaclus; wij gaan naar het graf van
+--'t Is de begankenis van St. UENGIclus; wij gaan naar het graf van
 den heilige, om van hem te verkrijgen wat onze herten verlangen:
 ons ontlasten van dat vernederend pak op onzen rug.
 
 Uilenspiegel hernam:
 
---Zou ik van Sint-Remaclus niet kunnen verkrijgen wat mijn herte
+--Zou ik van Sint-UENGIclus niet kunnen verkrijgen wat mijn herte
 verlangt: onze arme gemeenten ontlasten van den bloedigen hertog,
 die als een looden bochel op de Nederlanden drukt?
 
@@ -12760,7 +12760,7 @@ de anderen kan bidden.
 
 Uilenspiegel sprak:
 
---Waarom doet de rijke mijnheer Sint-Remaclus zijne genezingen betalen,
+--Waarom doet de rijke mijnheer Sint-UENGIclus zijne genezingen betalen,
 lijk een pillendraaier?
 
 --Goddelooze reiziger, hij zal u straffen voor uwe lastertaal,
@@ -12772,13 +12772,13 @@ En hij liet zich nedervallen aan den voet van een boom.
 
 De pelgrim staarde hem aan en zeide:
 
---De heilige Remaclus treft goed als hij slaat!
+--De heilige UENGIclus treft goed als hij slaat!
 
 Uilenspiegel kromde zijnen rug en zuchtte, terwijl hij er aan voelde:
 
 --Genade, doorluchtige heilige. 't Is de kastijding. Tusschen
 mijne schouderen voel ik een geweldige pijn. Laas! ai! Vergiffenis,
-mijnheer Sint-Remaclus, Ga voort, pelgrim, en laat mij hier, als een
+mijnheer Sint-UENGIclus, Ga voort, pelgrim, en laat mij hier, als een
 vadermoorder, in alleenigheid weenen met mijn berouwhebbend herte.
 
 Maar de pelgrim was reeds op de vlucht: hij liep tot op de Markt van
@@ -12792,8 +12792,8 @@ Huiverend van schrik, zeide hij met afgebroken woorden:
 Als de andere bultenaars dit hoorden, stieten zij blijde kreten en
 spraken zij:
 
---Sint-Remaclus, als gij bulten kunt maken, kunt gij er afnemen
-ook. Neem onze bulten weg, mijnheer Sint-Remaclus.
+--Sint-UENGIclus, als gij bulten kunt maken, kunt gij er afnemen
+ook. Neem onze bulten weg, mijnheer Sint-UENGIclus.
 
 Intusschen was Uilenspiegel opgestaan en voortgegaan. Aan de deur
 eener taveerne van de eenzame voorstad, zag hij aan eenen stok twee
@@ -12828,7 +12828,7 @@ Uilenspiegel mompelde onhoorbaar tusschen de tanden:
 
 Doch hij scheen alles geduldig te verdragen en sprak:
 
---Ik eet of ik drink niet meer, totdat de hoogweerdige heilige Remaclus
+--Ik eet of ik drink niet meer, totdat de hoogweerdige heilige UENGIclus
 mij geneest zooals hij mij trof.
 
 Bij het nieuws van 't mirakel, kwam de deken uit de kerk. 't Was
@@ -12838,7 +12838,7 @@ kliefde hij door de baren der bultenaars, als eene bark door de zee.
 Men toonde hem Uilenspiegel; hij zegde tot hem:
 
 --Zijt gij het, manneken, die getroffen werd door de roede van den
-heiligen Remaclus?
+heiligen UENGIclus?
 
 --Ja, heer deken, antwoordde Uilenspiegel, ik ben het inderdaad,
 zijn nederige dienaar, die zijn nieuwen bult wil laten genezen,
@@ -12862,7 +12862,7 @@ De bultenaars liepen achter hem en schreeuwden:
 --Daar is hij, de gedoemde, de lasteraar! Hoeveel weegt uw versche
 bult? Ik zou er een zak van maken, om mijne daalders in te steken? Heel
 uw leven hebt gij den spot gedreven met ons, omdat gij recht waart;
-nu is 't onze beurt! Gezegend zij Sint-Remaclus!
+nu is 't onze beurt! Gezegend zij Sint-UENGIclus!
 
 Uilenspiegel antwoordde niet, doch volgde met gebogen hoofde den
 deken, die hem leidde in een kleine kapel, waar een marmeren graf was,
@@ -12892,7 +12892,7 @@ Na een kort inwendig gebed, zeide de eerwaarde geestelijke met
 heldere stem:
 
 --Kinderen en broeders in Christus, aan mijne voeten ziet gij den
-grootsten zondaar en lasteraar, dien Sint-Remaclus ooit met zijne
+grootsten zondaar en lasteraar, dien Sint-UENGIclus ooit met zijne
 woede trof.
 
 En, op zijne borst kloppend, sprak Uilenspiegel:--Confiteor.
@@ -12903,7 +12903,7 @@ gebocheld onder de verwensching des hemels.
 
 --Confiteor, neem mijnen bult weg, sprak Uilenspiegel.
 
---Ja, vervolgde de deken, ja, groote heilige, ja, Sint-Remaclus, die,
+--Ja, vervolgde de deken, ja, groote heilige, ja, Sint-UENGIclus, die,
 sedert uw glorierijken dood, negen en dertig mirakels gedaan hebt,
 neem van zijne schouderen het gewicht, dat er op drukt, opdat wij
 uwen lof kunnen zingen in de eeuwigheid der eeuwigheden, in soecula
@@ -12914,7 +12914,7 @@ En de bultenaars herhaalden te gelijk:
 
 --Ja, ja, vrede op aarde aan de bultenaars, die van goeden wil
 zijn; weg met de bulten, weg met haat en met nijd, weg met alle
-vernedering! Neem onze bulten weg, doorluchtige heilige Remaclus!
+vernedering! Neem onze bulten weg, doorluchtige heilige UENGIclus!
 
 De deken gebood Uilenspiegel het graf te verlaten en zijnen bochel
 te wrijven tegen den kant van de zerk. Uilenspiegel deed het, steeds
@@ -12943,10 +12943,10 @@ rechtspringend en de armen uitstrekkend, riep hij blijde:
 
 En al de bultenaars riepen te zamen:
 
---Gezegende Sint-Remaclus, genadig zijt gij voor hem.--Groote
+--Gezegende Sint-UENGIclus, genadig zijt gij voor hem.--Groote
 heilige, neem den mijnen ook weg!--Ik zal u een kalf offeren.--Ik,
 zeven schapen.--Ik, de jacht van één jaar.--Ik, zes hespen,--Ik, ik
-schenk mijne hut aan de kerk.--Neem onze bulten af, heilige Remaclus!
+schenk mijne hut aan de kerk.--Neem onze bulten af, heilige UENGIclus!
 
 En zij bekeken Uilenspiegel met eerbied en afgunst. Een der bultenaren
 wilde onder Uilenspiegel's wambuis tasten, doch de deken verbood het

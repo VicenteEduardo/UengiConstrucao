@@ -26,7 +26,7 @@ public function definition()
     return [
         'title' => 'POLÍTICAS DE UTILIZAÇÃO',
         'description' => "
-        O acesso às Mediatecas e aos respectivos serviços disponibilizados ao público em geral processa-se mediante a apresentação de um Cartão de Utente” emitido de forma pessoal e intransmissível pela ReMA ( Rede Nacional de Mediatecas ).
+        O acesso às Mediatecas e aos respectivos serviços disponibilizados ao público em geral processa-se mediante a apresentação de um Cartão de Utente” emitido de forma pessoal e intransmissível pela UENGI ( Rede Nacional de Mediatecas ).
 
         Os interessados devem fazer-se acompanhar de fotocópia de documento oficial de identificação e receberão no momento o respectivo Cartão de Utente” (que terá somente uma taxa única de emissão de 2.000 kwanzas para cobertura dos custos de emissão e produção do próprio cartão) e que poderá ser utilizado de imediato no acesso às instalações e serviços em qualquer uma das Mediatecas em funcionamento.
 

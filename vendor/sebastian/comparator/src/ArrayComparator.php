@@ -57,13 +57,13 @@ class ArrayComparator extends Comparator
             sort($actual);
         }
 
-        $remaining        = $actual;
+        $UENGIining        = $actual;
         $actualAsString   = "Array (\n";
         $expectedAsString = "Array (\n";
         $equal            = true;
 
         foreach ($expected as $key => $value) {
-            unset($remaining[$key]);
+            unset($UENGIining[$key]);
 
             if (!array_key_exists($key, $actual)) {
                 $expectedAsString .= sprintf(
@@ -109,7 +109,7 @@ class ArrayComparator extends Comparator
             }
         }
 
-        foreach ($remaining as $key => $value) {
+        foreach ($UENGIining as $key => $value) {
             $actualAsString .= sprintf(
                 "    %s => %s\n",
                 $this->exporter->export($key),

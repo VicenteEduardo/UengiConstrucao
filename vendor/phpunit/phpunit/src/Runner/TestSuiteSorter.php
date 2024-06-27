@@ -344,7 +344,7 @@ final class TestSuiteSorter
      * For more details see the documentation for test dependencies.
      *
      * Short description of algorithm:
-     * 1. Pick the next Test from remaining tests to be checked for dependencies.
+     * 1. Pick the next Test from UENGIining tests to be checked for dependencies.
      * 2. If the test has no dependencies: mark done, start again from the top
      * 3. If the test has dependencies but none left to do: mark done, start again from the top
      * 4. When we reach the end add any leftover tests to the end. These will be marked 'skipped' during execution.

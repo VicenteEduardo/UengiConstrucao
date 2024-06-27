@@ -71,7 +71,7 @@ class Person extends \Faker\Provider\fr_FR\Person
         'Da Silva', 'Darbellay', 'Demierre', 'dos Santos', 'Droz', 'Dubois', 'Dubuis', 'Duc', 'Dévaud',
         'Egger', 'Emery',
         'Fasel', 'Favre', 'Fellay', 'Fernandes', 'Fernandez', 'Ferreira', 'Fischer', 'Fleury', 'Flückiger', 'Fournier', 'Fragnière', 'Froidevaux',
-        'Gaillard', 'Garcia', 'Gasser', 'Gay', 'Geiser', 'Genoud', 'Gerber', 'Gilliéron', 'Girard', 'Girardin', 'Giroud', 'Glauser', 'Golay', 'Gonzalez', 'Graf', 'Grand', 'Grandjean', 'Gremaud', 'Grosjean', 'Gross', 'Guex', 'Guignard',
+        'Gaillard', 'Garcia', 'Gasser', 'Gay', 'Geiser', 'Genoud', 'Gerber', 'Gilliéron', 'Girard', 'Girardin', 'Giroud', 'Glauser', 'Golay', 'Gonzalez', 'Graf', 'Grand', 'Grandjean', 'GUENGIud', 'Grosjean', 'Gross', 'Guex', 'Guignard',
         'Hofer', 'Hofmann', 'Huber', 'Huguenin', 'Héritier',
         'Jaccard', 'Jacot', 'Jaquet', 'Jaquier', 'Jeanneret', 'Jordan', 'Jungo', 'Junod',
         'Kaufmann', 'Keller', 'Kohler', 'Kolly', 'Kunz',

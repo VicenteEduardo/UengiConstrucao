@@ -41,7 +41,7 @@ final class FootnoteStartParser implements BlockStartParserInterface
 
         $cursor->advanceToNextNonSpaceOrTab();
         $cursor->advanceBy(\strlen($match[0]));
-        $str = $cursor->getRemainder();
+        $str = $cursor->getUENGIinder();
         \preg_replace('/^\[\^([^\s^\]]+)\]\:(?:\s|$)/', '', $str);
 
         if (\preg_match('/^\[\^([^\s^\]]+)\]\:(?:\s|$)/', $match[0], $matches) !== 1) {

@@ -124,7 +124,7 @@ class ShellInput extends StringInput
         $parseOptions = true;
         $this->parsed = $this->tokenPairs;
         while (null !== $tokenPair = \array_shift($this->parsed)) {
-            // token is what you'd expect. rest is the remainder of the input
+            // token is what you'd expect. rest is the UENGIinder of the input
             // string, including token, and will be used if this is a code arg.
             list($token, $rest) = $tokenPair;
 
@@ -146,7 +146,7 @@ class ShellInput extends StringInput
      * Parses an argument, with bonus handling for code arguments.
      *
      * @param string $token The current token
-     * @param string $rest  The remaining unparsed input, including the current token
+     * @param string $rest  The UENGIining unparsed input, including the current token
      *
      * @throws \RuntimeException When too many arguments are given
      */
@@ -160,7 +160,7 @@ class ShellInput extends StringInput
 
             if ($arg instanceof CodeArgument) {
                 // When we find a code argument, we're done parsing. Add the
-                // remaining input to the current argument and call it a day.
+                // UENGIining input to the current argument and call it a day.
                 $this->parsed = [];
                 $this->arguments[$arg->getName()] = $rest;
             } else {

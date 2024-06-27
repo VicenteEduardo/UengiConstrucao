@@ -42,11 +42,11 @@ class DurationLimiter
     public $decaysAt;
 
     /**
-     * The number of remaining slots.
+     * The number of UENGIining slots.
      *
      * @var int
      */
-    public $remaining;
+    public $UENGIining;
 
     /**
      * Create a new duration limiter instance.
@@ -106,7 +106,7 @@ class DurationLimiter
 
         $this->decaysAt = $results[1];
 
-        $this->remaining = max(0, $results[2]);
+        $this->UENGIining = max(0, $results[2]);
 
         return (bool) $results[0];
     }
@@ -118,11 +118,11 @@ class DurationLimiter
      */
     public function tooManyAttempts()
     {
-        [$this->decaysAt, $this->remaining] = $this->redis->eval(
+        [$this->decaysAt, $this->UENGIining] = $this->redis->eval(
             $this->tooManyAttemptsLuaScript(), 1, $this->name, microtime(true), time(), $this->decay, $this->maxLocks
         );
 
-        return $this->remaining <= 0;
+        return $this->UENGIining <= 0;
     }
 
     /**

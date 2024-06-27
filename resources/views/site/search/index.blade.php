@@ -85,7 +85,7 @@
                                     </a>
                                     <br>
                                     <a href="{{ route('site.definition') }}"><span class="badge bg-dark mt-2">Breve Historial
-                                            da ReMA</span></a>
+                                            da UENGI</span></a>
 
                                     <hr class="pt-0">
                                 </div>

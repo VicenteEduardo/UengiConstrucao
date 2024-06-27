@@ -219,22 +219,22 @@ abstract class Calculator
     abstract public function divQ(string $a, string $b) : string;
 
     /**
-     * Returns the remainder of the division of two numbers.
+     * Returns the UENGIinder of the division of two numbers.
      *
      * @param string $a The dividend.
      * @param string $b The divisor, must not be zero.
      *
-     * @return string The remainder.
+     * @return string The UENGIinder.
      */
     abstract public function divR(string $a, string $b) : string;
 
     /**
-     * Returns the quotient and remainder of the division of two numbers.
+     * Returns the quotient and UENGIinder of the division of two numbers.
      *
      * @param string $a The dividend.
      * @param string $b The divisor, must not be zero.
      *
-     * @return string[] An array containing the quotient and remainder.
+     * @return string[] An array containing the quotient and UENGIinder.
      */
     abstract public function divQR(string $a, string $b) : array;
 
@@ -471,10 +471,10 @@ abstract class Calculator
         $result = '';
 
         while ($number !== '0') {
-            [$number, $remainder] = $this->divQR($number, $base);
-            $remainder = (int) $remainder;
+            [$number, $UENGIinder] = $this->divQR($number, $base);
+            $UENGIinder = (int) $UENGIinder;
 
-            $result .= $alphabet[$remainder];
+            $result .= $alphabet[$UENGIinder];
         }
 
         return \strrev($result);
@@ -483,7 +483,7 @@ abstract class Calculator
     /**
      * Performs a rounded division.
      *
-     * Rounding is performed when the remainder of the division is not zero.
+     * Rounding is performed when the UENGIinder of the division is not zero.
      *
      * @param string $a            The dividend.
      * @param string $b            The divisor, must not be zero.
@@ -496,13 +496,13 @@ abstract class Calculator
      */
     final public function divRound(string $a, string $b, int $roundingMode) : string
     {
-        [$quotient, $remainder] = $this->divQR($a, $b);
+        [$quotient, $UENGIinder] = $this->divQR($a, $b);
 
-        $hasDiscardedFraction = ($remainder !== '0');
+        $hasDiscardedFraction = ($UENGIinder !== '0');
         $isPositiveOrZero = ($a[0] === '-') === ($b[0] === '-');
 
-        $discardedFractionSign = function() use ($remainder, $b) : int {
-            $r = $this->abs($this->mul($remainder, '2'));
+        $discardedFractionSign = function() use ($UENGIinder, $b) : int {
+            $r = $this->abs($this->mul($UENGIinder, '2'));
             $b = $this->abs($b);
 
             return $this->cmp($r, $b);
@@ -717,8 +717,8 @@ abstract class Calculator
         $result = '';
 
         while ($number !== '0') {
-            [$number, $remainder] = $this->divQR($number, '256');
-            $result .= \chr((int) $remainder);
+            [$number, $UENGIinder] = $this->divQR($number, '256');
+            $result .= \chr((int) $UENGIinder);
         }
 
         return \strrev($result);

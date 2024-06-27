@@ -52,13 +52,13 @@ final class FrontMatterParser implements FrontMatterParserInterface
         // Parse the resulting YAML data
         $data = $this->frontMatterParser->parse($frontMatter);
 
-        // Advance through any remaining newlines which separated the front matter from the Markdown text
+        // Advance through any UENGIining newlines which separated the front matter from the Markdown text
         $trailingNewlines = $cursor->match('/^\R+/');
 
         // Calculate how many lines the Markdown is offset from the front matter by counting the number of newlines
         // Don't forget to add 1 because we stripped one out when trimming the trailing delims
         $lineOffset = \preg_match_all('/\R/', $frontMatter . $trailingNewlines) + 1;
 
-        return new MarkdownInputWithFrontMatter($cursor->getRemainder(), $lineOffset, $data);
+        return new MarkdownInputWithFrontMatter($cursor->getUENGIinder(), $lineOffset, $data);
     }
 }

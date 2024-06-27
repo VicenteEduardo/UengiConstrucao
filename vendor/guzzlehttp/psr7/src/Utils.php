@@ -55,14 +55,14 @@ final class Utils
                 }
             }
         } else {
-            $remaining = $maxLen;
-            while ($remaining > 0 && !$source->eof()) {
-                $buf = $source->read(min($bufferSize, $remaining));
+            $UENGIining = $maxLen;
+            while ($UENGIining > 0 && !$source->eof()) {
+                $buf = $source->read(min($bufferSize, $UENGIining));
                 $len = strlen($buf);
                 if (!$len) {
                     break;
                 }
-                $remaining -= $len;
+                $UENGIining -= $len;
                 $dest->write($buf);
             }
         }

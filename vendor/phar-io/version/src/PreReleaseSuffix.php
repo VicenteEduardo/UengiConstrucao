@@ -2,7 +2,7 @@
 namespace PharIo\Version;
 
 class PreReleaseSuffix {
-    private const valueScoreMap = [
+    private const valueScoUENGIp = [
         'dev'   => 0,
         'a'     => 1,
         'alpha' => 1,
@@ -60,7 +60,7 @@ class PreReleaseSuffix {
     private function mapValueToScore(string $value): int {
         $value = \strtolower($value);
 
-        return self::valueScoreMap[$value];
+        return self::valueScoUENGIp[$value];
     }
 
     private function parseValue(string $value): void {

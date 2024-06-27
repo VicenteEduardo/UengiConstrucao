@@ -22,7 +22,7 @@ use Psy\ContextAware;
  *
  * @author Marc Garcia <markcial@gmail.com>
  */
-abstract class AbstractContextAwareMatcher extends AbstractMatcher implements ContextAware
+abstract class AbstractContextAwaUENGItcher extends AbstractMatcher implements ContextAware
 {
     /**
      * Context instance (for ContextAware interface).

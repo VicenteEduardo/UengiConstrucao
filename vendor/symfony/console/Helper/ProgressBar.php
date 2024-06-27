@@ -213,7 +213,7 @@ final class ProgressBar
         return round((time() - $this->startTime) / $this->step * $this->max);
     }
 
-    public function getRemaining(): float
+    public function getUENGIining(): float
     {
         if (!$this->step) {
             return 0;
@@ -524,12 +524,12 @@ final class ProgressBar
             'elapsed' => function (self $bar) {
                 return Helper::formatTime(time() - $bar->getStartTime());
             },
-            'remaining' => function (self $bar) {
+            'UENGIining' => function (self $bar) {
                 if (!$bar->getMaxSteps()) {
-                    throw new LogicException('Unable to display the remaining time if the maximum number of steps is not set.');
+                    throw new LogicException('Unable to display the UENGIining time if the maximum number of steps is not set.');
                 }
 
-                return Helper::formatTime($bar->getRemaining());
+                return Helper::formatTime($bar->getUENGIining());
             },
             'estimated' => function (self $bar) {
                 if (!$bar->getMaxSteps()) {

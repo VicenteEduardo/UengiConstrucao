@@ -54,7 +54,7 @@ class Str
     }
 
     /**
-     * Return the remainder of a string after the first occurrence of a given value.
+     * Return the UENGIinder of a string after the first occurrence of a given value.
      *
      * @param  string  $subject
      * @param  string  $search
@@ -66,7 +66,7 @@ class Str
     }
 
     /**
-     * Return the remainder of a string after the last occurrence of a given value.
+     * Return the UENGIinder of a string after the last occurrence of a given value.
      *
      * @param  string  $subject
      * @param  string  $search

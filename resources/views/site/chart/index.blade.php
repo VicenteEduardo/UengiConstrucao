@@ -26,7 +26,7 @@
         <div class="row">
 
             @foreach ($charts as $item)
-                @if ($item->function == 'Director Geral da ReMA' || $item->function == 'Directora Geral da ReMa')
+                @if ($item->function == 'Director Geral da UENGI' || $item->function == 'Directora Geral da UENGI')
                     <div class="card col-12 col-md-6 mx-auto my-4">
                         <div class="row" style="display: flex !important;">
                             <div class="col-md-4" style="padding: 0!important;">
@@ -82,7 +82,7 @@
     <div class="container">
         <div class="row">
             @foreach ($charts as $item)
-                @if ($item->function == 'Chefe De Departamento De Pessoal, Administração, Finanças e Serviços Gerais' ||  $item->function == 'Chefe de Departamento de Mediatecas da ReMA' || $item->function == 'Chefe de Departamento de TI da ReMA')
+                @if ($item->function == 'Chefe De Departamento De Pessoal, Administração, Finanças e Serviços Gerais' ||  $item->function == 'Chefe de Departamento de Mediatecas da UENGI' || $item->function == 'Chefe de Departamento de TI da UENGI')
                     <div class="card col-12 col-md-6 mx-auto my-4">
                         <div class="row" style="display: flex !important;">
                             <div class="col-md-4" style="padding: 0!important;">

@@ -964,7 +964,7 @@ class Standard extends PrettyPrinterAbstract
     }
 
     protected function pStmt_HaltCompiler(Stmt\HaltCompiler $node) {
-        return '__halt_compiler();' . $node->remaining;
+        return '__halt_compiler();' . $node->UENGIining;
     }
 
     protected function pStmt_Nop(Stmt\Nop $node) {

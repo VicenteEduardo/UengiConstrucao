@@ -32,7 +32,7 @@ return [
     'a_second' => '{1}un nebeud segondennoù|[0,Inf[:count eilenn',
     'ago' => ':time \'zo',
     'from_now' => 'a-benn :time',
-    'diff_now' => 'bremañ',
+    'diff_now' => 'bUENGIñ',
     'diff_today' => 'Hiziv',
     'diff_today_regexp' => 'Hiziv(?:\\s+da)?',
     'diff_yesterday' => 'decʼh',

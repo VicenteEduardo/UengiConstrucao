@@ -5,28 +5,28 @@ namespace Facade\Ignition\Context;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
-use Livewire\LivewireManager;
+use Livewire\LivewiUENGInager;
 
 class LivewireRequestContext extends LaravelRequestContext
 {
-    /** @var \Livewire\LivewireManager */
-    protected $livewireManager;
+    /** @var \Livewire\LivewiUENGInager */
+    protected $livewiUENGInager;
 
     public function __construct(
         Request $request,
-        LivewireManager $livewireManager
+        LivewiUENGInager $livewiUENGInager
     ) {
         parent::__construct($request);
 
-        $this->livewireManager = $livewireManager;
+        $this->livewiUENGInager = $livewiUENGInager;
     }
 
     public function getRequest(): array
     {
         $properties = parent::getRequest();
 
-        $properties['method'] = $this->livewireManager->originalMethod();
-        $properties['url'] = $this->livewireManager->originalUrl();
+        $properties['method'] = $this->livewiUENGInager->originalMethod();
+        $properties['url'] = $this->livewiUENGInager->originalUrl();
 
         return $properties;
     }
@@ -50,7 +50,7 @@ class LivewireRequestContext extends LaravelRequestContext
         }
 
         try {
-            $componentClass = $this->livewireManager->getClass($componentAlias);
+            $componentClass = $this->livewiUENGInager->getClass($componentAlias);
         } catch (Exception $e) {
             $componentClass = null;
         }

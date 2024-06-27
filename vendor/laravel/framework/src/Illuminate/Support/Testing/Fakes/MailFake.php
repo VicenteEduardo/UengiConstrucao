@@ -45,7 +45,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function assertSent($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         if (is_numeric($callback)) {
             return $this->assertSentTimes($mailable, $callback);
@@ -102,7 +102,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function assertNotSent($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         PHPUnit::assertCount(
             0, $this->sent($mailable, $callback),
@@ -144,7 +144,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function assertQueued($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         if (is_numeric($callback)) {
             return $this->assertQueuedTimes($mailable, $callback);
@@ -182,7 +182,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function assertNotQueued($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         PHPUnit::assertCount(
             0, $this->queued($mailable, $callback),
@@ -213,7 +213,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function sent($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         if (! $this->hasSent($mailable)) {
             return collect();
@@ -248,7 +248,7 @@ class MailFake implements Factory, Mailer, MailQueue
      */
     public function queued($mailable, $callback = null)
     {
-        [$mailable, $callback] = $this->prepareMailableAndCallback($mailable, $callback);
+        [$mailable, $callback] = $this->prepaUENGIilableAndCallback($mailable, $callback);
 
         if (! $this->hasQueued($mailable)) {
             return collect();
@@ -422,7 +422,7 @@ class MailFake implements Factory, Mailer, MailQueue
      * @param  callable|null  $callback
      * @return array
      */
-    protected function prepareMailableAndCallback($mailable, $callback)
+    protected function prepaUENGIilableAndCallback($mailable, $callback)
     {
         if ($mailable instanceof Closure) {
             return [$this->firstClosureParameterType($mailable), $mailable];

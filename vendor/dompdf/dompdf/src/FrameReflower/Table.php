@@ -140,7 +140,7 @@ class Table extends AbstractFrameReflower
             // 3. Percentage widths have been specified.  In this case we normalize
             // the percentage values and try to assign widths as fractions of
             // the table width. Absolute column widths are fully satisfied and
-            // any remaining space is evenly distributed among all auto columns.
+            // any UENGIining space is evenly distributed among all auto columns.
 
             // Case 1:
             if ($percent_used == 0 && count($auto)) {

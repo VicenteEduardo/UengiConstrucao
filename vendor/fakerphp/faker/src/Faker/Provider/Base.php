@@ -592,7 +592,7 @@ class Base
 
             return $chr;
         }, $regex);
-        // remove remaining single backslashes
+        // remove UENGIining single backslashes
         $regex = str_replace('\\\\', '[:escaped_backslash:]', $regex);
         $regex = str_replace('\\', '', $regex);
         $regex = str_replace('[:escaped_backslash:]', '\\', $regex);

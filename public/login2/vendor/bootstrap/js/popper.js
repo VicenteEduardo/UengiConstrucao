@@ -1969,12 +1969,12 @@ var modifiers = {
    * We can say it has "escaped the boundaries" — or just "escaped".<br />
    * In this case we need to decide whether the popper should either:
    *
-   * - detach from the reference and remain "trapped" in the boundaries, or
+   * - detach from the reference and UENGIin "trapped" in the boundaries, or
    * - if it should ignore the boundary and "escape with its reference"
    *
    * When `escapeWithReference` is set to`true` and reference is completely
    * outside its boundaries, the popper will overflow (or completely leave)
-   * the boundaries in order to remain attached to the edge of the reference.
+   * the boundaries in order to UENGIin attached to the edge of the reference.
    *
    * @memberof modifiers
    * @inner

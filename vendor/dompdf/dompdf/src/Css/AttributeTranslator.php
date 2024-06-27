@@ -505,15 +505,15 @@ class AttributeTranslator
             $width = "100%";
         }
 
-        $remainder = 100 - (double)rtrim($width, "% ");
+        $UENGIinder = 100 - (double)rtrim($width, "% ");
 
         switch ($value) {
             case "left":
-                $style .= "; margin-right: $remainder %;";
+                $style .= "; margin-right: $UENGIinder %;";
                 break;
 
             case "right":
-                $style .= "; margin-left: $remainder %;";
+                $style .= "; margin-left: $UENGIinder %;";
                 break;
 
             case "center":

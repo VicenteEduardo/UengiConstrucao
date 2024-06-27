@@ -34,7 +34,7 @@
 
     <header class="col-12 mt-2 mb-5">
 
-        <img src="site/img/logo/rema.png" alt="" width="200">
+        <img src="site/img/logo/UENGI.png" alt="" width="200">
 
         <p>
         <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="text-center">Pesquisa de

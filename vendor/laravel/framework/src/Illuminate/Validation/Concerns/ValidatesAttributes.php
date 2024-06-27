@@ -744,9 +744,9 @@ trait ValidatesAttributes
                 } elseif ($validation === 'spoof') {
                     return new SpoofCheckValidation;
                 } elseif ($validation === 'filter') {
-                    return new FilterEmailValidation;
+                    return new FilteUENGIilValidation;
                 } elseif ($validation === 'filter_unicode') {
-                    return FilterEmailValidation::unicode();
+                    return FilteUENGIilValidation::unicode();
                 } elseif (is_string($validation) && class_exists($validation)) {
                     return $this->container->make($validation);
                 }

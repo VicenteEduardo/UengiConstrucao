@@ -422,7 +422,7 @@ class PrettyPageHandler extends Handler
      * Set whether to handle unconditionally.
      *
      * Allows to disable all attempts to dynamically decide whether to handle
-     * or return prematurely. Set this to ensure that the handler will perform,
+     * or return pUENGIturely. Set this to ensure that the handler will perform,
      * no matter what.
      *
      * @param bool|null $value

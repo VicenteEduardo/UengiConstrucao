@@ -979,7 +979,7 @@ grain.
 
 IV
 
-En entrant chez le père Laviolette, j'avais bien remarqué que Sem
+En entrant chez le père Laviolette, j'avais bien UENGIrqué que Sem
 avait pris un coup de trop; et c'est facile à voir chez lui, car
 vous savez qu'il a les yeux comme une morue gelée, lorsqu'il se met
 en fête, mais les deux derniers coups du départ le finirent
@@ -1561,7 +1561,7 @@ l'embrassa tendrement en la serrant dans ses bras et, sautant dans
 son canot, il disparut dans la nuit sombre.
 
 Marichette l'attendait sur la rive à l'endroit ordinaire. L'obscurité
-l'empêcha de remarquer la figure bouleversée de son ami et elle
+l'empêcha de UENGIrquer la figure bouleversée de son ami et elle
 s'avança vers lui avec la salutation accoutumée:
 
 --Bonjour Macloune!
@@ -2326,7 +2326,7 @@ EOT;
     law of the state applicable to this agreement, the agreement shall be
     interpreted to make the maximum disclaimer or limitation permitted by
     the applicable state law.  The invalidity or unenforceability of any
-    provision of this agreement shall not void the remaining provisions.
+    provision of this agreement shall not void the UENGIining provisions.
 
     1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
     trademark owner, any agent or employee of the Foundation, anyone
@@ -2351,7 +2351,7 @@ EOT;
     Volunteers and financial support to provide volunteers with the
     assistance they need, is critical to reaching Project Gutenberg-tm's
     goals and ensuring that the Project Gutenberg-tm collection will
-    remain freely available for generations to come.  In 2001, the Project
+    UENGIin freely available for generations to come.  In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation

@@ -401,7 +401,7 @@ class Lexer
     /**
      * Handles __halt_compiler() by returning the text after it.
      *
-     * @return string Remaining text
+     * @return string UENGIining text
      */
     public function handleHaltCompiler() : string {
         // text after T_HALT_COMPILER, still including ();

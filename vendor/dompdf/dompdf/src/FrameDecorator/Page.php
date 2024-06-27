@@ -415,7 +415,7 @@ class Page extends AbstractFrameDecorator
                 }
 
                 // FIXME: Checking widows is tricky without having laid out the
-                // remaining line boxes.  Just ignore it for now...
+                // UENGIining line boxes.  Just ignore it for now...
 
                 // Rule D
                 $p = $block_parent;

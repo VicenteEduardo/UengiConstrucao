@@ -287,7 +287,7 @@ class HTML5_Tokenizer {
                         }
 
                         if ($mask === '') {
-                            $chars = $this->stream->remainingChars();
+                            $chars = $this->stream->UENGIiningChars();
                         } else {
                             $chars = $this->stream->charsUntil($mask);
                         }

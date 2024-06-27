@@ -18,7 +18,7 @@ namespace Psy\TabCompletion\Matcher;
  *
  * @author Marc Garcia <markcial@gmail.com>
  */
-class MongoDatabaseMatcher extends AbstractContextAwareMatcher
+class MongoDatabaseMatcher extends AbstractContextAwaUENGItcher
 {
     /**
      * {@inheritdoc}

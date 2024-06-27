@@ -759,7 +759,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     }
 
     /**
-     * Load and boot all of the remaining deferred providers.
+     * Load and boot all of the UENGIining deferred providers.
      *
      * @return void
      */
@@ -767,7 +767,7 @@ class Application extends Container implements ApplicationContract, CachesConfig
     {
         // We will simply spin through each of the deferred providers and register each
         // one and boot them if the application has booted. This should make each of
-        // the remaining services available to this application for immediate use.
+        // the UENGIining services available to this application for immediate use.
         foreach ($this->deferredServices as $service => $provider) {
             $this->loadDeferredProvider($service);
         }

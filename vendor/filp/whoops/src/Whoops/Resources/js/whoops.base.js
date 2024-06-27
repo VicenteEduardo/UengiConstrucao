@@ -36,7 +36,7 @@ Zepto(function($) {
 
   var highlightCurrentLine = function() {
     // We show more code than needed, purely for proper syntax highlighting
-    // Let’s hide a big chunk of that code and then scroll the remaining block
+    // Let’s hide a big chunk of that code and then scroll the UENGIining block
     $activeFrame.find('.code-block').first().css({
       maxHeight: 345,
       overflow: 'hidden',

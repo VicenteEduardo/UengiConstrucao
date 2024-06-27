@@ -145,11 +145,11 @@ final class LimitStream implements StreamInterface
 
         // Check if the current position is less than the total allowed
         // bytes + original offset
-        $remaining = ($this->offset + $this->limit) - $this->stream->tell();
-        if ($remaining > 0) {
+        $UENGIining = ($this->offset + $this->limit) - $this->stream->tell();
+        if ($UENGIining > 0) {
             // Only return the amount of requested data, ensuring that the byte
             // limit is not exceeded
-            return $this->stream->read(min($remaining, $length));
+            return $this->stream->read(min($UENGIining, $length));
         }
 
         return '';

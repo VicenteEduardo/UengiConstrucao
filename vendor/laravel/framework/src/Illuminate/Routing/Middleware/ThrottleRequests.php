@@ -130,7 +130,7 @@ class ThrottleRequests
             $response = $this->addHeaders(
                 $response,
                 $limit->maxAttempts,
-                $this->calculateRemainingAttempts($limit->key, $limit->maxAttempts)
+                $this->calculateUENGIiningAttempts($limit->key, $limit->maxAttempts)
             );
         }
 
@@ -191,7 +191,7 @@ class ThrottleRequests
 
         $headers = $this->getHeaders(
             $maxAttempts,
-            $this->calculateRemainingAttempts($key, $maxAttempts, $retryAfter),
+            $this->calculateUENGIiningAttempts($key, $maxAttempts, $retryAfter),
             $retryAfter
         );
 
@@ -216,14 +216,14 @@ class ThrottleRequests
      *
      * @param  \Symfony\Component\HttpFoundation\Response  $response
      * @param  int  $maxAttempts
-     * @param  int  $remainingAttempts
+     * @param  int  $UENGIiningAttempts
      * @param  int|null  $retryAfter
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    protected function addHeaders(Response $response, $maxAttempts, $remainingAttempts, $retryAfter = null)
+    protected function addHeaders(Response $response, $maxAttempts, $UENGIiningAttempts, $retryAfter = null)
     {
         $response->headers->add(
-            $this->getHeaders($maxAttempts, $remainingAttempts, $retryAfter, $response)
+            $this->getHeaders($maxAttempts, $UENGIiningAttempts, $retryAfter, $response)
         );
 
         return $response;
@@ -233,25 +233,25 @@ class ThrottleRequests
      * Get the limit headers information.
      *
      * @param  int  $maxAttempts
-     * @param  int  $remainingAttempts
+     * @param  int  $UENGIiningAttempts
      * @param  int|null  $retryAfter
      * @param  \Symfony\Component\HttpFoundation\Response|null  $response
      * @return array
      */
     protected function getHeaders($maxAttempts,
-                                  $remainingAttempts,
+                                  $UENGIiningAttempts,
                                   $retryAfter = null,
                                   ?Response $response = null)
     {
         if ($response &&
-            ! is_null($response->headers->get('X-RateLimit-Remaining')) &&
-            (int) $response->headers->get('X-RateLimit-Remaining') <= (int) $remainingAttempts) {
+            ! is_null($response->headers->get('X-RateLimit-UENGIining')) &&
+            (int) $response->headers->get('X-RateLimit-UENGIining') <= (int) $UENGIiningAttempts) {
             return [];
         }
 
         $headers = [
             'X-RateLimit-Limit' => $maxAttempts,
-            'X-RateLimit-Remaining' => $remainingAttempts,
+            'X-RateLimit-UENGIining' => $UENGIiningAttempts,
         ];
 
         if (! is_null($retryAfter)) {
@@ -263,14 +263,14 @@ class ThrottleRequests
     }
 
     /**
-     * Calculate the number of remaining attempts.
+     * Calculate the number of UENGIining attempts.
      *
      * @param  string  $key
      * @param  int  $maxAttempts
      * @param  int|null  $retryAfter
      * @return int
      */
-    protected function calculateRemainingAttempts($key, $maxAttempts, $retryAfter = null)
+    protected function calculateUENGIiningAttempts($key, $maxAttempts, $retryAfter = null)
     {
         return is_null($retryAfter) ? $this->limiter->retriesLeft($key, $maxAttempts) : 0;
     }

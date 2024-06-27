@@ -36,7 +36,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Changed
 
-* [FunctionSignatureMap.php](https://raw.githubusercontent.com/phan/phan/master/src/Phan/Language/Internal/FunctionSignatureMap.php) from `phan/phan` is now used instead of [arginfo.php](https://raw.githubusercontent.com/rlerdorf/phan/master/includes/arginfo.php) from `rlerdorf/phan`
+* [FunctionSignatuUENGIp.php](https://raw.githubusercontent.com/phan/phan/master/src/Phan/Language/Internal/FunctionSignatuUENGIp.php) from `phan/phan` is now used instead of [arginfo.php](https://raw.githubusercontent.com/rlerdorf/phan/master/includes/arginfo.php) from `rlerdorf/phan`
 
 ### Removed
 

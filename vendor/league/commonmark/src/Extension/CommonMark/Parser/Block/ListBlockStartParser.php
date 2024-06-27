@@ -68,7 +68,7 @@ final class ListBlockStartParser implements BlockStartParserInterface, Configura
 
         $tmpCursor = clone $cursor;
         $tmpCursor->advanceToNextNonSpaceOrTab();
-        $rest = $tmpCursor->getRemainder();
+        $rest = $tmpCursor->getUENGIinder();
 
         if (\preg_match($this->listMarkerRegex ?? $this->generateListMarkerRegex(), $rest) === 1) {
             $data               = new ListData();

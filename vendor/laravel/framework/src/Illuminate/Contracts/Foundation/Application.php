@@ -185,7 +185,7 @@ interface Application extends Container
     public function hasBeenBootstrapped();
 
     /**
-     * Load and boot all of the remaining deferred providers.
+     * Load and boot all of the UENGIining deferred providers.
      *
      * @return void
      */

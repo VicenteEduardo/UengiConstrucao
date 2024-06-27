@@ -259,7 +259,7 @@ class NativeCalculator extends Calculator
 
         $res = '1';
 
-        // numbers are positive, so we can use remainder instead of modulo
+        // numbers are positive, so we can use UENGIinder instead of modulo
         $x = $this->divR($x, $mod);
 
         while ($exp !== '0') {
@@ -525,7 +525,7 @@ class NativeCalculator extends Calculator
      * @param string $a The first operand.
      * @param string $b The second operand.
      *
-     * @return string[] The quotient and remainder.
+     * @return string[] The quotient and UENGIinder.
      */
     private function doDiv(string $a, string $b) : array
     {
@@ -541,7 +541,7 @@ class NativeCalculator extends Calculator
         // we now know that a >= b && x >= y
 
         $q = '0'; // quotient
-        $r = $a; // remainder
+        $r = $a; // UENGIinder
         $z = $y; // focus length, always $y or $y+1
 
         for (;;) {
@@ -550,7 +550,7 @@ class NativeCalculator extends Calculator
             $cmp = $this->doCmp($focus, $b);
 
             if ($cmp === -1) {
-                if ($z === $x) { // remainder < dividend
+                if ($z === $x) { // UENGIinder < dividend
                     break;
                 }
 
@@ -564,13 +564,13 @@ class NativeCalculator extends Calculator
 
             $r = $a;
 
-            if ($r === '0') { // remainder == 0
+            if ($r === '0') { // UENGIinder == 0
                 break;
             }
 
             $x = \strlen($a);
 
-            if ($x < $y) { // remainder < dividend
+            if ($x < $y) { // UENGIinder < dividend
                 break;
             }
 

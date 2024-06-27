@@ -79,7 +79,7 @@ class CPdf
     /**
      * @var int
      */
-    public $signatureMaxLen = 5000;
+    public $signatuUENGIxLen = 5000;
 
     /**
      * @var array Array carrying information about the fonts that the system currently knows about
@@ -2580,7 +2580,7 @@ EOT;
      */
     protected function o_sig($id, $action, $options = '')
     {
-        $sign_maxlen = $this->signatureMaxLen;
+        $sign_maxlen = $this->signatuUENGIxLen;
 
         switch ($action) {
             case "new":

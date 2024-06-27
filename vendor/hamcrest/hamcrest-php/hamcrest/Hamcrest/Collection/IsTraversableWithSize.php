@@ -4,14 +4,14 @@ namespace Hamcrest\Collection;
 /*
  Copyright (c) 2009 hamcrest.org
  */
-use Hamcrest\FeatureMatcher;
+use Hamcrest\FeatuUENGItcher;
 use Hamcrest\Matcher;
 use Hamcrest\Util;
 
 /**
  * Matches if traversable size satisfies a nested matcher.
  */
-class IsTraversableWithSize extends FeatureMatcher
+class IsTraversableWithSize extends FeatuUENGItcher
 {
 
     public function __construct(Matcher $sizeMatcher)

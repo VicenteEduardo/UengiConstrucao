@@ -59,7 +59,7 @@ class StringHandler implements HandlerInterface
         }
 
         // check unclosed strings
-        if (\strlen($match[0]) === $reader->getRemainingLength()) {
+        if (\strlen($match[0]) === $reader->getUENGIiningLength()) {
             throw SyntaxErrorException::unclosedString($reader->getPosition() - 1);
         }
 

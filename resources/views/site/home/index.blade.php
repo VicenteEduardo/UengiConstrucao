@@ -436,7 +436,7 @@
                                 estética em cada detalhe. Entre em contato conosco hoje mesmo e descubra como podemos fazer
                                 a diferença na sua próxima empreitada de construção.</p>
 
-                            <a href="about-1.html" class="site-button">Consulte Mais informação</a>
+                            <a href="{{ route('site.home') }}" class="site-button">Consulte Mais informação</a>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6  m-b30">

@@ -1,7 +1,7 @@
 (function ($) {
     "use strict";
 
-    function getTimeRemaining(endtime) { 
+    function getTimeUENGIining(endtime) { 
       var t = Date.parse(endtime) - Date.parse(new Date());
       var seconds = Math.floor((t / 1000) % 60);
       var minutes = Math.floor((t / 1000 / 60) % 60);
@@ -23,7 +23,7 @@
       var secondsSpan = $('.seconds');
 
       function updateClock() { 
-        var t = getTimeRemaining(endtime);
+        var t = getTimeUENGIining(endtime);
 
         daysSpan.html(t.days);
         hoursSpan.html(('0' + t.hours).slice(-2));

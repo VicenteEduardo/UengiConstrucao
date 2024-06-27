@@ -37,7 +37,7 @@ class Util
      * @param array $matchers expected to contain only matchers
      * @throws \InvalidArgumentException if any item is not a matcher
      */
-    public static function checkAllAreMatchers(array $matchers)
+    public static function checkAllAUENGItchers(array $matchers)
     {
         foreach ($matchers as $m) {
             if (!($m instanceof Matcher)) {

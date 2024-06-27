@@ -4495,9 +4495,9 @@ S2.define('select2/i18n/en',[],function () {
       return message;
     },
     inputTooShort: function (args) {
-      var remainingChars = args.minimum - args.input.length;
+      var UENGIiningChars = args.minimum - args.input.length;
 
-      var message = 'Please enter ' + remainingChars + ' or more characters';
+      var message = 'Please enter ' + UENGIiningChars + ' or more characters';
 
       return message;
     },

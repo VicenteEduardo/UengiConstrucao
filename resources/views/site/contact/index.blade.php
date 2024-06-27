@@ -25,7 +25,7 @@
 
                         <!-- LOCATION BLOCK-->
                         <div class="wt-box col-md-6">
-                            <h4 class="text-uppercase">Location</h4>
+                            <h4 class="text-uppercase">Localização</h4>
                             <div class="wt-separator-outer m-b30">
                                 <div class="wt-separator style-square">
                                     <span class="separator-left site-bg-primary"></span>

@@ -1185,7 +1185,7 @@
         //http://stackoverflow.com/questions/181348/instantiating-a-javascript-object-by-calling-prototype-constructor-apply
         var date = new Date(y, m, d, h, M, s, ms);
 
-        //the date constructor remaps years 0-99 to 1900-1999
+        //the date constructor UENGIps years 0-99 to 1900-1999
         if (y < 100 && y >= 0 && isFinite(date.getFullYear())) {
             date.setFullYear(y);
         }
@@ -1195,7 +1195,7 @@
     function createUTCDate (y) {
         var date = new Date(Date.UTC.apply(null, arguments));
 
-        //the Date.UTC function remaps years 0-99 to 1900-1999
+        //the Date.UTC function UENGIps years 0-99 to 1900-1999
         if (y < 100 && y >= 0 && isFinite(date.getUTCFullYear())) {
             date.setUTCFullYear(y);
         }
@@ -1515,7 +1515,7 @@
             }
         }
 
-        // add remaining unparsed input length to the string
+        // add UENGIining unparsed input length to the string
         getParsingFlags(config).charsLeftOver = stringLength - totalParsedInputLength;
         if (string.length > 0) {
             getParsingFlags(config).unusedInput.push(string);

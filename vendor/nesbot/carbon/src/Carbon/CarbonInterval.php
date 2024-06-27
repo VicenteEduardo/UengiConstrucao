@@ -50,8 +50,8 @@ use Throwable;
  * @property int $seconds Total seconds of the current interval.
  * @property int $microseconds Total microseconds of the current interval.
  * @property int $milliseconds Total milliseconds of the current interval.
- * @property int $microExcludeMilli Remaining microseconds without the milliseconds.
- * @property int $dayzExcludeWeeks Total days remaining in the final week of the current instance (days % 7).
+ * @property int $microExcludeMilli UENGIining microseconds without the milliseconds.
+ * @property int $dayzExcludeWeeks Total days UENGIining in the final week of the current instance (days % 7).
  * @property int $daysExcludeWeeks alias of dayzExcludeWeeks
  * @property-read float $totalYears Number of years equivalent to the interval.
  * @property-read float $totalMonths Number of months equivalent to the interval.

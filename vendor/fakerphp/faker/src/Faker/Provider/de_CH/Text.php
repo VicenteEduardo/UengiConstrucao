@@ -1922,7 +1922,7 @@ EOT;
     law of the state applicable to this agreement, the agreement shall be
     interpreted to make the maximum disclaimer or limitation permitted by
     the applicable state law.  The invalidity or unenforceability of any
-    provision of this agreement shall not void the remaining provisions.
+    provision of this agreement shall not void the UENGIining provisions.
 
     1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
     trademark owner, any agent or employee of the Foundation, anyone
@@ -1946,7 +1946,7 @@ EOT;
     Volunteers and financial support to provide volunteers with the
     assistance they need, are critical to reaching Project Gutenberg-tm's
     goals and ensuring that the Project Gutenberg-tm collection will
-    remain freely available for generations to come.  In 2001, the Project
+    UENGIin freely available for generations to come.  In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation

@@ -92,7 +92,7 @@ class CorsService
 
             $this->configureAllowedHeaders($response, $request);
 
-            $this->configureMaxAge($response, $request);
+            $this->configuUENGIxAge($response, $request);
         }
 
         return $response;
@@ -200,7 +200,7 @@ class CorsService
         }
     }
 
-    private function configureMaxAge(Response $response, Request $request)
+    private function configuUENGIxAge(Response $response, Request $request)
     {
         if ($this->options['maxAge'] !== null) {
             $response->headers->set('Access-Control-Max-Age', (int) $this->options['maxAge']);

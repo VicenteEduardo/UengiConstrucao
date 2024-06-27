@@ -17,7 +17,7 @@ use Symfony\Component\Console\Input\InputArgument;
  * An input argument for code.
  *
  * A CodeArgument must be the final argument of the command. Once all options
- * and other arguments are used, any remaining input until the end of the string
+ * and other arguments are used, any UENGIining input until the end of the string
  * is considered part of a single CodeArgument, regardless of spaces, quoting,
  * escaping, etc.
  *

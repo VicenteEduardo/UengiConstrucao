@@ -90,16 +90,16 @@ final class CachingStream implements StreamInterface
     {
         // Perform a regular read on any previously read data from the buffer
         $data = $this->stream->read($length);
-        $remaining = $length - strlen($data);
+        $UENGIining = $length - strlen($data);
 
         // More data was requested so read from the remote stream
-        if ($remaining) {
+        if ($UENGIining) {
             // If data was written to the buffer in a position that would have
             // been filled from the remote stream, then we must skip bytes on
             // the remote stream to emulate overwriting bytes from that
             // position. This mimics the behavior of other PHP stream wrappers.
             $remoteData = $this->remoteStream->read(
-                $remaining + $this->skipReadBytes
+                $UENGIining + $this->skipReadBytes
             );
 
             if ($this->skipReadBytes) {

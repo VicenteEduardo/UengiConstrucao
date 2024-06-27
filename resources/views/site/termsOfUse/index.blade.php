@@ -20,7 +20,7 @@
                     <div class="row">
                         <h3> A Política de Privacidade e Proteção de Dados Pessoais, complementares aos Termos e Condições de
                             Utilização,
-                            destina-se a regular o processo de tratamento de dados pessoais a realizar pela ReMa por conta da
+                            destina-se a regular o processo de tratamento de dados pessoais a realizar pela UENGI por conta da
                             utilização
                             deste website. <br>
                         </h3>
@@ -50,7 +50,7 @@
                             
         
                             <br><br>
-                            A ReMA não efetuará o tratamento de dados pessoais que revelem a origem racial ou étnica, as opiniões
+                            A UENGI não efetuará o tratamento de dados pessoais que revelem a origem racial ou étnica, as opiniões
                             políticas, as convicções religiosas ou filosóficas, ou a filiação sindical, bem como o tratamento de
                             dados genéticos, dados biométricos para identificar uma pessoa de forma inequívoca, dados relativos à
                             saúde ougénero.
@@ -60,7 +60,7 @@
                         <ul class="mt-3">
                             <li>O utilizador efectueum registo no website;</li>
                             <li>O titular dos dados solicite um serviço, responda a um inquérito, ou mais informações sobre um
-                                programa através de formulário e/ou chatbot ou troque correspondência eletrónica com a ReMA.</li>
+                                programa através de formulário e/ou chatbot ou troque correspondência eletrónica com a UENGI.</li>
                             <li>A recolha de informação pessoal está limitada aos visitantes que se registam voluntariamente.</li>
                         </ul>
         
@@ -68,10 +68,10 @@
                         </p>
                         <p class="mt-3">
                             <b> Consentimento para a receção de informações</b> <br>
-                            A ReMA dará o seu consentimento prévio relativamente à recepção de comunicações comerciais para fins de
+                            A UENGI dará o seu consentimento prévio relativamente à recepção de comunicações comerciais para fins de
                             marketing, sendo-lhe conferida a
-                            faculdade de oposição, a todo o tempo, mediante comunicação escrita dirigida a ReMa. <br>
-                            As referidas informações comerciais, poderão ser enviadas pela ReMa, através de correio eletrónico,
+                            faculdade de oposição, a todo o tempo, mediante comunicação escrita dirigida a UENGI. <br>
+                            As referidas informações comerciais, poderão ser enviadas pela UENGI, através de correio eletrónico,
                             telefone, SMS
                             ou qualquer outro meio de comunicação eletrónica, websites de redes sociais, Web 2.0, qualquer conteúdo
                             de telemóvel ou método.
@@ -79,7 +79,7 @@
                         <p class="mt-3">
                             <b> Transmissão</b><br>
                             Para além das obrigações referidas na Lei aplicável à proteção de dados ou à salvaguarda e
-                            protecção dos seus próprios interesses, A ReMa não partilhará quaisquer dados pessoais com entidades
+                            protecção dos seus próprios interesses, A UENGI não partilhará quaisquer dados pessoais com entidades
                             terceiras.
                         </p>
                         <p class="mt-3">
@@ -90,7 +90,7 @@
                         </p>
                         <p class="mt-3">
                             <b>Cookies</b><br>
-                            A ReMa poderá utilizar cookies no seu website com o objectivo de melhorar a qualidade do
+                            A UENGI poderá utilizar cookies no seu website com o objectivo de melhorar a qualidade do
                             serviço, as funcionalidades disponibilizadas e a experiência do utilizador, não sendo utilizados para
                             definição de perfis.
                         <ul class="mt-3">
@@ -110,11 +110,7 @@
                             As disposições do presente termo de uso e privacidade pode ser alterado, sempre que se
                             justificar ou sempre que se registar qualquer alteração na legislação em vigor sobre a matéria.
                         </p>
-                        <i class="mt-5 text-end">
-                            Luanda aos 20 de Abril de 2022 <br>
-                             Instituto Nacional de Fomento da Sociedade de Informação <br> 
-                             Departamento de Cibersegurança, Chaves Públicas e Carimbo do Tempo
-                        </i>
+                     
                     </div>
         
         

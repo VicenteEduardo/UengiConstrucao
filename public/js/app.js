@@ -838,7 +838,7 @@
 
 
     if (component.showDirectiveLastElement && !component.showDirectiveLastElement.contains(el)) {
-      component.executeAndClearRemainingShowDirectiveStack();
+      component.executeAndClearUENGIiningShowDirectiveStack();
     }
 
     component.showDirectiveStack.push(handle);
@@ -976,7 +976,7 @@
       }); // If all the modifiers selected are pressed, ...
 
       if (activelyPressedKeyModifiers.length === selectedSystemKeyModifiers.length) {
-        // AND the remaining key is pressed as well. It's a press.
+        // AND the UENGIining key is pressed as well. It's a press.
         if (keyModifiers[0] === keyToModifier(e.key)) return false;
       }
     } // We'll call it NOT a valid keypress.
@@ -1621,7 +1621,7 @@
       }, el => {
         if (!componentForClone) el.__x = new Component(el);
       });
-      this.executeAndClearRemainingShowDirectiveStack();
+      this.executeAndClearUENGIiningShowDirectiveStack();
       this.executeAndClearNextTickStack(rootEl);
     }
 
@@ -1644,7 +1644,7 @@
       }, el => {
         el.__x = new Component(el);
       });
-      this.executeAndClearRemainingShowDirectiveStack();
+      this.executeAndClearUENGIiningShowDirectiveStack();
       this.executeAndClearNextTickStack(rootEl);
     }
 
@@ -1661,7 +1661,7 @@
       }
     }
 
-    executeAndClearRemainingShowDirectiveStack() {
+    executeAndClearUENGIiningShowDirectiveStack() {
       // The goal here is to start all the x-show transitions
       // and build a nested promise chain so that elements
       // only hide when the children are finished hiding.
@@ -10594,10 +10594,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
       return function() {
         var stamp = nativeNow(),
-            remaining = HOT_SPAN - (stamp - lastCalled);
+            UENGIining = HOT_SPAN - (stamp - lastCalled);
 
         lastCalled = stamp;
-        if (remaining > 0) {
+        if (UENGIining > 0) {
           if (++count >= HOT_COUNT) {
             return arguments[0];
           }
@@ -10725,7 +10725,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
     /**
      * Creates an array of elements split into groups the length of `size`.
-     * If `array` can't be split evenly, the final chunk will be the remaining
+     * If `array` can't be split evenly, the final chunk will be the UENGIining
      * elements.
      *
      * @static
@@ -14069,7 +14069,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     /**
      * Creates a function that accepts arguments of `func` and either invokes
      * `func` returning its result, if at least `arity` number of arguments have
-     * been provided, or returns a function that accepts the remaining `func`
+     * been provided, or returns a function that accepts the UENGIining `func`
      * arguments, and so on. The arity of `func` may be specified if `func.length`
      * is not sufficient.
      *
@@ -14255,7 +14255,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
         return leading ? invokeFunc(time) : result;
       }
 
-      function remainingWait(time) {
+      function UENGIiningWait(time) {
         var timeSinceLastCall = time - lastCallTime,
             timeSinceLastInvoke = time - lastInvokeTime,
             timeWaiting = wait - timeSinceLastCall;
@@ -14282,7 +14282,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
           return trailingEdge(time);
         }
         // Restart the timer.
-        timerId = setTimeout(timerExpired, remainingWait(time));
+        timerId = setTimeout(timerExpired, UENGIiningWait(time));
       }
 
       function trailingEdge(time) {
@@ -16307,9 +16307,9 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
      */
     function toInteger(value) {
       var result = toFinite(value),
-          remainder = result % 1;
+          UENGIinder = result % 1;
 
-      return result === result ? (remainder ? result - remainder : result) : 0;
+      return result === result ? (UENGIinder ? result - UENGIinder : result) : 0;
     }
 
     /**
@@ -18054,7 +18054,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     });
 
     /**
-     * Converts the first character of `string` to upper case and the remaining
+     * Converts the first character of `string` to upper case and the UENGIining
      * to lower case.
      *
      * @static

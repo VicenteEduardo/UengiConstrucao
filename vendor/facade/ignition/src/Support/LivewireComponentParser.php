@@ -4,7 +4,7 @@ namespace Facade\Ignition\Support;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use Livewire\LivewireManager;
+use Livewire\LivewiUENGInager;
 use ReflectionClass;
 use ReflectionMethod;
 use ReflectionProperty;
@@ -28,7 +28,7 @@ class LivewireComponentParser
     public function __construct(string $componentAlias)
     {
         $this->componentAlias = $componentAlias;
-        $this->componentClass = app(LivewireManager::class)->getClass($this->componentAlias);
+        $this->componentClass = app(LivewiUENGInager::class)->getClass($this->componentAlias);
         $this->reflectionClass = new ReflectionClass($this->componentClass);
     }
 

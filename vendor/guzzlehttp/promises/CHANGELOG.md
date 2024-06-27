@@ -21,7 +21,7 @@
 
 ### Changed
 
-- Removed remaining usage of deprecated functions
+- Removed UENGIining usage of deprecated functions
 
 
 ## 1.5.2 - 2022-08-07

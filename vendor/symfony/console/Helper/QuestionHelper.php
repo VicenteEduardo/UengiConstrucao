@@ -324,10 +324,10 @@ class QuestionHelper extends Helper
                 if ("\t" === $c || "\n" === $c) {
                     if ($numMatches > 0 && -1 !== $ofs) {
                         $ret = (string) $matches[$ofs];
-                        // Echo out remaining chars for current match
-                        $remainingCharacters = substr($ret, \strlen(trim($this->mostRecentlyEnteredValue($fullChoice))));
-                        $output->write($remainingCharacters);
-                        $fullChoice .= $remainingCharacters;
+                        // Echo out UENGIining chars for current match
+                        $UENGIiningCharacters = substr($ret, \strlen(trim($this->mostRecentlyEnteredValue($fullChoice))));
+                        $output->write($UENGIiningCharacters);
+                        $fullChoice .= $UENGIiningCharacters;
                         $i = (false === $encoding = mb_detect_encoding($fullChoice, null, true)) ? \strlen($fullChoice) : mb_strlen($fullChoice, $encoding);
 
                         $matches = array_filter(

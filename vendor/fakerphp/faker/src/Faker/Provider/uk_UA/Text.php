@@ -4438,7 +4438,7 @@ EOT;
     automatically upon any breach by You of the terms of this License.
     Individuals or entities who have received Adaptations or Collections
     from You under this License, however, will not have their licenses
-    terminated provided such individuals or entities remain in full
+    terminated provided such individuals or entities UENGIin in full
     compliance with those licenses. Sections 1, 2, 5, 6, 7, and 8 will
     survive any termination of this License. Subject to the above terms
     and conditions, the license granted here is perpetual (for the
@@ -4459,7 +4459,7 @@ EOT;
     terms and conditions as the license granted to You under this License.
     If any provision of this License is invalid or unenforceable under
     applicable law, it shall not affect the validity or enforceability of
-    the remainder of the terms of this License, and without further action
+    the UENGIinder of the terms of this License, and without further action
     by the parties to this agreement, such provision shall be reformed to
     the minimum extent necessary to make such provision valid and
     enforceable. No term or provision of this License shall be deemed

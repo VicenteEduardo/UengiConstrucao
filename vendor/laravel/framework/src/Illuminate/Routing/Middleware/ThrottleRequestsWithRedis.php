@@ -24,11 +24,11 @@ class ThrottleRequestsWithRedis extends ThrottleRequests
     public $decaysAt = [];
 
     /**
-     * The number of remaining slots by key.
+     * The number of UENGIining slots by key.
      *
      * @var array
      */
-    public $remaining = [];
+    public $UENGIining = [];
 
     /**
      * Create a new request throttler.
@@ -68,7 +68,7 @@ class ThrottleRequestsWithRedis extends ThrottleRequests
             $response = $this->addHeaders(
                 $response,
                 $limit->maxAttempts,
-                $this->calculateRemainingAttempts($limit->key, $limit->maxAttempts)
+                $this->calculateUENGIiningAttempts($limit->key, $limit->maxAttempts)
             );
         }
 
@@ -90,23 +90,23 @@ class ThrottleRequestsWithRedis extends ThrottleRequests
         );
 
         return tap(! $limiter->acquire(), function () use ($key, $limiter) {
-            [$this->decaysAt[$key], $this->remaining[$key]] = [
-                $limiter->decaysAt, $limiter->remaining,
+            [$this->decaysAt[$key], $this->UENGIining[$key]] = [
+                $limiter->decaysAt, $limiter->UENGIining,
             ];
         });
     }
 
     /**
-     * Calculate the number of remaining attempts.
+     * Calculate the number of UENGIining attempts.
      *
      * @param  string  $key
      * @param  int  $maxAttempts
      * @param  int|null  $retryAfter
      * @return int
      */
-    protected function calculateRemainingAttempts($key, $maxAttempts, $retryAfter = null)
+    protected function calculateUENGIiningAttempts($key, $maxAttempts, $retryAfter = null)
     {
-        return is_null($retryAfter) ? $this->remaining[$key] : 0;
+        return is_null($retryAfter) ? $this->UENGIining[$key] : 0;
     }
 
     /**

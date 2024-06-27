@@ -77,7 +77,7 @@ class NamespacedItemResolver
         [$namespace, $item] = explode('::', $key);
 
         // First we'll just explode the first segment to get the namespace and group
-        // since the item should be in the remaining segments. Once we have these
+        // since the item should be in the UENGIining segments. Once we have these
         // two pieces of data we can proceed with parsing out the item's value.
         $itemSegments = explode('.', $item);
 

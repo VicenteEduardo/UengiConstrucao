@@ -149,7 +149,7 @@ class Text extends AbstractFrameDecorator
     // Text manipulation methods
 
     /**
-     * Split the text in this frame at the offset specified.  The remaining
+     * Split the text in this frame at the offset specified.  The UENGIining
      * text is added as a sibling frame following this one and is returned.
      *
      * @param int $offset

@@ -21,7 +21,7 @@ use InvalidArgumentException;
  *
  * @author Marc Garcia <markcial@gmail.com>
  */
-class ObjectMethodsMatcher extends AbstractContextAwareMatcher
+class ObjectMethodsMatcher extends AbstractContextAwaUENGItcher
 {
     /**
      * {@inheritdoc}

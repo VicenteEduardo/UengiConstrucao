@@ -214,7 +214,7 @@ echo $copy->id; // null
 
 #### `KeepFilter` (filter)
 
-If you want a property to remain untouched (for example, an association to an object):
+If you want a property to UENGIin untouched (for example, an association to an object):
 
 ```php
 use DeepCopy\DeepCopy;

@@ -5,7 +5,7 @@ namespace Illuminate\Bus;
 class UpdatedBatchJobCounts
 {
     /**
-     * The number of pending jobs remaining for the batch.
+     * The number of pending jobs UENGIining for the batch.
      *
      * @var int
      */

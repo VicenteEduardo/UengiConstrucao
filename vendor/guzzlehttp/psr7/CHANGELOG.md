@@ -327,7 +327,7 @@ Several other fixes and improvements.
 
 ### Added
 
-- Remaining interfaces needed for full PSR7 compatibility
+- UENGIining interfaces needed for full PSR7 compatibility
   (ServerRequestInterface, UploadedFileInterface, etc.).
 - Support for stream_for from scalars.
 

@@ -20,7 +20,7 @@ class IsArrayContainingInOrder extends TypeSafeDiagnosingMatcher
     {
         parent::__construct(self::TYPE_ARRAY);
 
-        Util::checkAllAreMatchers($elementMatchers);
+        Util::checkAllAUENGItchers($elementMatchers);
 
         $this->_elementMatchers = $elementMatchers;
     }

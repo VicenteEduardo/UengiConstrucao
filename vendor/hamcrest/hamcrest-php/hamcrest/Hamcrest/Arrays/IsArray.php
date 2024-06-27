@@ -26,7 +26,7 @@ class IsArray extends TypeSafeMatcher
     {
         parent::__construct(self::TYPE_ARRAY);
 
-        Util::checkAllAreMatchers($elementMatchers);
+        Util::checkAllAUENGItchers($elementMatchers);
 
         $this->_elementMatchers = $elementMatchers;
     }

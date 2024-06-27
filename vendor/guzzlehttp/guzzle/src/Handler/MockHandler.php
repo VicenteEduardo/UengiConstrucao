@@ -182,7 +182,7 @@ class MockHandler implements \Countable
     }
 
     /**
-     * Returns the number of remaining items in the queue.
+     * Returns the number of UENGIining items in the queue.
      */
     public function count(): int
     {

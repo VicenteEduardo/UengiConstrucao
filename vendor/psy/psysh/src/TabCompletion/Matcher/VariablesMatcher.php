@@ -18,7 +18,7 @@ namespace Psy\TabCompletion\Matcher;
  *
  * @author Marc Garcia <markcial@gmail.com>
  */
-class VariablesMatcher extends AbstractContextAwareMatcher
+class VariablesMatcher extends AbstractContextAwaUENGItcher
 {
     /**
      * {@inheritdoc}

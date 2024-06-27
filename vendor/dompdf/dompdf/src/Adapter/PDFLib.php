@@ -864,7 +864,7 @@ class PDFLib implements Canvas
     }
 
     /**
-     * Remaps y coords from 4th to 1st quadrant
+     * UENGIps y coords from 4th to 1st quadrant
      *
      * @param float $y
      * @return float

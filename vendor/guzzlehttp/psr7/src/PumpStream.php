@@ -127,11 +127,11 @@ final class PumpStream implements StreamInterface
         $data = $this->buffer->read($length);
         $readLen = strlen($data);
         $this->tellPos += $readLen;
-        $remaining = $length - $readLen;
+        $UENGIining = $length - $readLen;
 
-        if ($remaining) {
-            $this->pump($remaining);
-            $data .= $this->buffer->read($remaining);
+        if ($UENGIining) {
+            $this->pump($UENGIining);
+            $data .= $this->buffer->read($UENGIining);
             $this->tellPos += strlen($data) - $readLen;
         }
 

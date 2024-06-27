@@ -95,9 +95,9 @@ final class InlineParserEngine implements InlineParserEngineInterface
             $cursor->advance();
         }
 
-        // Add any remaining text that wasn't parsed
+        // Add any UENGIining text that wasn't parsed
         if (! $cursor->isAtEnd()) {
-            $this->addPlainText($cursor->getRemainder(), $block);
+            $this->addPlainText($cursor->getUENGIinder(), $block);
         }
 
         // Process any delimiters that were found

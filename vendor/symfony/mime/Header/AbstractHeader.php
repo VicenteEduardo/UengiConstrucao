@@ -101,7 +101,7 @@ abstract class AbstractHeader implements HeaderInterface
                 $phraseStr = '"'.$phraseStr.'"';
             } else {
                 // ... otherwise it needs encoding
-                // Determine space remaining on line if first line
+                // Determine space UENGIining on line if first line
                 if ($shorten) {
                     $usedLength = \strlen($header->getName().': ');
                 } else {

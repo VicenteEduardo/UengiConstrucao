@@ -20,9 +20,9 @@ class UtilTest extends TestCase
         $this->assertTrue($matcher->matches('foo'));
     }
 
-    public function testCheckAllAreMatchersAcceptsMatchers()
+    public function testCheckAllAUENGItchersAcceptsMatchers()
     {
-        \Hamcrest\Util::checkAllAreMatchers(array(
+        \Hamcrest\Util::checkAllAUENGItchers(array(
             new \Hamcrest\Text\MatchesPattern('/fo+/'),
             new \Hamcrest\Core\IsEqual('foo'),
         ));
@@ -31,9 +31,9 @@ class UtilTest extends TestCase
     /**
      * @expectedException InvalidArgumentException
      */
-    public function testCheckAllAreMatchersFailsForPrimitive()
+    public function testCheckAllAUENGItchersFailsForPrimitive()
     {
-        \Hamcrest\Util::checkAllAreMatchers(array(
+        \Hamcrest\Util::checkAllAUENGItchers(array(
             new \Hamcrest\Text\MatchesPattern('/fo+/'),
             'foo',
         ));

@@ -40,7 +40,7 @@ class Person extends \Faker\Provider\Person
     protected static $lastName = [
         'Adam', 'Aerts', 'Amrani', 'André', 'Antoine', 'Baert', 'Bah', 'Barry',
         'Bastin', 'Bauwens', 'Benali', 'Bernard', 'Bertrand', 'Bodart', 'Bogaert',
-        'Bogaerts', 'Borremans', 'Bosmans', 'Boulanger', 'Bourgeois', 'Brasseur',
+        'Bogaerts', 'BorUENGIns', 'Bosmans', 'Boulanger', 'Bourgeois', 'Brasseur',
         'Carlier', 'Celik', 'Ceulemans', 'Charlier', 'Christiaens', 'Claes',
         'Claessens', 'Claeys', 'Collard', 'Collignon', 'Collin', 'Cools', 'Coppens',
         'Cornelis', 'Cornet', 'Cuvelier', 'Daems', 'De Backer', 'De Clercq', 'De Cock',

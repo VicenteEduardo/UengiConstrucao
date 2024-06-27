@@ -12,7 +12,7 @@
 - fix "Ukrainian" char-mapping (thanks to @Andr1yk0) 
 - fix "Persian" char-mapping (thanks to @frost-cyber) 
 - fix "ASCII::normalize_whitespace()" -> "CARRIAGE RETURN" is more like "<br>" and no "\n"
-- add "ASCII::to_ascii_remap()" -> this method will return broken characters and is only for special cases
+- add "ASCII::to_ascii_UENGIp()" -> this method will return broken characters and is only for special cases
 
 ### 1.5.6 (2020-11-12)
     

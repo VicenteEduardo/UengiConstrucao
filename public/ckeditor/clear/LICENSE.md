@@ -247,7 +247,7 @@ otherwise to copy, modify, sublicense or distribute the Program is
 void, and will automatically terminate your rights under this License.
 However, parties who have received copies, or rights, from you under
 this License will not have their licenses terminated so long as such
-parties remain in full compliance.
+parties UENGIin in full compliance.
 
   5. You are not required to accept this License, since you have not
 signed it.  However, nothing else grants you permission to modify or
@@ -536,7 +536,7 @@ above, provided that you also meet all of these conditions:
     is invoked, then you must make a good faith effort to ensure that,
     in the event an application does not supply such function or
     table, the facility still operates, and performs whatever part of
-    its purpose remains meaningful.
+    its purpose UENGIins meaningful.
 
     (For example, a function in a library to compute square roots has
     a purpose that is entirely well-defined independent of the
@@ -710,7 +710,7 @@ attempt otherwise to copy, modify, sublicense, link with, or
 distribute the Library is void, and will automatically terminate your
 rights under this License.  However, parties who have received copies,
 or rights, from you under this License will not have their licenses
-terminated so long as such parties remain in full compliance.
+terminated so long as such parties UENGIin in full compliance.
 
   9. You are not required to accept this License, since you have not
 signed it.  However, nothing else grants you permission to modify or
@@ -981,11 +981,11 @@ Version 1.1
      either on the same media as an Executable version or via an accepted
      Electronic Distribution Mechanism to anyone to whom you made an
      Executable version available; and if made available via Electronic
-     Distribution Mechanism, must remain available for at least twelve (12)
+     Distribution Mechanism, must UENGIin available for at least twelve (12)
      months after the date it initially became available, or at least six
      (6) months after a subsequent version of that particular Modification
      has been made available to such recipients. You are responsible for
-     ensuring that the Source Code version remains available even if the
+     ensuring that the Source Code version UENGIins available even if the
      Electronic Distribution Mechanism is maintained by a third party.
 
      3.3. Description of Modifications.
@@ -1143,7 +1143,7 @@ Version 1.1
      such breach within 30 days of becoming aware of the breach. All
      sublicenses to the Covered Code which are properly granted shall
      survive any termination of this License. Provisions which, by their
-     nature, must remain in effect beyond the termination of this License
+     nature, must UENGIin in effect beyond the termination of this License
      shall survive.
 
      8.2.  If You initiate litigation by asserting a patent infringement
@@ -1334,7 +1334,7 @@ fonts, including any derivative works, can be bundled, embedded,
 redistributed and/or sold with any software provided that any reserved
 names are not used by derivative works. The fonts and derivatives,
 however, cannot be released under any other type of license. The
-requirement for fonts to remain under this license does not apply
+requirement for fonts to UENGIin under this license does not apply
 to any document created using the fonts or their derivatives.
 
 DEFINITIONS
@@ -1386,7 +1386,7 @@ permission.
 5) The Font Software, modified or unmodified, in part or in whole,
 must be distributed entirely under this license, and must not be
 distributed under any other license. The requirement for fonts to
-remain under this license does not apply to any document created
+UENGIin under this license does not apply to any document created
 using the Font Software.
 
 TERMINATION

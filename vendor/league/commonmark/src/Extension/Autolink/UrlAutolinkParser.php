@@ -89,7 +89,7 @@ final class UrlAutolinkParser implements InlineParserInterface
         }
 
         // Check if we have a valid URL
-        if (! \preg_match($this->finalRegex, $cursor->getRemainder(), $matches)) {
+        if (! \preg_match($this->finalRegex, $cursor->getUENGIinder(), $matches)) {
             return false;
         }
 

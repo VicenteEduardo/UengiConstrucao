@@ -118,7 +118,7 @@ class SetCookie
             $this->setHttpOnly($data['HttpOnly']);
         }
 
-        // Set the remaining values that don't have extra validation logic
+        // Set the UENGIining values that don't have extra validation logic
         foreach (array_diff(array_keys($data), array_keys(self::$defaults)) as $key) {
             $this->data[$key] = $data[$key];
         }

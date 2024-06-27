@@ -155,7 +155,7 @@ class Person extends \Faker\Provider\Person
         'Ubaidillah', 'Ulum', 'Umar', 'Usman', 'Usri', 'Uzair',
         'Wafi', 'Wahab', 'Wahbillah', 'Wahid', 'Wahidan', 'Wahidin', 'Wardi', 'Wasil', 'Wazif', 'Wildani',
         'Ya\'accob', 'Yaacob', 'Yaakob', 'Yaacup', 'Yacob', 'Yahaya', 'Yahya', 'Yajid', 'Yamani', 'Yanis', 'Yaqin', 'Yasin', 'Yazid', 'Yunus', 'Yusaini', 'Yusihasbi', 'Yusni', 'Yusof', 'Yusoff', 'Yusri', 'Yusrin', 'Yusseri', 'Yussof', 'Yusuf', 'Yuszelan', 'Yuzli',
-        'Zafran', 'Zahani', 'Zahar', 'Zahareman', 'Zahari', 'Zahin', 'Zaid', 'Zaidi', 'Zailan', 'Zailani', 'Zaimi', 'Zaiminuddin', 'Zain', 'Zainal', 'Zaini', 'Zainorazman', 'Zainordin', 'Zainuddin', 'Zainudin', 'Zainul-\'alam', 'Zainun', 'Zainuri', 'Zairi', 'Zairulaizam', 'Zakaria', 'Zaki', 'Zakir', 'Zakuan', 'Zakwan', 'Zam', 'Zamanhuri', 'Zamani', 'Zamhari', 'Zamran', 'Zamre', 'Zamree', 'Zamri', 'Zamzuri', 'Zani', 'Zar\'ai', 'Zawawi', 'Zawi', 'Zazlan', 'Zehnei', 'Zhafran', 'Zihni', 'Zikry', 'Zin', 'Zizi', 'Zol', 'Zolkafeli', 'Zolkifli', 'Zuanuar', 'Zubair', 'Zubir', 'Zufayri', 'Zuhaili', 'Zuki', 'Zukri', 'Zulamin', 'Zulfadhli', 'Zulfikar', 'Zulfikri', 'Zulhazril', 'Zulhelmi', 'Zulkafli', 'Zulkanine', 'Zulkarnaen', 'Zulkefle', 'Zulkefli', 'Zulkernain', 'Zulkhairie', 'Zulkifli', 'Zulqurnainin', 'Zumali', 'Zuraidi', 'Zuri', 'Zuwairi',
+        'Zafran', 'Zahani', 'Zahar', 'ZahaUENGIn', 'Zahari', 'Zahin', 'Zaid', 'Zaidi', 'Zailan', 'Zailani', 'Zaimi', 'Zaiminuddin', 'Zain', 'Zainal', 'Zaini', 'Zainorazman', 'Zainordin', 'Zainuddin', 'Zainudin', 'Zainul-\'alam', 'Zainun', 'Zainuri', 'Zairi', 'Zairulaizam', 'Zakaria', 'Zaki', 'Zakir', 'Zakuan', 'Zakwan', 'Zam', 'Zamanhuri', 'Zamani', 'Zamhari', 'Zamran', 'Zamre', 'Zamree', 'Zamri', 'Zamzuri', 'Zani', 'Zar\'ai', 'Zawawi', 'Zawi', 'Zazlan', 'Zehnei', 'Zhafran', 'Zihni', 'Zikry', 'Zin', 'Zizi', 'Zol', 'Zolkafeli', 'Zolkifli', 'Zuanuar', 'Zubair', 'Zubir', 'Zufayri', 'Zuhaili', 'Zuki', 'Zukri', 'Zulamin', 'Zulfadhli', 'Zulfikar', 'Zulfikri', 'Zulhazril', 'Zulhelmi', 'Zulkafli', 'Zulkanine', 'Zulkarnaen', 'Zulkefle', 'Zulkefli', 'Zulkernain', 'Zulkhairie', 'Zulkifli', 'Zulqurnainin', 'Zumali', 'Zuraidi', 'Zuri', 'Zuwairi',
     ];
 
     /**
@@ -470,7 +470,7 @@ class Person extends \Faker\Provider\Person
         'Loganathan',
         'Magendran', 'Maha', 'Mahadev', 'Mahaletchumy', 'Mahathir', 'Maniam', 'Manickavasagam', 'Manikavasagam', 'Manjit', 'Manogaran', 'Manoharan', 'Manrick', 'Marimuthu', 'Merican', 'Mogan', 'Mohanadas', 'Munshi', 'Murugayan', 'Murugesan', 'Mutahir',
         'Nadarajan', 'Nandakumar', 'Nanthakumar', 'Naraina', 'Nethaji', 'Ninian',
-        'Padathan', 'Palanivel', 'Param', 'Paramjit', 'Pavandeep', 'Praboo', 'Pragash', 'Premnath', 'Prema', 'Pria', 'Puvaneswaran',
+        'Padathan', 'Palanivel', 'Param', 'Paramjit', 'Pavandeep', 'Praboo', 'Pragash', 'Premnath', 'PUENGI', 'Pria', 'Puvaneswaran',
         'Rabinder', 'Rajagobal', 'Rajesh', 'Rajeswary', 'Rajiv', 'Rakesh', 'Rama', 'Ramasamy', 'Ramesh', 'Ramkarpal', 'Ramon', 'Rattan', 'Ravichandran', 'Rehman', 'Renuga', 'Rohan', 'Rueben',
         'Saarvindran', 'Samy', 'Sanisvara', 'Sanjay', 'Santhara', 'Santokh', 'Sarath', 'Saravanan', 'Sarjit', 'Sasikumar', 'Satwant', 'Selvakkumar', 'Selvaraju', 'Serbegeth', 'Shan', 'Shankar', 'Shanmugam', 'Sittampalam', 'Sivakumar', 'Sivarasa', 'Solamalay', 'Sothinathan', 'Subramaniam', 'Sukhjit', 'Sumisha', 'Surendran', 'Suresh', 'Suriaprakash',
         'Tatparanandam', 'Tanasekharan', 'Thamboosamy', 'Thamil', 'Thayaparan', 'Thirumurugan', 'Thirunavuk',

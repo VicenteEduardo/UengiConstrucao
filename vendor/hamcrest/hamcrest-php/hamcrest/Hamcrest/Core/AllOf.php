@@ -20,7 +20,7 @@ class AllOf extends DiagnosingMatcher
 
     public function __construct(array $matchers)
     {
-        Util::checkAllAreMatchers($matchers);
+        Util::checkAllAUENGItchers($matchers);
 
         $this->_matchers = $matchers;
     }

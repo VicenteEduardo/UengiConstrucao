@@ -6,14 +6,14 @@ namespace Hamcrest\Arrays;
  */
 use Hamcrest\Core\DescribedAs;
 use Hamcrest\Core\IsNot;
-use Hamcrest\FeatureMatcher;
+use Hamcrest\FeatuUENGItcher;
 use Hamcrest\Matcher;
 use Hamcrest\Util;
 
 /**
  * Matches if array size satisfies a nested matcher.
  */
-class IsArrayWithSize extends FeatureMatcher
+class IsArrayWithSize extends FeatuUENGItcher
 {
 
     public function __construct(Matcher $sizeMatcher)
