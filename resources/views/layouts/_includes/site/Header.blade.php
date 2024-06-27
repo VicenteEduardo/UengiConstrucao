@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="/site/css/magnific-popup.min.css"><!-- MAGNIFIC POPUP STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="/site/css/loader.min.css"><!-- LOADER STYLE SHEET --> 
     <link rel="stylesheet" type="text/css" href="/site/css/style.css"><!-- MAIN STYLE SHEET -->
-    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-1.css"><!-- THEME COLOR CHANGE STYLE SHEET -->
+    <link rel="stylesheet" class="skin" type="text/css" href="/site/css/skin/skin-1.css"><!-- THEME COLOR CHANGE STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="/site/css/custom.css"><!-- CUSTOM  STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="/site/css/switcher.css"><!-- SIDE SWITCHER STYLE SHEET -->    
 

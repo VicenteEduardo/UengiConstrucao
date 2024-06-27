@@ -31,7 +31,7 @@
                 <div class="main-bar bg-white">
                     <div class="container">
                         <div class="logo-header">
-                            <a href="index.html">
+                            <a href="{{ route('site.home') }}">
                                 UENGI
                                 <img src="" width="230" height="67" alt="" />
                             </a>
@@ -48,36 +48,30 @@
                         <div class="header-nav navbar-collapse collapse ">
                             <ul class=" nav navbar-nav">
                                 <li class="active">
-                                    <a href="javascript:;">Home<i class="fa fa-chevron-down"></i></a>
+                                    <a href="{{ route('site.home') }}">Home<i class="fa fa-chevron-down"></i></a>
 
                                 </li>
 
 
-
-
-                                <li>
-                                    <a href="javascript:;">Equipe</a>
-
-                                </li>
                                 <li>
                                     <a href="javascript:;">Serviços</a>
 
                                 </li>
                                 <li>
-                                    <a href="javascript:;">Galerias</a>
+                                    <a href="{{ route('site.gallery') }}">Galerias</a>
 
                                 </li>
 
                                 <li>
-                                    <a href="javascript:;">Contactos</a>
+                                    <a href="{{ route('site.contact') }}">Contactos</a>
 
                                 </li>
                                 <li class="submenu-direction">
-                                    <a href="javascript:;">Noticias<i class="fa fa-chevron-down"></i></a>
+                                    <a href="{{ route('site.news') }}">Noticias<i class="fa fa-chevron-down"></i></a>
 
                                 </li>
                                 <li>
-                                    <a href="javascript:;">Sobre</a>
+                                    <a href="{{ route('site.about') }}">Sobre</a>
 
                                 </li>
 

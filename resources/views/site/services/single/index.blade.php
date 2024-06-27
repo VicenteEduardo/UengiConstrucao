@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Notícia')
+@section('titulo', 'Serviços')
 @section('content')
     <div class="uni-banner blog-uni-banner">
         <div class="container-fluid container-large">

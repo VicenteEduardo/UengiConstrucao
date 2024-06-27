@@ -15,17 +15,7 @@ Route::get('/servicos/{title}', ['as' => 'site.services.show', 'uses' => 'Site\S
 
 /** about */
 Route::get('/sobre', ['as' => 'site.about', 'uses' => 'Site\AboutController@index']);
-/* Product */
-Route::get('/produtos', ['as' => 'site.produt', 'uses' => 'Site\ProductController@index']);
-Route::get('/produtos/{title}', ['as' => 'site.produt.show', 'uses' => 'Site\ProductController@show']);
-Route::get('/cart', ['as' => 'cart', 'uses' => 'Site\ProductController@cart']);
-Route::get('/add-to-cart/{id}', ['as' => 'add.to.cart', 'uses' => 'Site\ProductController@addToCart']);
-Route::get('/update-cart', ['as' => 'update.cart', 'uses' => 'Site\ProductController@update']);
-Route::get('/remove-from-cart', ['as' => 'remove.from.cart', 'uses' => 'Site\ProductController@remove']);
 
-/**pedidos */
-Route::post('/pedidos', ['as' => 'site.pedidos', 'uses' => 'Site\PedidoController@index']);
-Route::post('/solicitarTecnico', ['as' => 'site.solicitarTecnico', 'uses' => 'Site\SolicitarTecnicoController@index']);
 
 Route::get('/Termos-de-Uso', ['as' => 'site.termsOfUse', 'uses' => 'Site\TermsOfUseController@index']);
 
@@ -34,10 +24,7 @@ Route::get('/agentes', ['as' => 'site.agentes', 'uses' => 'Site\Agentetroller@in
 /**perguntas frequentes */
 Route::get('/perguntas-frequentes', ['as' => 'site.faq', 'uses' => 'Site\FaqController@index']);
 
-/* Eventos */
-Route::get('/eventos', ['as' => 'site.event', 'uses' => 'Site\EventController@index']);
-Route::get('/evento/{title}', ['as' => 'site.event.show', 'uses' => 'Site\EventController@show']);
-/**End Eventos */
+
 
 /* Galeria fotos */
 Route::get('/galeria-de-Imagens/', ['as' => 'site.gallery', 'uses' => 'Site\GalleryController@index']);

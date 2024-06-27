@@ -7,13 +7,13 @@
                 <div class="col-lg-8 col-md-8">
                     <div class="call-to-action-left p-tb20 p-r50">
                         <h4 class="text-uppercase m-b10">Estamos prontos para construir seu sonho conte-nos mais sobre seu projeto</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra mauris eget tortor.</p>
+                       
                     </div>
                 </div>
                 
                 <div class="col-lg-4 col-md-4">
                     <div class="call-to-action-right p-tb30">
-                        <a href="contact-1.html" class="site-button skew-icon-btn text-uppercase"  style="font-weight:600;">
+                        <a href="{{ route('site.contact') }}" class="site-button skew-icon-btn text-uppercase"  style="font-weight:600;">
                             Contact us <i class="fa fa-angle-double-right"></i>
                         </a>
                     </div>
@@ -31,7 +31,7 @@
                     <div class="widget widget_about">
                         <h4 class="widget-title">Sobre companhia</h4>
                         <div class="logo-footer clearfix p-b15">
-                            <a href="index.html"><img src="/site/images/logo.png" width="230" height="67" alt=""/></a>
+                            <a href="{{ route('site.home') }}"><img src="/site/images/logo.png" width="230" height="67" alt=""/></a>
                         </div>
                         <p>construct ipsum dolor sit consectetuer adipiscing elit,
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat .   
@@ -99,10 +99,10 @@
                         </div>
                     </div>
                 </div>      
-                <!-- USEFUL LINKS -->
+                <!-- LINKS ÚTEIS -->
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="widget widget_services">
-                        <h4 class="widget-title">Useful links</h4>
+                        <h4 class="widget-title">LINKS ÚTEIS</h4>
                         <ul>
                             <li><a href="about-1.html">About</a></li>
                             <li><a href="faq-1.html">FAQ</a></li>
@@ -204,13 +204,13 @@
                 <div class="wt-footer-bot-left">
                     <span class="copyrights-text">© @php
                         echo date('y')
-                    @endphp VRLIDENTIDADE.Todos os direitos reservados. Projetado por Constrot.</span>
+                    @endphp UENGI.Todos os direitos reservados. Projetado por VRLIDENTIDADE.</span>
                 </div>
                 <div class="wt-footer-bot-right">
                     <ul class="copyrights-nav pull-right"> 
-                        <li><a href="about-1.html">Terms  & Condition</a></li>
-                        <li><a href="about-1.html">Privacy Policy</a></li>
-                        <li><a href="contact-1.html">Contact Us</a></li>
+                        <li><a href="{{ route('site.termsOfUse') }}">Termos e Condições</a></li>
+                     
+                        <li><a href="{{ route('site.contact') }}">Contactos</a></li>
                     </ul>
                 </div>
             </div>
@@ -272,11 +272,7 @@
 <!-- STYLE SWITCHER  ======= --> 
 <div class="styleswitcher">
 
-<div class="switcher-btn-bx">
-    <a class="switch-btn">
-        <span class="fa fa-cog fa-spin"></span>
-    </a>
-</div>
+
 
 <div class="styleswitcher-inner">
 

@@ -1,97 +1,177 @@
 @extends('layouts.merge.site')
-@section('titulo', ' Serviços')
+@section('titulo', 'Serviços')
 @section('content')
 
-    <div class="uni-banner blog-uni-banner">
-        <div class="container-fluid container-large">
-            <div class="uni-banner-text-area">
-                <h1>Serviços</h1>
-                <ul>
-                    <li><a href="{{ route('site.services') }}">Home</a></li>
-                    <li>Serviços</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="blog pt-70 pb-100">
+<div class="page-content  bg-white">
+        
+    <!-- INNER PAGE BANNER -->
+    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(/site/images/banner/services.jpg);">
+        <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="row justify-content-center">
-                        @foreach ($services as $item)
-                            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="blog-card">
-                                    <div class="blog-card-img">
-                                        <a href="{!! url('/servicos/' . urlencode($item->name)) !!}"><img src="/storage/{{ $item->photo }}"
-                                                alt="image"></a>
-                                    </div>
-                                    <div class="blog-card-text">
-                                        <span class="blog-date"><i class="flaticon-deadline"></i>
-                                          Preço:{!! number_format($item->price, 2, ',', '.') . ' ' . 'KZ' !!}</span>
-                                        <h4><a href="{!! url('/servicos/' . urlencode($item->name)) !!}">{!! mb_substr($item->name, 0, 48, 'UTF-8') !!}</a></h4>
-
-                                        <a class="read-more-btn" href="{!! url('/servicos/' . urlencode($item->name)) !!}">consulte Mais informação <i
-                                                class="flaticon-right-arrow"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
-
-                    </div>
-
-                    <div class="paginations mt-30">
-
-
-                        <div class="col-12">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-4 py-5">
-                                    <b>{{ $services->links() }}</b>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="sidebar-area mt-30 pl-20">
-
-
-
-                        <div class="sidebar-card sidebar-categories mt-30">
-                            <h3>Outros Serviços</h3>
-                            <div class="sidebar-services">
-                                <ul>
-
-
-                                    @foreach ($lasted as $item)
-                                    <li><a href="{!! url('/servicos/' . urlencode($item->name)) !!}"><span><i class="flaticon-double-chevron"></i>{!! mb_substr($item->name, 0, 48, 'UTF-8') !!}</span> </a></li>
-                                @endforeach
-                                </ul>
-                                </div>
-
-
-
-                        </div>
-                        <div class="sidebar-card sidebar-download mt-30">
-                            <h4> <b>Solicitar  Assistência Técnica </b></h4>
-                            <p>Na Workaholic SA, nossa paixão é impulsionar o sucesso do seu negócio por meio de soluções
-                                tecnológicas de ponta. Simplificamos sua jornada para o topo, oferecendo qualidade e
-                                eficiência incomparáveis. Não perca mais tempo. Converse conosco agora para transformar sua
-                                empresa e alcançar o sucesso que você merece. Sua trajetória rumo ao êxito começa aqui! .
-                            </p>
-
-
-                            <a class="default-button" href="{{ $configuration->telefone }}"> <span><i
-                                        class="fas fa-phone"></i>
-                                    Ligue para nós:{{ $configuration->telefone }}</span> </a>
-                        </div>
-
-                    </div>
-                </div>
+            <div class="wt-bnr-inr-entry">
+                <h1 class="text-white">Serviços </h1>
             </div>
         </div>
     </div>
-
-
+    <!-- INNER PAGE BANNER END -->
+    
+    <!-- BREADCRUMB ROW -->                            
+    <div class="bg-gray-light p-tb20">
+        <div class="container">
+            <ul class="wt-breadcrumb breadcrumb-style-1">
+                <li><a href="{{ route('site.home') }}">Home</a></li>
+                <li>Services 1</li>
+            </ul>
+        </div>
+    </div>
+    <!-- BREADCRUMB ROW END -->                   
+    
+    <!-- SECTION CONTENT START -->
+    <div class="section-full p-t80 p-b50">
+        <div class="bg-service-team">
+            <div class="container">
+                <div class="section-content m-b50 ">
+                    <div class="row">
+                    
+                        <!-- COLUMNS 1 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-trophy"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Best Quality</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 2 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-pencil"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Integrity</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 3 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Strategy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 4 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-hand-rock-o"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Safety</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 5 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-recycle"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Community</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 6 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-graduation-cap"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Sustainability</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 7 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-trophy"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Best Quality</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 8 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-pencil"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Integrity</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- COLUMNS 9 -->
+                        <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
+                            <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
+                                <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
+                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
+                                </div>
+                                <div class="icon-content">
+                                    <h5 class="wt-tilte text-uppercase">Strategy</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
+                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                      
+                <!-- PAGINATION START -->
+                <div class="pagination-bx clearfix ">
+                    <ul class="custom-pagination pagination-1">
+                       <li><a href="#">«</a></li>
+                       <li class="active"><a href="#">1</a></li>
+                       <li><a href="#">2</a></li>
+                       <li><a href="#">3</a></li>
+                       <li><a href="#">4</a></li>
+                       <li><a href="#">5</a></li>
+                       <li><a href="#">»</a></li>
+                    </ul>
+                </div>
+               <!-- PAGINATION END -->
+               
+            </div>
+        </div>
+     </div>
+    <!-- SECTION CONTENT  END -->
+    
+</div>
 @endsection

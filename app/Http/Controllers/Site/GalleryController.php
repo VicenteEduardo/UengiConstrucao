@@ -19,8 +19,8 @@ class GalleryController extends Controller
     public function index()
     {
         //
-        $response['galleries'] = Gallery::orderBy('id', 'desc')->paginate(6);
-        return view('site.gallery.image.all.index', $response);
+      //  $response['galleries'] = Gallery::orderBy('id', 'desc')->paginate(6);
+        return view('site.gallery.image.all.index', );
     }
 
 
