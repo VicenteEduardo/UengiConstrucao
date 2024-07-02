@@ -77,9 +77,9 @@ img {
 /* Layout */
 
 .wrapper {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 100%;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 100%;
     background-color: #edf2f7;
     margin: 0;
     padding: 0;
@@ -87,9 +87,9 @@ img {
 }
 
 .content {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 100%;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -120,9 +120,9 @@ img {
 /* Body */
 
 .body {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 100%;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 100%;
     background-color: #edf2f7;
     border-bottom: 1px solid #edf2f7;
     border-top: 1px solid #edf2f7;
@@ -132,9 +132,9 @@ img {
 }
 
 .inner-body {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 570px;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 570px;
     background-color: #ffffff;
     border-color: #e8e5ef;
     border-radius: 2px;
@@ -160,9 +160,9 @@ img {
 /* Footer */
 
 .footer {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 570px;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 570px;
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -183,9 +183,9 @@ img {
 /* Tables */
 
 .table table {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 100%;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 100%;
     margin: 30px auto;
     width: 100%;
 }
@@ -212,9 +212,9 @@ img {
 /* Buttons */
 
 .action {
-    -pUENGIiler-cellpadding: 0;
-    -pUENGIiler-cellspacing: 0;
-    -pUENGIiler-width: 100%;
+    -premailer-cellpadding: 0;
+    -premailer-cellspacing: 0;
+    -premailer-width: 100%;
     margin: 30px auto;
     padding: 0;
     text-align: center;

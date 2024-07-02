@@ -40,7 +40,7 @@ class Person extends \Faker\Provider\Person
     protected static $lastName = [
         'Adam', 'Aerts', 'Amrani', 'André', 'Antoine', 'Baert', 'Bah', 'Barry',
         'Bastin', 'Bauwens', 'Benali', 'Bernard', 'Bertrand', 'Bodart', 'Bogaert',
-        'Bogaerts', 'BorUENGIns', 'Bosmans', 'Boulanger', 'Bourgeois', 'Brasseur',
+        'Bogaerts', 'Borremans', 'Bosmans', 'Boulanger', 'Bourgeois', 'Brasseur',
         'Carlier', 'Celik', 'Ceulemans', 'Charlier', 'Christiaens', 'Claes',
         'Claessens', 'Claeys', 'Collard', 'Collignon', 'Collin', 'Cools', 'Coppens',
         'Cornelis', 'Cornet', 'Cuvelier', 'Daems', 'De Backer', 'De Clercq', 'De Cock',
@@ -73,17 +73,17 @@ class Person extends \Faker\Provider\Person
     ];
 
     /**
-     *  Belgian Rijksregister numbers are used to identify each citizen,
-     *  it consists of three parts, the person's day of birth, in the
-     *  format 'ymd', followed by a number between 1 and 997, odd for
-     *  males, even for females. The last part is used to check if it's
-     *  a valid number.
+     * Belgian Rijksregister numbers are used to identify each citizen,
+     * it consists of three parts, the person's day of birth, in the
+     * format 'ymd', followed by a number between 1 and 997, odd for
+     * males, even for females. The last part is used to check if it's
+     * a valid number.
      *
      *  @see https://nl.wikipedia.org/wiki/Rijksregisternummer
      *
-     *  @param string|null $gender 'male', 'female' or null for any
+     * @param string|null $gender 'male', 'female' or null for any
      *
-     *  @return string
+     * @return string
      */
     public static function rrn($gender = null)
     {

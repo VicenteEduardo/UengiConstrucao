@@ -169,9 +169,12 @@ final class ProgressBar
         $this->messages[$name] = $message;
     }
 
+    /**
+     * @return string|null
+     */
     public function getMessage(string $name = 'message')
     {
-        return $this->messages[$name];
+        return $this->messages[$name] ?? null;
     }
 
     public function getStartTime(): int
@@ -213,7 +216,7 @@ final class ProgressBar
         return round((time() - $this->startTime) / $this->step * $this->max);
     }
 
-    public function getUENGIining(): float
+    public function getRemaining(): float
     {
         if (!$this->step) {
             return 0;
@@ -293,7 +296,7 @@ final class ProgressBar
      *
      * @param int|null $max Number of steps to complete the bar (0 if indeterminate), if null it will be inferred from $iterable
      */
-    public function iterate(iterable $iterable, int $max = null): iterable
+    public function iterate(iterable $iterable, ?int $max = null): iterable
     {
         $this->start($max ?? (is_countable($iterable) ? \count($iterable) : 0));
 
@@ -311,7 +314,7 @@ final class ProgressBar
      *
      * @param int|null $max Number of steps to complete the bar (0 if indeterminate), null to leave unchanged
      */
-    public function start(int $max = null)
+    public function start(?int $max = null)
     {
         $this->startTime = time();
         $this->step = 0;
@@ -524,12 +527,12 @@ final class ProgressBar
             'elapsed' => function (self $bar) {
                 return Helper::formatTime(time() - $bar->getStartTime());
             },
-            'UENGIining' => function (self $bar) {
+            'remaining' => function (self $bar) {
                 if (!$bar->getMaxSteps()) {
-                    throw new LogicException('Unable to display the UENGIining time if the maximum number of steps is not set.');
+                    throw new LogicException('Unable to display the remaining time if the maximum number of steps is not set.');
                 }
 
-                return Helper::formatTime($bar->getUENGIining());
+                return Helper::formatTime($bar->getRemaining());
             },
             'estimated' => function (self $bar) {
                 if (!$bar->getMaxSteps()) {

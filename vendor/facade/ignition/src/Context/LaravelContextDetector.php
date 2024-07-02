@@ -5,7 +5,7 @@ namespace Facade\Ignition\Context;
 use Facade\FlareClient\Context\ContextDetectorInterface;
 use Facade\FlareClient\Context\ContextInterface;
 use Illuminate\Http\Request;
-use Livewire\LivewiUENGInager;
+use Livewire\LivewireManager;
 
 class LaravelContextDetector implements ContextDetectorInterface
 {
@@ -18,7 +18,7 @@ class LaravelContextDetector implements ContextDetectorInterface
         $request = app(Request::class);
 
         if ($this->isRunningLiveWire($request)) {
-            return new LivewireRequestContext($request, app(LivewiUENGInager::class));
+            return new LivewireRequestContext($request, app(LivewireManager::class));
         }
 
         return new LaravelRequestContext($request);

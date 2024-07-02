@@ -5,52 +5,52 @@ namespace Faker\Provider\pt_BR;
 class Text extends \Faker\Provider\Text
 {
     /**
-     *   The Project Gutenberg EBook of Dom Casmurro, by Machado de Assis
+     * The Project Gutenberg EBook of Dom Casmurro, by Machado de Assis
      *
-     *   This eBook is for the use of anyone anywhere in the United States and most
-     *   other parts of the world at no cost and with almost no restrictions
-     *   whatsoever.  You may copy it, give it away or re-use it under the terms of
-     *   the Project Gutenberg License included with this eBook or online at
-     *   www.gutenberg.org.  If you are not located in the United States, you'll have
-     *   to check the laws of the country where you are located before using this ebook.
+     * This eBook is for the use of anyone anywhere in the United States and most
+     * other parts of the world at no cost and with almost no restrictions
+     * whatsoever.  You may copy it, give it away or re-use it under the terms of
+     * the Project Gutenberg License included with this eBook or online at
+     * www.gutenberg.org.  If you are not located in the United States, you'll have
+     * to check the laws of the country where you are located before using this ebook.
      *
-     *   Title: Dom Casmurro
+     * Title: Dom Casmurro
      *
-     *   Author: Machado de Assis
+     * Author: Machado de Assis
      *
-     *   Release Date: October 15, 2017 [EBook #55752]
+     * Release Date: October 15, 2017 [EBook #55752]
      *
-     *   Language: Portuguese
+     * Language: Portuguese
      *
-     *   *** START OF THIS PROJECT GUTENBERG EBOOK DOM CASMURRO ***
+     * *** START OF THIS PROJECT GUTENBERG EBOOK DOM CASMURRO ***
      *
-     *   Produced by Laura Natal Rodriguez & Marc D'Hooghe at Free
-     *   Literature (online soon in an extended version,also linking
-     *   to free sources for education worldwide ... MOOC's,
-     *   educational materials,...) (Images generously made available
-     *   by the Bibliotheca Nacional Digital Brasil.)
+     * Produced by Laura Natal Rodriguez & Marc D'Hooghe at Free
+     * Literature (online soon in an extended version,also linking
+     * to free sources for education worldwide ... MOOC's,
+     * educational materials,...) (Images generously made available
+     * by the Bibliotheca Nacional Digital Brasil.)
      *
-     *   DOM CASMURRO
+     * DOM CASMURRO
      *
-     *   POR
+     * POR
      *
-     *   MACHADO DE ASSIS
+     * MACHADO DE ASSIS
      *
-     *   DA ACADEMIA BRAZILEIRA
+     * DA ACADEMIA BRAZILEIRA
      *
-     *   H. GARNIER, LIVREIRO-EDITOR
+     * H. GARNIER, LIVREIRO-EDITOR
      *
-     *   RUA MOREIRA CEZAR, 71
+     * RUA MOREIRA CEZAR, 71
      *
-     *   RIO DE JANEIRO
+     * RIO DE JANEIRO
      *
-     *   6, RUE DES SAINTS-PÈRES, 6
+     * 6, RUE DES SAINTS-PÈRES, 6
      *
-     *   PARIZ
+     * PARIZ
      *
-     *   @see https://www.gutenberg.org/cache/epub/55752/pg55752.txt
+     * @see https://www.gutenberg.org/cache/epub/55752/pg55752.txt
      *
-     *   @var string
+     * @var string
      */
     protected static $baseText = <<<'EOT'
 I
@@ -2418,7 +2418,7 @@ titulo com o nome, não sei bem; o que sei é que quando ouvi o meu
 nome ligado a tal titulo, deu-me vontade de dizer um desaforo. Mas a
 vontade aqui foi antes uma ideia, uma ideia sem lingua, que se deixou
 ficar quieta e muda, tal como d'ahi a pouco outras ideias... Mas
-essas pedem um capitulo especial. UENGItemos este dizendo que o mestre
+essas pedem um capitulo especial. Rematemos este dizendo que o mestre
 de latim falou algum tempo da minha ordenação ecclesiastica, ainda
 que sem grande interesse. Elle buscava um assumpto alheio para se
 mostrar esquecido da propria gloria, mas era esta que o deslumbrava na
@@ -3309,7 +3309,7 @@ EOT;
     agreement shall be interpreted to make the maximum disclaimer or
     limitation permitted by the applicable state law. The invalidity or
     unenforceability of any provision of this agreement shall not void the
-    UENGIining provisions.
+    remaining provisions.
 
     1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
     trademark owner, any agent or employee of the Foundation, anyone
@@ -3334,7 +3334,7 @@ EOT;
     Volunteers and financial support to provide volunteers with the
     assistance they need are critical to reaching Project Gutenberg-tm's
     goals and ensuring that the Project Gutenberg-tm collection will
-    UENGIin freely available for generations to come. In 2001, the Project
+    remain freely available for generations to come. In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future
     generations. To learn more about the Project Gutenberg Literary

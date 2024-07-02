@@ -32,7 +32,7 @@ class Stringable implements JsonSerializable
     }
 
     /**
-     * Return the UENGIinder of a string after the first occurrence of a given value.
+     * Return the remainder of a string after the first occurrence of a given value.
      *
      * @param  string  $search
      * @return static
@@ -43,7 +43,7 @@ class Stringable implements JsonSerializable
     }
 
     /**
-     * Return the UENGIinder of a string after the last occurrence of a given value.
+     * Return the remainder of a string after the last occurrence of a given value.
      *
      * @param  string  $search
      * @return static

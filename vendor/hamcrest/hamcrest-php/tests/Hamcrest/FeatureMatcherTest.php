@@ -15,7 +15,7 @@ class Thingy
 }
 
 /* Test-specific subclass only */
-class ResultMatcher extends \Hamcrest\FeatuUENGItcher
+class ResultMatcher extends \Hamcrest\FeatureMatcher
 {
     public function __construct()
     {
@@ -29,7 +29,7 @@ class ResultMatcher extends \Hamcrest\FeatuUENGItcher
     }
 }
 
-class FeatuUENGItcherTest extends \Hamcrest\AbstractMatcherTest
+class FeatureMatcherTest extends \Hamcrest\AbstractMatcherTest
 {
 
     private $_resultMatcher;

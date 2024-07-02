@@ -26,26 +26,26 @@ class Swift_Mime_ContentEncoder_Base64ContentEncoder extends Swift_Encoder_Base6
             $maxLineLength = 76;
         }
 
-        $UENGIinder = 0;
-        $base64ReadBufferUENGIinderBytes = '';
+        $remainder = 0;
+        $base64ReadBufferRemainderBytes = '';
 
         // To reduce memory usage, the output buffer is streamed to the input buffer like so:
         //   Output Stream => base64encode => wrap line length => Input Stream
         // HOWEVER it's important to note that base64_encode() should only be passed whole triplets of data (except for the final chunk of data)
         // otherwise it will assume the input data has *ended* and it will incorrectly pad/terminate the base64 data mid-stream.
-        // We use $base64ReadBufferUENGIinderBytes to carry over 1-2 "UENGIinder" bytes from the each chunk from OutputStream and pre-pend those onto the
+        // We use $base64ReadBufferRemainderBytes to carry over 1-2 "remainder" bytes from the each chunk from OutputStream and pre-pend those onto the
         // chunk of bytes read in the next iteration.
-        // When the OutputStream is empty, we must flush any UENGIinder bytes.
+        // When the OutputStream is empty, we must flush any remainder bytes.
         while (true) {
             $readBytes = $os->read(8192);
             $atEOF = (false === $readBytes);
 
             if ($atEOF) {
-                $streamTheseBytes = $base64ReadBufferUENGIinderBytes;
+                $streamTheseBytes = $base64ReadBufferRemainderBytes;
             } else {
-                $streamTheseBytes = $base64ReadBufferUENGIinderBytes.$readBytes;
+                $streamTheseBytes = $base64ReadBufferRemainderBytes.$readBytes;
             }
-            $base64ReadBufferUENGIinderBytes = '';
+            $base64ReadBufferRemainderBytes = '';
             $bytesLength = \strlen($streamTheseBytes);
 
             if (0 === $bytesLength) { // no data left to encode
@@ -53,29 +53,29 @@ class Swift_Mime_ContentEncoder_Base64ContentEncoder extends Swift_Encoder_Base6
             }
 
             // if we're not on the last block of the ouput stream, make sure $streamTheseBytes ends with a complete triplet of data
-            // and carry over UENGIinder 1-2 bytes to the next loop iteration
+            // and carry over remainder 1-2 bytes to the next loop iteration
             if (!$atEOF) {
                 $excessBytes = $bytesLength % 3;
                 if (0 !== $excessBytes) {
-                    $base64ReadBufferUENGIinderBytes = substr($streamTheseBytes, -$excessBytes);
+                    $base64ReadBufferRemainderBytes = substr($streamTheseBytes, -$excessBytes);
                     $streamTheseBytes = substr($streamTheseBytes, 0, $bytesLength - $excessBytes);
                 }
             }
 
             $encoded = base64_encode($streamTheseBytes);
             $encodedTransformed = '';
-            $thisMaxLineLength = $maxLineLength - $UENGIinder - $firstLineOffset;
+            $thisMaxLineLength = $maxLineLength - $remainder - $firstLineOffset;
 
             while ($thisMaxLineLength < \strlen($encoded)) {
                 $encodedTransformed .= substr($encoded, 0, $thisMaxLineLength)."\r\n";
                 $firstLineOffset = 0;
                 $encoded = substr($encoded, $thisMaxLineLength);
                 $thisMaxLineLength = $maxLineLength;
-                $UENGIinder = 0;
+                $remainder = 0;
             }
 
-            if (0 < $UENGIiningLength = \strlen($encoded)) {
-                $UENGIinder += $UENGIiningLength;
+            if (0 < $remainingLength = \strlen($encoded)) {
+                $remainder += $remainingLength;
                 $encodedTransformed .= $encoded;
                 $encoded = null;
             }

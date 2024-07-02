@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](https://keepachangelog.com/) principles.
 
+## [3.0.4] - 2024-03-14
+
+No functional changes.
+
 ## [3.0.3] - 2020-09-28
 
 ### Changed
@@ -36,7 +40,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 ### Changed
 
-* [FunctionSignatuUENGIp.php](https://raw.githubusercontent.com/phan/phan/master/src/Phan/Language/Internal/FunctionSignatuUENGIp.php) from `phan/phan` is now used instead of [arginfo.php](https://raw.githubusercontent.com/rlerdorf/phan/master/includes/arginfo.php) from `rlerdorf/phan`
+* [FunctionSignatureMap.php](https://raw.githubusercontent.com/phan/phan/master/src/Phan/Language/Internal/FunctionSignatureMap.php) from `phan/phan` is now used instead of [arginfo.php](https://raw.githubusercontent.com/rlerdorf/phan/master/includes/arginfo.php) from `rlerdorf/phan`
 
 ### Removed
 
@@ -46,6 +50,7 @@ All notable changes are documented in this file using the [Keep a CHANGELOG](htt
 
 * Initial release
 
+[3.0.4]: https://github.com/sebastianbergmann/comparator/resource-operations/3.0.3...3.0.4
 [3.0.3]: https://github.com/sebastianbergmann/comparator/resource-operations/3.0.2...3.0.3
 [3.0.2]: https://github.com/sebastianbergmann/comparator/resource-operations/3.0.1...3.0.2
 [3.0.1]: https://github.com/sebastianbergmann/comparator/resource-operations/3.0.0...3.0.1

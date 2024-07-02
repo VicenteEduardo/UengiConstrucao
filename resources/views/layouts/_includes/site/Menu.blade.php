@@ -54,7 +54,7 @@
 
 
                                 <li>
-                                    <a href="javascript:;">Serviços</a>
+                                    <a href="{{ route('site.services') }}">Serviços</a>
 
                                 </li>
                                 <li>

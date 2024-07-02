@@ -19,6 +19,8 @@ use Symfony\Component\Console\Input\StringInput;
  */
 class ShellInput extends StringInput
 {
+    public const REGEX_STRING = '([^\s]+?)(?:\s|(?<!\\\\)"|(?<!\\\\)\'|$)';
+
     private $hasCodeArgument = false;
 
     /**
@@ -45,7 +47,7 @@ class ShellInput extends StringInput
      *
      * @throws \InvalidArgumentException if $definition has CodeArgument before the final argument position
      */
-    public function bind(InputDefinition $definition)
+    public function bind(InputDefinition $definition): void
     {
         $hasCodeArgument = false;
 
@@ -66,7 +68,7 @@ class ShellInput extends StringInput
 
         $this->hasCodeArgument = $hasCodeArgument;
 
-        return parent::bind($definition);
+        parent::bind($definition);
     }
 
     /**
@@ -98,7 +100,7 @@ class ShellInput extends StringInput
                     \stripcslashes(\substr($match[0], 1, \strlen($match[0]) - 2)),
                     \stripcslashes(\substr($input, $cursor)),
                 ];
-            } elseif (\preg_match('/'.StringInput::REGEX_STRING.'/A', $input, $match, 0, $cursor)) {
+            } elseif (\preg_match('/'.self::REGEX_STRING.'/A', $input, $match, 0, $cursor)) {
                 $tokens[] = [
                     \stripcslashes($match[1]),
                     \stripcslashes(\substr($input, $cursor)),
@@ -119,12 +121,12 @@ class ShellInput extends StringInput
     /**
      * Same as parent, but with some bonus handling for code arguments.
      */
-    protected function parse()
+    protected function parse(): void
     {
         $parseOptions = true;
         $this->parsed = $this->tokenPairs;
         while (null !== $tokenPair = \array_shift($this->parsed)) {
-            // token is what you'd expect. rest is the UENGIinder of the input
+            // token is what you'd expect. rest is the remainder of the input
             // string, including token, and will be used if this is a code arg.
             list($token, $rest) = $tokenPair;
 
@@ -146,7 +148,7 @@ class ShellInput extends StringInput
      * Parses an argument, with bonus handling for code arguments.
      *
      * @param string $token The current token
-     * @param string $rest  The UENGIining unparsed input, including the current token
+     * @param string $rest  The remaining unparsed input, including the current token
      *
      * @throws \RuntimeException When too many arguments are given
      */
@@ -160,7 +162,7 @@ class ShellInput extends StringInput
 
             if ($arg instanceof CodeArgument) {
                 // When we find a code argument, we're done parsing. Add the
-                // UENGIining input to the current argument and call it a day.
+                // remaining input to the current argument and call it a day.
                 $this->parsed = [];
                 $this->arguments[$arg->getName()] = $rest;
             } else {

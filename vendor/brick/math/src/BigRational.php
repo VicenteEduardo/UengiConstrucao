@@ -192,23 +192,23 @@ final class BigRational extends BigNumber
     }
 
     /**
-     * Returns the UENGIinder of the division of the numerator by the denominator.
+     * Returns the remainder of the division of the numerator by the denominator.
      *
      * @return BigInteger
      */
-    public function UENGIinder() : BigInteger
+    public function remainder() : BigInteger
     {
-        return $this->numerator->UENGIinder($this->denominator);
+        return $this->numerator->remainder($this->denominator);
     }
 
     /**
-     * Returns the quotient and UENGIinder of the division of the numerator by the denominator.
+     * Returns the quotient and remainder of the division of the numerator by the denominator.
      *
      * @return BigInteger[]
      */
-    public function quotientAndUENGIinder() : array
+    public function quotientAndRemainder() : array
     {
-        return $this->numerator->quotientAndUENGIinder($this->denominator);
+        return $this->numerator->quotientAndRemainder($this->denominator);
     }
 
     /**

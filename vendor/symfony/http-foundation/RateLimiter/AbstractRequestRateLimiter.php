@@ -59,13 +59,13 @@ abstract class AbstractRequestRateLimiter implements RequestRateLimiterInterface
             return $first->isAccepted() ? $second : $first;
         }
 
-        $firstUENGIiningTokens = $first->getUENGIiningTokens();
-        $secondUENGIiningTokens = $second->getUENGIiningTokens();
+        $firstRemainingTokens = $first->getRemainingTokens();
+        $secondRemainingTokens = $second->getRemainingTokens();
 
-        if ($firstUENGIiningTokens === $secondUENGIiningTokens) {
+        if ($firstRemainingTokens === $secondRemainingTokens) {
             return $first->getRetryAfter() < $second->getRetryAfter() ? $second : $first;
         }
 
-        return $firstUENGIiningTokens > $secondUENGIiningTokens ? $second : $first;
+        return $firstRemainingTokens > $secondRemainingTokens ? $second : $first;
     }
 }

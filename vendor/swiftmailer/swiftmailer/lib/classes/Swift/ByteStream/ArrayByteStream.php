@@ -67,7 +67,7 @@ class Swift_ByteStream_ArrayByteStream implements Swift_InputByteStream, Swift_O
      * through the stream by $length.
      *
      * If less bytes exist than are requested the
-     * UENGIining bytes are given instead. If no bytes are UENGIining at all, boolean
+     * remaining bytes are given instead. If no bytes are remaining at all, boolean
      * false is returned.
      *
      * @param int $length

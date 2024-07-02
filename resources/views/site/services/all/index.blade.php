@@ -9,7 +9,7 @@
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
-                <h1 class="text-white">Serviços </h1>
+                <h1 class="text-white">Serviços</h1>
             </div>
         </div>
     </div>
@@ -20,7 +20,7 @@
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
                 <li><a href="{{ route('site.home') }}">Home</a></li>
-                <li>Services 1</li>
+                <li>Serviços</li>
             </ul>
         </div>
     </div>
@@ -37,12 +37,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-trophy"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-trophy"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Best Quality</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -50,12 +50,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-pencil"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-pencil"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Integrity</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -63,12 +63,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Strategy</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -76,12 +76,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-hand-rock-o"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-hand-rock-o"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Safety</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -89,12 +89,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-recycle"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-recycle"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Community</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -102,12 +102,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-graduation-cap"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-graduation-cap"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Sustainability</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -115,12 +115,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-trophy"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-trophy"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Best Quality</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -128,12 +128,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-pencil"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-pencil"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Integrity</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -141,12 +141,12 @@
                         <div class="col-lg-4 col-md-6 col-sm-6 m-b30">
                             <div class="wt-icon-box-wraper center p-a20 bg-white bdr-1 bdr-gray">
                                 <div class="wt-icon-box-sm radius site-text-primary bdr-2 m-b20">
-                                    <a href="services-detail.html" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
+                                    <a href="{{ route('site.services') }}" class="icon-cell"><i class="fa fa-flag-checkered"></i></a>
                                 </div>
                                 <div class="icon-content">
                                     <h5 class="wt-tilte text-uppercase">Strategy</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod .</p>
-                                    <a href="services-detail.html" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
+                                    <a href="{{ route('site.services') }}" class="site-button skew-icon-btn m-r15">More <i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
                         </div>

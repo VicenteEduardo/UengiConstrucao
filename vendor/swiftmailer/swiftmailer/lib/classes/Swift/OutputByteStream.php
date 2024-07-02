@@ -22,8 +22,8 @@ interface Swift_OutputByteStream
      * Reads $length bytes from the stream into a string and moves the pointer
      * through the stream by $length.
      *
-     * If less bytes exist than are requested the UENGIining bytes are given instead.
-     * If no bytes are UENGIining at all, boolean false is returned.
+     * If less bytes exist than are requested the remaining bytes are given instead.
+     * If no bytes are remaining at all, boolean false is returned.
      *
      * @param int $length
      *

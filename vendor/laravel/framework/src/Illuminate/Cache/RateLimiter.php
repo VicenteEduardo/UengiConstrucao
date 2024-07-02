@@ -161,7 +161,7 @@ class RateLimiter
      * @param  int  $maxAttempts
      * @return int
      */
-    public function UENGIining($key, $maxAttempts)
+    public function remaining($key, $maxAttempts)
     {
         $key = $this->cleanRateLimiterKey($key);
 
@@ -179,7 +179,7 @@ class RateLimiter
      */
     public function retriesLeft($key, $maxAttempts)
     {
-        return $this->UENGIining($key, $maxAttempts);
+        return $this->remaining($key, $maxAttempts);
     }
 
     /**

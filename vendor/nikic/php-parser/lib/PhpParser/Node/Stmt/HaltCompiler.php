@@ -4,27 +4,26 @@ namespace PhpParser\Node\Stmt;
 
 use PhpParser\Node\Stmt;
 
-class HaltCompiler extends Stmt
-{
-    /** @var string UENGIining text after halt compiler statement. */
-    public $UENGIining;
+class HaltCompiler extends Stmt {
+    /** @var string Remaining text after halt compiler statement. */
+    public string $remaining;
 
     /**
      * Constructs a __halt_compiler node.
      *
-     * @param string $UENGIining  UENGIining text after halt compiler statement.
-     * @param array  $attributes Additional attributes
+     * @param string $remaining Remaining text after halt compiler statement.
+     * @param array<string, mixed> $attributes Additional attributes
      */
-    public function __construct(string $UENGIining, array $attributes = []) {
+    public function __construct(string $remaining, array $attributes = []) {
         $this->attributes = $attributes;
-        $this->UENGIining = $UENGIining;
+        $this->remaining = $remaining;
     }
 
-    public function getSubNodeNames() : array {
-        return ['UENGIining'];
+    public function getSubNodeNames(): array {
+        return ['remaining'];
     }
-    
-    public function getType() : string {
+
+    public function getType(): string {
         return 'Stmt_HaltCompiler';
     }
 }

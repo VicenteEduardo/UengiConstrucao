@@ -5,7 +5,7 @@ namespace Illuminate\Validation\Concerns;
 use Egulias\EmailValidator\EmailLexer;
 use Egulias\EmailValidator\Validation\EmailValidation;
 
-class FilteUENGIilValidation implements EmailValidation
+class FilterEmailValidation implements EmailValidation
 {
     /**
      * The flags to pass to the filter_var function.

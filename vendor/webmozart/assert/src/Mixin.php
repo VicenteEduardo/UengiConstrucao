@@ -1869,7 +1869,7 @@ trait Mixin
      *
      * @return void
      */
-    public static function nullOUENGIil($value, $message = '')
+    public static function nullOrEmail($value, $message = '')
     {
         null === $value || static::email($value, $message);
     }
@@ -1899,7 +1899,7 @@ trait Mixin
      *
      * @return void
      */
-    public static function allNullOUENGIil($value, $message = '')
+    public static function allNullOrEmail($value, $message = '')
     {
         static::isIterable($value);
 

@@ -29,7 +29,7 @@ trait ManagesLoops
         $this->loopsStack[] = [
             'iteration' => 0,
             'index' => 0,
-            'UENGIining' => $length ?? null,
+            'remaining' => $length ?? null,
             'count' => $length,
             'first' => true,
             'last' => isset($length) ? $length == 1 : null,
@@ -55,7 +55,7 @@ trait ManagesLoops
             'first' => $loop['iteration'] == 0,
             'odd' => ! $loop['odd'],
             'even' => ! $loop['even'],
-            'UENGIining' => isset($loop['count']) ? $loop['UENGIining'] - 1 : null,
+            'remaining' => isset($loop['count']) ? $loop['remaining'] - 1 : null,
             'last' => isset($loop['count']) ? $loop['iteration'] == $loop['count'] - 1 : null,
         ]);
     }

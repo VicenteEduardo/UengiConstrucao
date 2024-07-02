@@ -11,7 +11,7 @@
 
 namespace Psy\TabCompletion\Matcher;
 
-abstract class AbstractDefaultParametersMatcher extends AbstractContextAwaUENGItcher
+abstract class AbstractDefaultParametersMatcher extends AbstractContextAwareMatcher
 {
     /**
      * @param \ReflectionParameter[] $reflectionParameters

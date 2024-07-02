@@ -43,7 +43,7 @@ class AbstractClassPass extends CodeCleanerPass
 
                 if ($node->stmts !== null) {
                     $msg = \sprintf('Abstract function %s cannot contain body', $name);
-                    throw new FatalErrorException($msg, 0, \E_ERROR, null, $node->getLine());
+                    throw new FatalErrorException($msg, 0, \E_ERROR, null, $node->getStartLine());
                 }
             }
         }
@@ -62,13 +62,13 @@ class AbstractClassPass extends CodeCleanerPass
             $count = \count($this->abstractMethods);
             if ($count > 0 && !$node->isAbstract()) {
                 $msg = \sprintf(
-                    'Class %s contains %d abstract method%s must therefore be declared abstract or implement the UENGIining methods (%s)',
+                    'Class %s contains %d abstract method%s must therefore be declared abstract or implement the remaining methods (%s)',
                     $node->name,
                     $count,
                     ($count === 1) ? '' : 's',
                     \implode(', ', $this->abstractMethods)
                 );
-                throw new FatalErrorException($msg, 0, \E_ERROR, null, $node->getLine());
+                throw new FatalErrorException($msg, 0, \E_ERROR, null, $node->getStartLine());
             }
         }
     }

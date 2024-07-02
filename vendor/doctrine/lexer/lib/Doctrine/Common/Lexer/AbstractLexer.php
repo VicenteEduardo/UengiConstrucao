@@ -269,7 +269,7 @@ abstract class AbstractLexer
         }
 
         foreach ($matches as $match) {
-            // Must UENGIin before 'value' assignment since it can change content
+            // Must remain before 'value' assignment since it can change content
             $type = $this->getType($match[0]);
 
             $this->tokens[] = [

@@ -100,7 +100,7 @@ class Swift_Plugins_RedirectingPlugin implements Swift_Events_SendListener
             $headers->addMailboxHeader('X-Swift-Bcc', $message->getBcc());
         }
 
-        // Filter UENGIining headers against whitelist
+        // Filter remaining headers against whitelist
         $this->filterHeaderSet($headers, 'To');
         $this->filterHeaderSet($headers, 'Cc');
         $this->filterHeaderSet($headers, 'Bcc');

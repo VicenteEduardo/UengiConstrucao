@@ -118,7 +118,7 @@ class SetCookie
             $this->setHttpOnly($data['HttpOnly']);
         }
 
-        // Set the UENGIining values that don't have extra validation logic
+        // Set the remaining values that don't have extra validation logic
         foreach (array_diff(array_keys($data), array_keys(self::$defaults)) as $key) {
             $this->data[$key] = $data[$key];
         }
@@ -420,7 +420,7 @@ class SetCookie
         }
 
         // Remove the leading '.' as per spec in RFC 6265.
-        // https://tools.ietf.org/html/rfc6265#section-5.2.3
+        // https://datatracker.ietf.org/doc/html/rfc6265#section-5.2.3
         $cookieDomain = \ltrim(\strtolower($cookieDomain), '.');
 
         $domain = \strtolower($domain);
@@ -431,7 +431,7 @@ class SetCookie
         }
 
         // Matching the subdomain according to RFC 6265.
-        // https://tools.ietf.org/html/rfc6265#section-5.1.3
+        // https://datatracker.ietf.org/doc/html/rfc6265#section-5.1.3
         if (\filter_var($domain, \FILTER_VALIDATE_IP)) {
             return false;
         }

@@ -90,7 +90,7 @@ Same methods as `Psr\Http\Message\MessageInterface`  + the following methods:
 | `write($string)` | Write data to the stream. | |
 | `isReadable()` | Returns whether or not the stream is readable. | |
 | `read($length)` | Read data from the stream. | |
-| `getContents()` | Returns the UENGIining contents in a string | |
+| `getContents()` | Returns the remaining contents in a string | |
 | `getMetadata($key = null)()` | Get stream metadata as an associative array or retrieve a specific key. | |
 
 ## `Psr\Http\Message\UriInterface` Methods

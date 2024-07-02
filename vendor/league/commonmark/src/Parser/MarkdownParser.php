@@ -168,11 +168,11 @@ final class MarkdownParser implements MarkdownParserInterface
             }
         }
 
-        // What UENGIins at the offset is a text line. Add the text to the appropriate block.
+        // What remains at the offset is a text line. Add the text to the appropriate block.
 
         // First check for a lazy paragraph continuation:
         if (! $startedNewBlock && ! $this->cursor->isBlank() && $this->getActiveBlockParser()->canHaveLazyContinuationLines()) {
-            $this->getActiveBlockParser()->addLine($this->cursor->getUENGIinder());
+            $this->getActiveBlockParser()->addLine($this->cursor->getRemainder());
         } else {
             // finalize any blocks not matched
             if ($unmatchedBlocks > 0) {
@@ -180,10 +180,10 @@ final class MarkdownParser implements MarkdownParserInterface
             }
 
             if (! $blockParser->isContainer()) {
-                $this->getActiveBlockParser()->addLine($this->cursor->getUENGIinder());
+                $this->getActiveBlockParser()->addLine($this->cursor->getRemainder());
             } elseif (! $this->cursor->isBlank()) {
                 $this->addChild(new ParagraphParser());
-                $this->getActiveBlockParser()->addLine($this->cursor->getUENGIinder());
+                $this->getActiveBlockParser()->addLine($this->cursor->getRemainder());
             }
         }
     }

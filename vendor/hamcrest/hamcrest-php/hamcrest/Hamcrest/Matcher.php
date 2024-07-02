@@ -12,12 +12,12 @@ namespace Hamcrest;
  * Matcher implementations should <b>NOT directly implement this interface</b>.
  * Instead, <b>extend</b> the {@link Hamcrest\BaseMatcher} abstract class,
  * which will ensure that the Matcher API can grow to support
- * new features and UENGIin compatible with all Matcher implementations.
+ * new features and remain compatible with all Matcher implementations.
  * <p/>
  * For easy access to common Matcher implementations, use the static factory
- * methods in {@link Hamcrest\CoUENGItchers}.
+ * methods in {@link Hamcrest\CoreMatchers}.
  *
- * @see Hamcrest\CoUENGItchers
+ * @see Hamcrest\CoreMatchers
  * @see Hamcrest\BaseMatcher
  */
 interface Matcher extends SelfDescribing

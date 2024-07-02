@@ -78,7 +78,7 @@ use Illuminate\Queue\Console\RetryCommand as QueueRetryCommand;
 use Illuminate\Queue\Console\TableCommand;
 use Illuminate\Queue\Console\WorkCommand as QueueWorkCommand;
 use Illuminate\Routing\Console\ControllerMakeCommand;
-use Illuminate\Routing\Console\MiddlewaUENGIkeCommand;
+use Illuminate\Routing\Console\MiddlewareMakeCommand;
 use Illuminate\Session\Console\SessionTableCommand;
 use Illuminate\Support\ServiceProvider;
 
@@ -156,7 +156,7 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
         'JobMake' => 'command.job.make',
         'ListenerMake' => 'command.listener.make',
         'MailMake' => 'command.mail.make',
-        'MiddlewaUENGIke' => 'command.middleware.make',
+        'MiddlewareMake' => 'command.middleware.make',
         'ModelMake' => 'command.model.make',
         'NotificationMake' => 'command.notification.make',
         'NotificationTable' => 'command.notification.table',
@@ -543,10 +543,10 @@ class ArtisanServiceProvider extends ServiceProvider implements DeferrableProvid
      *
      * @return void
      */
-    protected function registerMiddlewaUENGIkeCommand()
+    protected function registerMiddlewareMakeCommand()
     {
         $this->app->singleton('command.middleware.make', function ($app) {
-            return new MiddlewaUENGIkeCommand($app['files']);
+            return new MiddlewareMakeCommand($app['files']);
         });
     }
 

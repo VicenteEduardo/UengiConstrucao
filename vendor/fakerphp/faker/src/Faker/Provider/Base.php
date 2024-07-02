@@ -491,7 +491,7 @@ class Base
     public static function bothify($string = '## ??')
     {
         $string = self::replaceWildcard($string, '*', static function () {
-            return mt_rand(0, 1) ? '#' : '?';
+            return mt_rand(0, 1) === 1 ? '#' : '?';
         });
 
         return static::lexify(static::numerify($string));
@@ -576,6 +576,7 @@ class Base
             // remove backslashes (that are not followed by another backslash) because they are escape characters
             $match = preg_replace('/\\\(?!\\\)/', '', $matches[1]);
             $randomElement = Base::randomElement(str_split($match));
+
             //[.] should not be a random character, but a literal .
             return str_replace('.', '\.', $randomElement);
         }, $regex);
@@ -592,7 +593,7 @@ class Base
 
             return $chr;
         }, $regex);
-        // remove UENGIining single backslashes
+        // remove remaining single backslashes
         $regex = str_replace('\\\\', '[:escaped_backslash:]', $regex);
         $regex = str_replace('\\', '', $regex);
         $regex = str_replace('[:escaped_backslash:]', '\\', $regex);

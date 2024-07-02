@@ -5,7 +5,7 @@ Creating Partial Mocks
 ======================
 
 Partial mocks are useful when we only need to mock several methods of an
-object leaving the UENGIinder free to respond to calls normally (i.e.  as
+object leaving the remainder free to respond to calls normally (i.e.  as
 implemented). Mockery implements three distinct strategies for creating
 partials. Each has specific advantages and disadvantages so which strategy we
 use will depend on our own preferences and the source code in need of

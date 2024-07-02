@@ -51,7 +51,7 @@ of making a daisy-chain would be worth the trouble of getting up and
 picking the daisies, when suddenly a White Rabbit with pink eyes ran
 close by her.
 
-There was nothing so VERY UENGIrkable in that; nor did Alice think it so
+There was nothing so VERY remarkable in that; nor did Alice think it so
 VERY much out of the way to hear the Rabbit say to itself, 'Oh dear!
 Oh dear! I shall be late!' (when she thought it over afterwards, it
 occurred to her that she ought to have wondered at this, but at the time
@@ -232,7 +232,7 @@ get into the garden, and I don't care which happens!'
 
 She ate a little bit, and said anxiously to herself, 'Which way? Which
 way?', holding her hand on the top of her head to feel which way it was
-growing, and she was quite surprised to find that she UENGIined the same
+growing, and she was quite surprised to find that she remained the same
 size: to be sure, this generally happens when one eats cake, but Alice
 had got so much into the way of expecting nothing but out-of-the-way
 things to happen, that it seemed quite dull and stupid for life to go on
@@ -672,9 +672,9 @@ Alice replied eagerly, for she was always ready to talk about her pet:
 can't think! And oh, I wish you could see her after the birds! Why,
 she'll eat a little bird as soon as look at it!'
 
-This speech caused a UENGIrkable sensation among the party. Some of the
+This speech caused a remarkable sensation among the party. Some of the
 birds hurried off at once: one old Magpie began wrapping itself up very
-carefully, UENGIrking, 'I really must be getting home; the night-air
+carefully, remarking, 'I really must be getting home; the night-air
 doesn't suit my throat!' and a Canary called out in a trembling voice to
 its children, 'Come away, my dears! It's high time you were all in bed!'
 On various pretexts they all moved off, and Alice was soon left alone.
@@ -993,7 +993,7 @@ is, it would feel very queer to ME.'
 
 Which brought them back again to the beginning of the conversation.
 Alice felt a little irritated at the Caterpillar's making such VERY
-short UENGIrks, and she drew herself up and said, very gravely, 'I think,
+short remarks, and she drew herself up and said, very gravely, 'I think,
 you ought to tell me who YOU are, first.'
 
 'Why?' said the Caterpillar.
@@ -1111,7 +1111,7 @@ hookah into its mouth and began smoking again.
 This time Alice waited patiently until it chose to speak again. In
 a minute or two the Caterpillar took the hookah out of its mouth
 and yawned once or twice, and shook itself. Then it got down off the
-mushroom, and crawled away in the grass, merely UENGIrking as it went,
+mushroom, and crawled away in the grass, merely remarking as it went,
 'One side will make you grow taller, and the other side will make you
 grow shorter.'
 
@@ -1120,7 +1120,7 @@ grow shorter.'
 'Of the mushroom,' said the Caterpillar, just as if she had asked it
 aloud; and in another moment it was out of sight.
 
-Alice UENGIined looking thoughtfully at the mushroom for a minute, trying
+Alice remained looking thoughtfully at the mushroom for a minute, trying
 to make out which were the two sides of it; and as it was perfectly
 round, she found this a very difficult question. However, at last she
 stretched her arms round it as far as they would go, and broke off a bit
@@ -1294,7 +1294,7 @@ said to herself; 'his eyes are so VERY nearly at the top of his head.
 But at any rate he might answer questions.--How am I to get in?' she
 repeated, aloud.
 
-'I shall sit here,' the Footman UENGIrked, 'till tomorrow--'
+'I shall sit here,' the Footman remarked, 'till tomorrow--'
 
 At this moment the door of the house opened, and a large plate came
 skimming out, straight at the Footman's head: it just grazed his nose,
@@ -1313,7 +1313,7 @@ dreadful,' she muttered to herself, 'the way all the creatures argue.
 It's enough to drive one crazy!'
 
 The Footman seemed to think this a good opportunity for repeating his
-UENGIrk, with variations. 'I shall sit here,' he said, 'on and off, for
+remark, with variations. 'I shall sit here,' he said, 'on and off, for
 days and days.'
 
 'But what am I to do?' said Alice.
@@ -1357,7 +1357,7 @@ pleased to have got into a conversation.
 
 'You don't know much,' said the Duchess; 'and that's a fact.'
 
-Alice did not at all like the tone of this UENGIrk, and thought it would
+Alice did not at all like the tone of this remark, and thought it would
 be as well to introduce some other subject of conversation. While she
 was trying to fix on one, the cook took the cauldron of soup off the
 fire, and at once set to work throwing everything within her reach at
@@ -1491,7 +1491,7 @@ Alice felt that this could not be denied, so she tried another question.
 a Hatter: and in THAT direction,' waving the other paw, 'lives a March
 Hare. Visit either you like: they're both mad.'
 
-'But I don't want to go among mad people,' Alice UENGIrked.
+'But I don't want to go among mad people,' Alice remarked.
 
 'Oh, you can't help that,' said the Cat: 'we're all mad here. I'm mad.
 You're mad.'
@@ -1548,7 +1548,7 @@ vanishing so suddenly: you make one quite giddy.'
 
 'All right,' said the Cat; and this time it vanished quite slowly,
 beginning with the end of the tail, and ending with the grin, which
-UENGIined some time after the rest of it had gone.
+remained some time after the rest of it had gone.
 
 'Well! I've often seen a cat without a grin,' thought Alice; 'but a grin
 without a cat! It's the most curious thing I ever saw in my life!'
@@ -1582,7 +1582,7 @@ down in a large arm-chair at one end of the table.
 'Have some wine,' the March Hare said in an encouraging tone.
 
 Alice looked all round the table, but there was nothing on it but tea.
-'I don't see any wine,' she UENGIrked.
+'I don't see any wine,' she remarked.
 
 'There isn't any,' said the March Hare.
 
@@ -1597,7 +1597,7 @@ many more than three.'
 'Your hair wants cutting,' said the Hatter. He had been looking at Alice
 for some time with great curiosity, and this was his first speech.
 
-'You should learn not to make personal UENGIrks,' Alice said with some
+'You should learn not to make personal remarks,' Alice said with some
 severity; 'it's very rude.'
 
 The Hatter opened his eyes very wide on hearing this; but all he SAID
@@ -1648,11 +1648,11 @@ the works!' he added looking angrily at the March Hare.
 
 The March Hare took the watch and looked at it gloomily: then he dipped
 it into his cup of tea, and looked at it again: but he could think of
-nothing better to say than his first UENGIrk, 'It was the BEST butter,
+nothing better to say than his first remark, 'It was the BEST butter,
 you know.'
 
 Alice had been looking over his shoulder with some curiosity. 'What a
-funny watch!' she UENGIrked. 'It tells the day of the month, and doesn't
+funny watch!' she remarked. 'It tells the day of the month, and doesn't
 tell what o'clock it is!'
 
 'Why should it?' muttered the Hatter. 'Does YOUR watch tell you what
@@ -1663,7 +1663,7 @@ stays the same year for such a long time together.'
 
 'Which is just the case with MINE,' said the Hatter.
 
-Alice felt dreadfully puzzled. The Hatter's UENGIrk seemed to have no
+Alice felt dreadfully puzzled. The Hatter's remark seemed to have no
 sort of meaning in it, and yet it was certainly English. 'I don't quite
 understand you,' she said, as politely as she could.
 
@@ -1671,7 +1671,7 @@ understand you,' she said, as politely as she could.
 hot tea upon its nose.
 
 The Dormouse shook its head impatiently, and said, without opening its
-eyes, 'Of course, of course; just what I was going to UENGIrk myself.'
+eyes, 'Of course, of course; just what I was going to remark myself.'
 
 'Have you guessed the riddle yet?' the Hatter said, turning to Alice
 again.
@@ -1786,7 +1786,7 @@ questions of eating and drinking.
 'They lived on treacle,' said the Dormouse, after thinking a minute or
 two.
 
-'They couldn't have done that, you know,' Alice gently UENGIrked; 'they'd
+'They couldn't have done that, you know,' Alice gently remarked; 'they'd
 have been ill.'
 
 'So they were,' said the Dormouse; 'VERY ill.'
@@ -1805,7 +1805,7 @@ MORE than nothing.'
 
 'Nobody asked YOUR opinion,' said Alice.
 
-'Who's making personal UENGIrks now?' the Hatter asked triumphantly.
+'Who's making personal remarks now?' the Hatter asked triumphantly.
 
 Alice did not quite know what to say to this: so she helped herself
 to some tea and bread-and-butter, and then turned to the Dormouse, and
@@ -1816,7 +1816,7 @@ said, 'It was a treacle-well.'
 
 'There's no such thing!' Alice was beginning very angrily, but the
 Hatter and the March Hare went 'Sh! sh!' and the Dormouse sulkily
-UENGIrked, 'If you can't be civil, you'd better finish the story for
+remarked, 'If you can't be civil, you'd better finish the story for
 yourself.'
 
 'No, please go on!' Alice said very humbly; 'I won't interrupt again. I
@@ -1847,7 +1847,7 @@ from?'
 think you could draw treacle out of a treacle-well--eh, stupid?'
 
 'But they were IN the well,' Alice said to the Dormouse, not choosing to
-notice this last UENGIrk.
+notice this last remark.
 
 'Of course they were', said the Dormouse; '--well in.'
 
@@ -2013,7 +2013,7 @@ down on one knee as he spoke, 'we were trying--'
 
 'I see!' said the Queen, who had meanwhile been examining the roses.
 'Off with their heads!' and the procession moved on, three of the
-soldiers UENGIining behind to execute the unfortunate gardeners, who ran
+soldiers remaining behind to execute the unfortunate gardeners, who ran
 to Alice for protection.
 
 'You shan't be beheaded!' said Alice, and she put them into a large
@@ -2134,7 +2134,7 @@ introduce it.'
 'I don't like the look of it at all,' said the King: 'however, it may
 kiss my hand if it likes.'
 
-'I'd rather not,' the Cat UENGIrked.
+'I'd rather not,' the Cat remarked.
 
 'Don't be impertinent,' said the King, 'and don't look at me like that!'
 He got behind Alice as he spoke.
@@ -2191,7 +2191,7 @@ beheaded, and that you weren't to talk nonsense.
 
 The Queen's argument was, that if something wasn't done about it in less
 than no time she'd have everybody executed, all round. (It was this last
-UENGIrk that had made the whole party look so grave and anxious.)
+remark that had made the whole party look so grave and anxious.)
 
 Alice could think of nothing else to say but 'It belongs to the Duchess:
 you'd better ask HER about it.'
@@ -2232,7 +2232,7 @@ about something, my dear, and that makes you forget to talk. I can't
 tell you just now what the moral of that is, but I shall remember it in
 a bit.'
 
-'Perhaps it hasn't one,' Alice ventured to UENGIrk.
+'Perhaps it hasn't one,' Alice ventured to remark.
 
 'Tut, tut, child!' said the Duchess. 'Everything's got a moral, if only
 you can find it.' And she squeezed herself up closer to Alice's side as
@@ -2270,7 +2270,7 @@ have the experiment tried.
 'Very true,' said the Duchess: 'flamingoes and mustard both bite. And
 the moral of that is--"Birds of a feather flock together."'
 
-'Only mustard isn't a bird,' Alice UENGIrked.
+'Only mustard isn't a bird,' Alice remarked.
 
 'Right, as usual,' said the Duchess: 'what a clear way you have of
 putting things!'
@@ -2282,7 +2282,7 @@ everything that Alice said; 'there's a large mustard-mine near here. And
 the moral of that is--"The more there is of mine, the less there is of
 yours."'
 
-'Oh, I know!' exclaimed Alice, who had not attended to this last UENGIrk,
+'Oh, I know!' exclaimed Alice, who had not attended to this last remark,
 'it's a vegetable. It doesn't look like one, but it is.'
 
 'I quite agree with you,' said the Duchess; 'and the moral of that
@@ -2335,7 +2335,7 @@ croquet-ground.
 
 The other guests had taken advantage of the Queen's absence, and were
 resting in the shade: however, the moment they saw her, they hurried
-back to the game, the Queen merely UENGIrking that a moment's delay would
+back to the game, the Queen merely remarking that a moment's delay would
 cost them their lives.
 
 All the time they were playing the Queen never left off quarrelling with
@@ -2507,11 +2507,11 @@ on.'
 
 'What a curious plan!' exclaimed Alice.
 
-'That's the reason they're called lessons,' the Gryphon UENGIrked:
+'That's the reason they're called lessons,' the Gryphon remarked:
 'because they lessen from day to day.'
 
 This was quite a new idea to Alice, and she thought it over a little
-before she made her next UENGIrk. 'Then the eleventh day must have been a
+before she made her next remark. 'Then the eleventh day must have been a
 holiday?'
 
 'Of course it was,' said the Mock Turtle.
@@ -2941,7 +2941,7 @@ bread-and-butter.
 Just at this moment Alice felt a very curious sensation, which puzzled
 her a good deal until she made out what it was: she was beginning to
 grow larger again, and she thought at first she would get up and leave
-the court; but on second thoughts she decided to UENGIin where she was as
+the court; but on second thoughts she decided to remain where she was as
 long as there was room for her.
 
 'I wish you wouldn't squeeze so.' said the Dormouse, who was sitting
@@ -2998,7 +2998,7 @@ nothing, being fast asleep.
 
 'That I can't remember,' said the Hatter.
 
-'You MUST remember,' UENGIrked the King, 'or I'll have you executed.'
+'You MUST remember,' remarked the King, 'or I'll have you executed.'
 
 The miserable Hatter dropped his teacup and bread-and-butter, and went
 down on one knee. 'I'm a poor man, your Majesty,' he began.
@@ -3605,7 +3605,7 @@ EOT;
     law of the state applicable to this agreement, the agreement shall be
     interpreted to make the maximum disclaimer or limitation permitted by
     the applicable state law.  The invalidity or unenforceability of any
-    provision of this agreement shall not void the UENGIining provisions.
+    provision of this agreement shall not void the remaining provisions.
 
     1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
     trademark owner, any agent or employee of the Foundation, anyone
@@ -3629,7 +3629,7 @@ EOT;
     Volunteers and financial support to provide volunteers with the
     assistance they need, is critical to reaching Project Gutenberg-tm's
     goals and ensuring that the Project Gutenberg-tm collection will
-    UENGIin freely available for generations to come.  In 2001, the Project
+    remain freely available for generations to come.  In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation

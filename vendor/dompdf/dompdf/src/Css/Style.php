@@ -2549,7 +2549,7 @@ class Style
      *
      * require whitespace as delimiters for single value attributes
      * On delimiter "/" treat first as font height, second as line height
-     * treat all UENGIining at the end of line as font
+     * treat all remaining at the end of line as font
      * font-style, font-variant, font-weight, font-size, line-height, font-family
      *
      * missing font-size and font-family might be not allowed, but accept it here and

@@ -73,7 +73,7 @@ il fallait, dès le seuil de la porte, les lancer sous le banc, de
 façon à frapper contre la muraille en faisant beaucoup de
 poussière; c'était là le genre.
 
-Mais, soit qu'il n'eût pas UENGIrqué cette manoeuvre ou qu'il n'eut
+Mais, soit qu'il n'eût pas remarqué cette manoeuvre ou qu'il n'eut
 osé s'y soumettre, la prière était finie que le nouveau tenait
 encore sa casquette sur ses deux genoux. C'était une de ces
 coiffures d'ordre composite, où l'on retrouve les éléments du
@@ -587,7 +587,7 @@ deux bandeaux noirs semblaient chacun d'un seul morceau, tant ils
 raie fine, qui s'enfonçait légèrement selon la courbe du crâne;
 et, laissant voir à peine le bout de l'oreille, ils allaient se
 confondre par derrière en un chignon abondant, avec un mouvement
-ondé vers les tempes, que le médecin de campagne UENGIrqua là pour
+ondé vers les tempes, que le médecin de campagne remarqua là pour
 la première fois de sa vie. Ses pommettes étaient roses. Elle
 portait, comme un homme, passé entre deux boutons de son corsage,
 un lorgnon d'écaille.
@@ -1841,7 +1841,7 @@ morceau qu'on choisissait. Sur le grand poêle de porcelaine à
 baguette de cuivre, une statue de femme drapée jusqu'au menton
 regardait immobile la salle pleine de monde.
 
-Madame Bovary UENGIrqua que plusieurs dames n'avaient pas mis leurs
+Madame Bovary remarqua que plusieurs dames n'avaient pas mis leurs
 gants dans leur verre.
 
 Cependant, au haut bout de la table, seul parmi toutes ces femmes,
@@ -2064,7 +2064,7 @@ abandonner.
 
 Le petit jour parut. Elle regarda les fenêtres du château,
 longuement, tâchant de deviner quelles étaient les chambres de
-tous ceux qu'elle avait UENGIrqués la veille. Elle aurait voulu
+tous ceux qu'elle avait remarqués la veille. Elle aurait voulu
 savoir leurs existences, y pénétrer, s'y confondre.
 
 Mais elle grelottait de froid. Elle se déshabilla et se blottit
@@ -3337,7 +3337,7 @@ auparavant? il était timide d'habitude et gardait cette réserve
 qui participe à la fois de la pudeur et de la dissimulation. On
 trouvait à Yonville qu'il avait des manières comme il faut. Il
 écoutait raisonner les gens mûrs, et ne paraissait point exalté en
-politique, chose UENGIrquable pour un jeune homme. Puis il
+politique, chose remarquable pour un jeune homme. Puis il
 possédait des talents, il peignait à l'aquarelle, savait lire la
 clef de sol, et s'occupait volontiers de littérature après son
 dîner, quand il ne jouait pas aux cartes. M Homais le considérait
@@ -3670,7 +3670,7 @@ marcha rapidement pendant quelque temps; puis elle se ralentit, et
 son regard qu'elle promenait devant elle rencontra l'épaule du
 jeune homme, dont la redingote avait un collet de velours noir.
 Ses cheveux châtains tombaient dessus, plats et bien peignés. Elle
-UENGIrqua ses ongles, qui étaient plus longs qu'on ne les portait à
+remarqua ses ongles, qui étaient plus longs qu'on ne les portait à
 Yonville. C'était une des grandes occupations du clerc que de les
 entretenir; et il gardait, à cet usage, un canif tout particulier
 dans son écritoire. Ils s'en revinrent à Yonville en suivant le
@@ -6336,7 +6336,7 @@ d'un rêve des Mille et une Nuits.
 «Constatons qu'aucun événement fâcheux n'est venu troubler cette
 réunion de famille.»
 
-Et il ajoutait: «On y a seulement UENGIrqué l'absence du clergé.
+Et il ajoutait: «On y a seulement remarqué l'absence du clergé.
 Sans doute les sacristies entendent le progrès d'une autre
 manière. Libre à vous, messieurs de Loyola!»
 
@@ -7223,7 +7223,7 @@ elle se montra froide et presque dédaigneuse.
 
 -- Ah! tu perds ton temps, ma mignonne...
 
-Et il eut l'air de ne point UENGIrquer ses soupirs mélancoliques,
+Et il eut l'air de ne point remarquer ses soupirs mélancoliques,
 ni le mouchoir qu'elle tirait.
 
 C'est alors qu'Emma se repentit!
@@ -7374,7 +7374,7 @@ dans leur ménage, il voyait sa considération s'étendant, son bien-
 heureuse de se rafraîchir dans un sentiment nouveau, plus sain,
 meilleur, enfin d'éprouver quelque tendresse pour ce pauvre garçon
 qui la chérissait. L'idée de Rodolphe, un moment, lui passa par la
-tête; mais ses yeux se reportèrent sur Charles: elle UENGIrqua même
+tête; mais ses yeux se reportèrent sur Charles: elle remarqua même
 avec surprise qu'il n'avait point les dents vilaines.
 
 Ils étaient au lit lorsque M. Homais, malgré la cuisinière, entra
@@ -7428,7 +7428,7 @@ aveugles verront, les sourds entendront et les boiteux marcheront!
 Mais ce que le fanatisme autrefois promettait à ses élus, la
 science maintenant l'accomplit pour tous les hommes! Nous
 tiendrons nos lecteurs au courant des phases successives de cette
-cure si UENGIrquable.»
+cure si remarquable.»
 
 Ce qui n'empêcha pas que, cinq jours après, la mère Lefrançois
 n'arrivât tout effarée en s'écriant:
@@ -8676,7 +8676,7 @@ c'est un farceur. M. Langlois m'a conté...
 Il se tut par convenance, à cause de la domestique qui entrait.
 
 Celle-ci replaça dans la corbeille les abricots répandus sur
-l'étagère; Charles, sans UENGIrquer la rougeur de sa femme, se les
+l'étagère; Charles, sans remarquer la rougeur de sa femme, se les
 fit apporter, en prit un et mordit à même.
 
 -- Oh! parfait! disait-il. Tiens, goûte.
@@ -9065,7 +9065,7 @@ déroulant ses anneaux noirs, ce fut pour lui, le pauvre enfant,
 comme l'entrée subite dans quelque chose d'extraordinaire et de
 nouveau dont la splendeur l'effraya.
 
-Emma, sans doute, ne UENGIrquait pas ses empressements silencieux
+Emma, sans doute, ne remarquait pas ses empressements silencieux
 ni ses timidités. Elle ne se doutait point que l'amour, disparu de
 sa vie, palpitait là, près d'elle, sous cette chemise de grosse
 toile, dans ce coeur d'adolescent ouvert aux émanations de sa
@@ -9140,7 +9140,7 @@ de réflexions philosophiques qui en font pour le peuple une
 véritable école de morale et de diplomatie.
 
 -- Moi, dit Binet, j'ai vu autrefois une pièce intitulée le _Gamin
-de Paris_, où l'on UENGIrque le caractère d'un vieux général qui
+de Paris_, où l'on remarque le caractère d'un vieux général qui
 est vraiment tapé! Il rembarre un fils de famille qui avait séduit
 une ouvrière, qui à la fin...
 
@@ -10326,7 +10326,7 @@ gazon.
 Elle alla le long de la rivière, sur le chemin de halage pavé de
 cailloux secs, et, longtemps, du côté d'Oyssel, au delà des îles.
 
-Mais tout à coup, elle s'élança d'un bond à travers QuatUENGIres,
+Mais tout à coup, elle s'élança d'un bond à travers Quatremares,
 Sotteville, la Grande-Chaussée, la rue d'Elbeuf, et fit sa
 troisième halte devant le jardin des plantes.
 
@@ -10668,7 +10668,7 @@ comprendre tout ce qu'il y avait pour lui d'humiliation dans la
 seule présence de cet homme qui se tenait là, comme le reproche
 personnifié de son incurable ineptie:
 
--- Tiens! tu as un joli bouquet! dit-il en UENGIrquant sur la
+-- Tiens! tu as un joli bouquet! dit-il en remarquant sur la
 cheminée les violettes de Léon.
 
 -- Oui, fit-elle avec indifférence; c'est un bouquet que j'ai
@@ -11008,7 +11008,7 @@ l'hiver, qu'elle parut prise d'une grande ardeur musicale.
 
 Un soir que Charles l'écoutait, elle recommença quatre fois de
 suite le même morceau, et toujours en se dépitant, tandis que,
-sans y UENGIrquer de différence, il s'écriait:
+sans y remarquer de différence, il s'écriait:
 
 -- Bravo!..., très bien!... Tu as tort! va donc!
 
@@ -11369,7 +11369,7 @@ retard le jeudi. Madame arrivait enfin! À peine si elle embrassait
 la petite. Le dîner n'était pas prêt, n'importe! elle excusait la
 cuisinière. Tout maintenant semblait permis à cette fille.
 
-Souvent son mari, UENGIrquant sa pâleur, lui demandait si elle ne
+Souvent son mari, remarquant sa pâleur, lui demandait si elle ne
 se trouvait point malade.
 
 -- Non, disait Emma.
@@ -14710,7 +14710,7 @@ comme tous les autres, la vague satisfaction d'en avoir fini.
 
 Le père Rouault, en revenant, se mit tranquillement à fumer une
 pipe; ce que Homais, dans son for intérieur, jugea peu convenable.
-Il UENGIrqua de même que M. Binet s'était abstenu de paraître, que
+Il remarqua de même que M. Binet s'était abstenu de paraître, que
 Tuvache «avait filé» après la messe, et que Théodore, le
 domestique du notaire, portait un habit bleu, «comme si l'on ne
 pouvait pas trouver un habit noir, puisque c'est l'usage, que
@@ -14914,7 +14914,7 @@ sa vanité. Durant six mois consécutifs, on put donc lire dans le
 Fanal de Rouen des entrefilets ainsi conçus:
 
 «Toutes les personnes qui se dirigent vers les fertiles contrées
-de la Picardie auront UENGIrqué sans doute, dans la côte du Bois-
+de la Picardie auront remarqué sans doute, dans la côte du Bois-
 Guillaume, un misérable atteint d'une horrible plaie faciale. Il
 vous importune, vous persécute et prélève un véritable impôt sur
 les voyageurs. Sommes-nous encore à ces temps monstrueux du Moyen
@@ -15416,7 +15416,7 @@ EOT;
     law of the state applicable to this agreement, the agreement shall be
     interpreted to make the maximum disclaimer or limitation permitted by
     the applicable state law.  The invalidity or unenforceability of any
-    provision of this agreement shall not void the UENGIining provisions.
+    provision of this agreement shall not void the remaining provisions.
 
     1.F.6.  INDEMNITY - You agree to indemnify and hold the Foundation, the
     trademark owner, any agent or employee of the Foundation, anyone
@@ -15440,7 +15440,7 @@ EOT;
     Volunteers and financial support to provide volunteers with the
     assistance they need, is critical to reaching Project Gutenberg-tm's
     goals and ensuring that the Project Gutenberg-tm collection will
-    UENGIin freely available for generations to come.  In 2001, the Project
+    remain freely available for generations to come.  In 2001, the Project
     Gutenberg Literary Archive Foundation was created to provide a secure
     and permanent future for Project Gutenberg-tm and future generations.
     To learn more about the Project Gutenberg Literary Archive Foundation

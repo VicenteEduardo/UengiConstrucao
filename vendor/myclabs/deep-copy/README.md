@@ -3,7 +3,7 @@
 DeepCopy helps you create deep copies (clones) of your objects. It is designed to handle cycles in the association graph.
 
 [![Total Downloads](https://poser.pugx.org/myclabs/deep-copy/downloads.svg)](https://packagist.org/packages/myclabs/deep-copy)
-[![Integrate](https://github.com/myclabs/DeepCopy/workflows/ci/badge.svg?branch=1.x)](https://github.com/myclabs/DeepCopy/actions)
+[![Integrate](https://github.com/myclabs/DeepCopy/actions/workflows/ci.yaml/badge.svg?branch=1.x)](https://github.com/myclabs/DeepCopy/actions/workflows/ci.yaml)
 
 ## Table of Contents
 
@@ -214,7 +214,7 @@ echo $copy->id; // null
 
 #### `KeepFilter` (filter)
 
-If you want a property to UENGIin untouched (for example, an association to an object):
+If you want a property to remain untouched (for example, an association to an object):
 
 ```php
 use DeepCopy\DeepCopy;

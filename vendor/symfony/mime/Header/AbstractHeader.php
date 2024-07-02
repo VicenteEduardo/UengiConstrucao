@@ -101,7 +101,7 @@ abstract class AbstractHeader implements HeaderInterface
                 $phraseStr = '"'.$phraseStr.'"';
             } else {
                 // ... otherwise it needs encoding
-                // Determine space UENGIining on line if first line
+                // Determine space remaining on line if first line
                 if ($shorten) {
                     $usedLength = \strlen($header->getName().': ');
                 } else {
@@ -231,7 +231,7 @@ abstract class AbstractHeader implements HeaderInterface
     /**
      * Generate a list of all tokens in the final header.
      */
-    protected function toTokens(string $string = null): array
+    protected function toTokens(?string $string = null): array
     {
         if (null === $string) {
             $string = $this->getBodyAsString();

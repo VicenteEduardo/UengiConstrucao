@@ -101,7 +101,7 @@ interface ServerRequestInterface extends RequestInterface
     /**
      * Return an instance with the specified query string arguments.
      *
-     * These values SHOULD UENGIin immutable over the course of the incoming
+     * These values SHOULD remain immutable over the course of the incoming
      * request. They MAY be injected during instantiation, such as from PHP's
      * $_GET superglobal, or MAY be derived from some other value such as the
      * URI. In cases where the arguments are parsed from the URI, the data

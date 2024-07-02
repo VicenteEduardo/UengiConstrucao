@@ -192,7 +192,7 @@ class Cursor
     }
 
     /**
-     * Whether the UENGIinder is blank
+     * Whether the remainder is blank
      */
     public function isBlank(): bool
     {
@@ -322,17 +322,17 @@ class Cursor
      */
     public function advanceToNextNonSpaceOrNewline(): int
     {
-        $UENGIinder = $this->getUENGIinder();
+        $remainder = $this->getRemainder();
 
         // Optimization: Avoid the regex if we know there are no spaces or newlines
-        if ($UENGIinder === '' || ($UENGIinder[0] !== ' ' && $UENGIinder[0] !== "\n")) {
+        if ($remainder === '' || ($remainder[0] !== ' ' && $remainder[0] !== "\n")) {
             $this->previousPosition = $this->currentPosition;
 
             return 0;
         }
 
         $matches = [];
-        \preg_match('/^ *(?:\n *)?/', $UENGIinder, $matches, \PREG_OFFSET_CAPTURE);
+        \preg_match('/^ *(?:\n *)?/', $remainder, $matches, \PREG_OFFSET_CAPTURE);
 
         // [0][0] contains the matched text
         // [0][1] contains the index of that match
@@ -358,7 +358,7 @@ class Cursor
         return $this->currentPosition - $this->previousPosition;
     }
 
-    public function getUENGIinder(): string
+    public function getRemainder(): string
     {
         if ($this->currentPosition >= $this->length) {
             return '';
@@ -393,10 +393,12 @@ class Cursor
      * Try to match a regular expression
      *
      * Returns the matching text and advances to the end of that match
+     *
+     * @psalm-param non-empty-string $regex
      */
     public function match(string $regex): ?string
     {
-        $subject = $this->getUENGIinder();
+        $subject = $this->getRemainder();
 
         if (! \preg_match($regex, $subject, $matches, \PREG_OFFSET_CAPTURE)) {
             return null;

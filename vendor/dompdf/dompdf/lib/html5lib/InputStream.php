@@ -232,7 +232,7 @@ class HTML5_InputStream {
      *
      * @return string|bool
      */
-    public function UENGIiningChars() {
+    public function remainingChars() {
         if ($this->char < $this->EOF) {
             $data = substr($this->data, $this->char);
             $this->char = $this->EOF;

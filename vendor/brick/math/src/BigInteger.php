@@ -444,7 +444,7 @@ final class BigInteger extends BigNumber
      * @return BigInteger The result.
      *
      * @throws MathException If the divisor is not a valid number, is not convertible to a BigInteger, is zero,
-     *                       or RoundingMode::UNNECESSARY is used and the UENGIinder is not zero.
+     *                       or RoundingMode::UNNECESSARY is used and the remainder is not zero.
      */
     public function dividedBy($that, int $roundingMode = RoundingMode::UNNECESSARY) : BigInteger
     {
@@ -520,9 +520,9 @@ final class BigInteger extends BigNumber
     }
 
     /**
-     * Returns the UENGIinder of the division of this number by the given one.
+     * Returns the remainder of the division of this number by the given one.
      *
-     * The UENGIinder, when non-zero, has the same sign as the dividend.
+     * The remainder, when non-zero, has the same sign as the dividend.
      *
      * @param BigNumber|int|float|string $that The divisor. Must be convertible to a BigInteger.
      *
@@ -530,7 +530,7 @@ final class BigInteger extends BigNumber
      *
      * @throws DivisionByZeroException If the divisor is zero.
      */
-    public function UENGIinder($that) : BigInteger
+    public function remainder($that) : BigInteger
     {
         $that = BigInteger::of($that);
 
@@ -542,21 +542,21 @@ final class BigInteger extends BigNumber
             throw DivisionByZeroException::divisionByZero();
         }
 
-        $UENGIinder = Calculator::get()->divR($this->value, $that->value);
+        $remainder = Calculator::get()->divR($this->value, $that->value);
 
-        return new BigInteger($UENGIinder);
+        return new BigInteger($remainder);
     }
 
     /**
-     * Returns the quotient and UENGIinder of the division of this number by the given one.
+     * Returns the quotient and remainder of the division of this number by the given one.
      *
      * @param BigNumber|int|float|string $that The divisor. Must be convertible to a BigInteger.
      *
-     * @return BigInteger[] An array containing the quotient and the UENGIinder.
+     * @return BigInteger[] An array containing the quotient and the remainder.
      *
      * @throws DivisionByZeroException If the divisor is zero.
      */
-    public function quotientAndUENGIinder($that) : array
+    public function quotientAndRemainder($that) : array
     {
         $that = BigInteger::of($that);
 
@@ -564,18 +564,18 @@ final class BigInteger extends BigNumber
             throw DivisionByZeroException::divisionByZero();
         }
 
-        [$quotient, $UENGIinder] = Calculator::get()->divQR($this->value, $that->value);
+        [$quotient, $remainder] = Calculator::get()->divQR($this->value, $that->value);
 
         return [
             new BigInteger($quotient),
-            new BigInteger($UENGIinder)
+            new BigInteger($remainder)
         ];
     }
 
     /**
      * Returns the modulo of this number and the given one.
      *
-     * The modulo operation yields the same result as the UENGIinder operation when both operands are of the same sign,
+     * The modulo operation yields the same result as the remainder operation when both operands are of the same sign,
      * and may differ when signs are different.
      *
      * The result of the modulo operation, when non-zero, has the same sign as the divisor.

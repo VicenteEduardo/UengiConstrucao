@@ -24,10 +24,10 @@ class Timebox
 
         $result = $callback($this);
 
-        $UENGIinder = $microseconds - ((microtime(true) - $start) * 1000000);
+        $remainder = $microseconds - ((microtime(true) - $start) * 1000000);
 
-        if (! $this->earlyReturn && $UENGIinder > 0) {
-            $this->usleep($UENGIinder);
+        if (! $this->earlyReturn && $remainder > 0) {
+            $this->usleep($remainder);
         }
 
         return $result;

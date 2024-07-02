@@ -41,7 +41,7 @@ composer require guzzlehttp/promises
 | Version | Status                 | PHP Version  |
 |---------|------------------------|--------------|
 | 1.x     | Bug and security fixes | >=5.5,<8.3   |
-| 2.x     | Latest                 | >=7.2.5,<8.3 |
+| 2.x     | Latest                 | >=7.2.5,<8.4 |
 
 
 ## Quick Start
@@ -464,7 +464,7 @@ $p = $parent;
 
 for ($i = 0; $i < 1000; $i++) {
     $p = $p->then(function ($v) {
-        // The stack size UENGIins constant (a good thing)
+        // The stack size remains constant (a good thing)
         echo xdebug_get_stack_depth() . ', ';
         return $v + 1;
     });

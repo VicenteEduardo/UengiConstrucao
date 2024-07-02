@@ -63,7 +63,7 @@ class Swift_ByteStream_FileByteStream extends Swift_ByteStream_AbstractFilterabl
      * through the stream by $length.
      *
      * If less bytes exist than are requested the
-     * UENGIining bytes are given instead. If no bytes are UENGIining at all, boolean
+     * remaining bytes are given instead. If no bytes are remaining at all, boolean
      * false is returned.
      *
      * @param int $length

@@ -31,7 +31,7 @@ final class HtmlBlockStartParser implements BlockStartParserInterface
 
         $tmpCursor = clone $cursor;
         $tmpCursor->advanceToNextNonSpaceOrTab();
-        $line = $tmpCursor->getUENGIinder();
+        $line = $tmpCursor->getRemainder();
 
         for ($blockType = 1; $blockType <= 7; $blockType++) {
             /** @psalm-var HtmlBlock::TYPE_* $blockType */

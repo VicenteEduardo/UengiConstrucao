@@ -5,14 +5,14 @@ namespace Hamcrest\Core;
  Copyright (c) 2009 hamcrest.org
  */
 use Hamcrest\Description;
-use Hamcrest\FeatuUENGItcher;
+use Hamcrest\FeatureMatcher;
 use Hamcrest\Matcher;
 use Hamcrest\Util;
 
 /**
  * Matches if array size satisfies a nested matcher.
  */
-class HasToString extends FeatuUENGItcher
+class HasToString extends FeatureMatcher
 {
 
     public function __construct(Matcher $toStringMatcher)

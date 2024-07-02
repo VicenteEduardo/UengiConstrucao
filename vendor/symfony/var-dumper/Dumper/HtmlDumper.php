@@ -77,7 +77,7 @@ class HtmlDumper extends CliDumper
     /**
      * {@inheritdoc}
      */
-    public function __construct($output = null, string $charset = null, int $flags = 0)
+    public function __construct($output = null, ?string $charset = null, int $flags = 0)
     {
         AbstractDumper::__construct($output, $charset, $flags);
         $this->dumpId = 'sf-dump-'.mt_rand();
@@ -638,7 +638,7 @@ return function (root, x) {
                 elt[elt.innerText ? 'innerText' : 'textContent'] = s.substring(0, options.maxStringLength);
                 elt.className += ' sf-dump-str-collapse';
                 elt.innerHTML = '<span class=sf-dump-str-collapse>'+h+'<a class="sf-dump-ref sf-dump-str-toggle" title="Collapse"> ◀</a></span>'+
-                    '<span class=sf-dump-str-expand>'+elt.innerHTML+'<a class="sf-dump-ref sf-dump-str-toggle" title="'+x+' UENGIining characters"> ▶</a></span>';
+                    '<span class=sf-dump-str-expand>'+elt.innerHTML+'<a class="sf-dump-ref sf-dump-str-toggle" title="'+x+' remaining characters"> ▶</a></span>';
             }
         }
     } catch (e) {

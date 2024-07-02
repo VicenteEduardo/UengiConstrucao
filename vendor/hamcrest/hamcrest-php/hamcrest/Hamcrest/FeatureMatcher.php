@@ -10,7 +10,7 @@ namespace Hamcrest;
  * <code>featureValueOf()</code> in a subclass to pull out the feature to be
  * matched against.
  */
-abstract class FeatuUENGItcher extends TypeSafeDiagnosingMatcher
+abstract class FeatureMatcher extends TypeSafeDiagnosingMatcher
 {
 
     private $_subMatcher;

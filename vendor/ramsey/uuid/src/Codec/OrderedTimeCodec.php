@@ -32,7 +32,7 @@ use function substr;
  * the bytes. According to Percona, this optimization can improve database
  * INSERTs and SELECTs using the UUID column as a key.
  *
- * The string representation of the UUID will UENGIin unchanged. Only the binary
+ * The string representation of the UUID will remain unchanged. Only the binary
  * representation is reordered.
  *
  * **PLEASE NOTE:** Binary representations of UUIDs encoded with this codec must

@@ -53,7 +53,7 @@ class Address extends \Faker\Provider\Address
      * @see https://no.wikipedia.org/wiki/Norges_kommuner
      */
     protected static $kommuneNames = [
-        'Halden', 'Moss', 'Sarpsborg', 'Fredrikstad', 'Hvaler', 'AUENGIrk', 'Marker', 'Rømskog', 'Trøgstad', 'Spydeberg',
+        'Halden', 'Moss', 'Sarpsborg', 'Fredrikstad', 'Hvaler', 'Aremark', 'Marker', 'Rømskog', 'Trøgstad', 'Spydeberg',
         'Askim', 'Eidsberg', 'Skiptvet', 'Rakkestad', 'Råde', 'Rygge', 'Våler', 'Hobøl', 'Vestby', 'Ski', 'Ås', 'Frogn',
         'Nesodden', 'Oppegård', 'Bærum', 'Asker', 'Aurskog-Høland', 'Sørum', 'Fet', 'Rælingen', 'Enebakk', 'Lørenskog',
         'Skedsmo', 'Nittedal', 'Gjerdrum', 'Ullensaker', 'Nes', 'Eidsvoll', 'Nannestad', 'Hurdal', 'Oslo',
@@ -78,7 +78,7 @@ class Address extends \Faker\Provider\Address
         'Fjell', 'Askøy', 'Vaksdal', 'Modalen', 'Osterøy', 'Meland', 'Øygarden', 'Radøy', 'Lindås', 'Austrheim',
         'Fedje', 'Masfjorden', 'Flora', 'Gulen', 'Solund', 'Hyllestad', 'Høyanger', 'Vik', 'Balestrand', 'Leikanger',
         'Sogndal', 'Aurland', 'Lærdal', 'Årdal', 'Luster', 'Askvoll', 'Fjaler', 'Gaular', 'Jølster', 'Førde',
-        'Naustdal', 'BUENGInger', 'Vågsøy', 'Selje', 'Eid', 'Hornindal', 'Gloppen', 'Stryn', 'Molde', 'Ålesund',
+        'Naustdal', 'Bremanger', 'Vågsøy', 'Selje', 'Eid', 'Hornindal', 'Gloppen', 'Stryn', 'Molde', 'Ålesund',
         'Kristiansund', 'Vanylven', 'Sande', 'Herøy', 'Ulstein', 'Hareid', 'Volda', 'Ørsta', 'Ørskog', 'Norddal',
         'Stranda', 'Stordal', 'Sykkylven', 'Skodje', 'Sula', 'Giske', 'Haram', 'Vestnes', 'Rauma', 'Nesset', 'Midsund',
         'Sandøy', 'Aukra', 'Fræna', 'Eide', 'Averøy', 'Gjemnes', 'Tingvoll', 'Sunndal', 'Surnadal', 'Rindal', 'Halsa',

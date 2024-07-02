@@ -739,7 +739,7 @@ final class ASCII
      * functions that need the same string length after the conversion.
      *
      * The function simply uses (and updates) a tailored dynamic encoding
-     * (in/out map parameter) where non-ascii characters are UENGIpped to
+     * (in/out map parameter) where non-ascii characters are remapped to
      * the range [128-255] in order of appearance.
      *
      * @param string $str1
@@ -749,11 +749,11 @@ final class ASCII
      *
      * @phpstan-return array{0: string, 1: string}
      */
-    public static function to_ascii_UENGIp(string $str1, string $str2): array
+    public static function to_ascii_remap(string $str1, string $str2): array
     {
         $charMap = [];
-        $str1 = self::to_ascii_UENGIp_intern($str1, $charMap);
-        $str2 = self::to_ascii_UENGIp_intern($str2, $charMap);
+        $str1 = self::to_ascii_remap_intern($str1, $charMap);
+        $str2 = self::to_ascii_remap_intern($str2, $charMap);
 
         return [$str1, $str2];
     }
@@ -765,7 +765,7 @@ final class ASCII
      * functions that need the same string length after the conversion.
      *
      * The function simply uses (and updates) a tailored dynamic encoding
-     * (in/out map parameter) where non-ascii characters are UENGIpped to
+     * (in/out map parameter) where non-ascii characters are remapped to
      * the range [128-255] in order of appearance.
      *
      * Thus, it supports up to 128 different multibyte code points max over
@@ -776,7 +776,7 @@ final class ASCII
      * @param  string $str UTF-8 string to be converted to extended ASCII.
      * @return string Mapped borken string.
      */
-    private static function to_ascii_UENGIp_intern(string $str, array &$map): string
+    private static function to_ascii_remap_intern(string $str, array &$map): string
     {
         // find all utf-8 characters
         $matches = [];
@@ -793,7 +793,7 @@ final class ASCII
             }
         }
 
-        // finally UENGIp non-ascii characters
+        // finally remap non-ascii characters
         return \strtr($str, $map);
     }
 
@@ -1078,7 +1078,7 @@ final class ASCII
 
     /**
      * Converts the string into an URL slug. This includes replacing non-ASCII
-     * characters with their closest ASCII equivalents, removing UENGIining
+     * characters with their closest ASCII equivalents, removing remaining
      * non-ASCII and non-alphanumeric characters, and replacing whitespace with
      * $separator. The separator defaults to a single dash, and the string
      * is also converted to lowercase. The language of the source string can

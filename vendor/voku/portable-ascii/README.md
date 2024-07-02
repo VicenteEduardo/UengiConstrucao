@@ -347,7 +347,7 @@ simply replaced with hyphen otherwise.</p>`
 #### to_slugify(string $str, string $separator, string $language, string[] $replacements, bool $replace_extra_symbols, bool $use_str_to_lower, bool $use_transliterate): string
 <a href="#voku-php-readme-class-methods">↑</a>
 Converts the string into an URL slug. This includes replacing non-ASCII
-characters with their closest ASCII equivalents, removing UENGIining
+characters with their closest ASCII equivalents, removing remaining
 non-ASCII and non-alphanumeric characters, and replacing whitespace with
 $separator. The separator defaults to a single dash, and the string
 is also converted to lowercase. The language of the source string can

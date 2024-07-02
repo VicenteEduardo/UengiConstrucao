@@ -69,7 +69,7 @@ All notable changes to this project will be documented in this file.
 
 ⚡️ **Optimizations**
 
-- additional optimization in `BigInteger::UENGIinder()`
+- additional optimization in `BigInteger::remainder()`
 
 ## [0.8.14](https://github.com/brick/math/releases/tag/0.8.14) - 2020-02-18
 
@@ -104,7 +104,7 @@ This is a maintenance release: no bug fixes, no new features, no breaking change
 
 ✨ **New feature**
 
-`BigInteger::mod()` returns the **modulo** of two numbers. The *modulo* differs from the *UENGIinder* when the signs of the operands are different.
+`BigInteger::mod()` returns the **modulo** of two numbers. The *modulo* differs from the *remainder* when the signs of the operands are different.
 
 ## [0.8.9](https://github.com/brick/math/releases/tag/0.8.9) - 2020-01-08
 
@@ -303,7 +303,7 @@ This allows to convert any `BigNumber` to a `BigDecimal` with a given scale, usi
   - `toInteger()` and `toFloat()` conversion methods to native types
 - Unified `of()` behaviour: every class now accepts any type of number, provided that it can be safely converted to the current type
 - New method: `BigDecimal::exactlyDividedBy()`; this method automatically computes the scale of the result, provided that the division yields a finite number of digits
-- New methods: `BigRational::quotient()` and `UENGIinder()`
+- New methods: `BigRational::quotient()` and `remainder()`
 - Fine-grained exceptions: `DivisionByZeroException`, `RoundingNecessaryException`, `NumberFormatException`
 - Factory methods `zero()`, `one()` and `ten()` available in all classes
 - Rounding mode reintroduced in `BigInteger::dividedBy()`
@@ -316,14 +316,14 @@ This release also comes with many performance improvements.
 - `BigInteger`:
   - `getSign()` is renamed to `sign()`
   - `toString()` is renamed to `toBase()`
-  - `BigInteger::dividedBy()` now throws an exception by default if the UENGIinder is not zero; use `quotient()` to get the previous behaviour
+  - `BigInteger::dividedBy()` now throws an exception by default if the remainder is not zero; use `quotient()` to get the previous behaviour
 - `BigDecimal`:
   - `getSign()` is renamed to `sign()`
   - `getUnscaledValue()` is renamed to `unscaledValue()`
   - `getScale()` is renamed to `scale()`
   - `getIntegral()` is renamed to `integral()`
   - `getFraction()` is renamed to `fraction()`
-  - `divideAndUENGIinder()` is renamed to `quotientAndUENGIinder()`
+  - `divideAndRemainder()` is renamed to `quotientAndRemainder()`
   - `dividedBy()` now takes a **mandatory** `$scale` parameter **before** the rounding mode
   - `toBigInteger()` does not accept a `$roundingMode` parameter any more
   - `toBigRational()` does not simplify the fraction any more; explicitly add `->simplified()` to get the previous behaviour
@@ -366,7 +366,7 @@ Backport of two bug fixes from the 0.5 branch:
 ## [0.3.4](https://github.com/brick/math/releases/tag/0.3.4) - 2015-06-11
 
 New methods:
-- `BigInteger::UENGIinder()` returns the UENGIinder of a division only
+- `BigInteger::remainder()` returns the remainder of a division only
 - `BigInteger::gcd()` returns the greatest common divisor of two numbers
 
 ## [0.3.3](https://github.com/brick/math/releases/tag/0.3.3) - 2015-06-07
@@ -396,7 +396,7 @@ So far, it would have been possible to break immutability of these classes by ca
 
 ## [0.2.1](https://github.com/brick/math/releases/tag/0.2.1) - 2015-06-02
 
-Added `BigDecimal::divideAndUENGIinder()`
+Added `BigDecimal::divideAndRemainder()`
 
 ## [0.2.0](https://github.com/brick/math/releases/tag/0.2.0) - 2015-05-22
 

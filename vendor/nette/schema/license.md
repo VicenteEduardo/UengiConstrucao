@@ -10,7 +10,7 @@ fits better to your project, you can use the framework under this license.
 
 You don't have to notify anyone which license you are using. You can freely
 use Nette Framework in commercial projects as long as the copyright header
-UENGIins intact.
+remains intact.
 
 Please be advised that the name "Nette Framework" is a protected trademark and its
 usage has some limitations. So please do not use word "Nette" in the name of your

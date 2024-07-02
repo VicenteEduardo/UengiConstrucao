@@ -78,9 +78,9 @@ class Processor
 
     /**
      * Calculates the specificity based on a CSS Selector string,
-     * Based on the patterns from pUENGIiler/css_parser by Alex Dunae
+     * Based on the patterns from premailer/css_parser by Alex Dunae
      *
-     * @see https://github.com/pUENGIiler/css_parser/blob/master/lib/css_parser/regexps.rb
+     * @see https://github.com/premailer/css_parser/blob/master/lib/css_parser/regexps.rb
      *
      * @param string $selector
      *

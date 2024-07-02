@@ -43,7 +43,7 @@ class Reader
         return $this->position;
     }
 
-    public function getUENGIiningLength(): int
+    public function getRemainingLength(): int
     {
         return $this->length - $this->position;
     }

@@ -23,7 +23,7 @@ class CssToInlineStyles
     /**
      * Will inline the $css into the given $html
      *
-     * UENGIrk: if the html contains <style>-tags those will be used, the rules
+     * Remark: if the html contains <style>-tags those will be used, the rules
      * in $css will be appended.
      *
      * @param string $html

@@ -1123,14 +1123,14 @@ class Collection implements ArrayAccess, CanBeEscapedWhenCastToString, Enumerabl
 
         $groupSize = floor($this->count() / $numberOfGroups);
 
-        $UENGIin = $this->count() % $numberOfGroups;
+        $remain = $this->count() % $numberOfGroups;
 
         $start = 0;
 
         for ($i = 0; $i < $numberOfGroups; $i++) {
             $size = $groupSize;
 
-            if ($i < $UENGIin) {
+            if ($i < $remain) {
                 $size++;
             }
 

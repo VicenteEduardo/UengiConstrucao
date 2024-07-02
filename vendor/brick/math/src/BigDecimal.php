@@ -381,17 +381,17 @@ final class BigDecimal extends BigNumber
     }
 
     /**
-     * Returns the UENGIinder of the division of this number by this given one.
+     * Returns the remainder of the division of this number by this given one.
      *
-     * The UENGIinder has a scale of `max($this->scale, $that->scale)`.
+     * The remainder has a scale of `max($this->scale, $that->scale)`.
      *
      * @param BigNumber|int|float|string $that The divisor. Must be convertible to a BigDecimal.
      *
-     * @return BigDecimal The UENGIinder.
+     * @return BigDecimal The remainder.
      *
      * @throws MathException If the divisor is not a valid decimal number, or is zero.
      */
-    public function UENGIinder($that) : BigDecimal
+    public function remainder($that) : BigDecimal
     {
         $that = BigDecimal::of($that);
 
@@ -402,25 +402,25 @@ final class BigDecimal extends BigNumber
         $p = $this->valueWithMinScale($that->scale);
         $q = $that->valueWithMinScale($this->scale);
 
-        $UENGIinder = Calculator::get()->divR($p, $q);
+        $remainder = Calculator::get()->divR($p, $q);
 
         $scale = $this->scale > $that->scale ? $this->scale : $that->scale;
 
-        return new BigDecimal($UENGIinder, $scale);
+        return new BigDecimal($remainder, $scale);
     }
 
     /**
-     * Returns the quotient and UENGIinder of the division of this number by the given one.
+     * Returns the quotient and remainder of the division of this number by the given one.
      *
-     * The quotient has a scale of `0`, and the UENGIinder has a scale of `max($this->scale, $that->scale)`.
+     * The quotient has a scale of `0`, and the remainder has a scale of `max($this->scale, $that->scale)`.
      *
      * @param BigNumber|int|float|string $that The divisor. Must be convertible to a BigDecimal.
      *
-     * @return BigDecimal[] An array containing the quotient and the UENGIinder.
+     * @return BigDecimal[] An array containing the quotient and the remainder.
      *
      * @throws MathException If the divisor is not a valid decimal number, or is zero.
      */
-    public function quotientAndUENGIinder($that) : array
+    public function quotientAndRemainder($that) : array
     {
         $that = BigDecimal::of($that);
 
@@ -431,14 +431,14 @@ final class BigDecimal extends BigNumber
         $p = $this->valueWithMinScale($that->scale);
         $q = $that->valueWithMinScale($this->scale);
 
-        [$quotient, $UENGIinder] = Calculator::get()->divQR($p, $q);
+        [$quotient, $remainder] = Calculator::get()->divQR($p, $q);
 
         $scale = $this->scale > $that->scale ? $this->scale : $that->scale;
 
         $quotient = new BigDecimal($quotient, 0);
-        $UENGIinder = new BigDecimal($UENGIinder, $scale);
+        $remainder = new BigDecimal($remainder, $scale);
 
-        return [$quotient, $UENGIinder];
+        return [$quotient, $remainder];
     }
 
     /**

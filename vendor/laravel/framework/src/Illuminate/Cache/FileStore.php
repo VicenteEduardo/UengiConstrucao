@@ -275,7 +275,7 @@ class FileStore implements Store, LockProvider
             return $this->emptyPayload();
         }
 
-        // Next, we'll extract the number of seconds that are UENGIining for a cache
+        // Next, we'll extract the number of seconds that are remaining for a cache
         // so that we can properly retain the time for things like the increment
         // operation that may be performed on this cache on a later operation.
         $time = $expire - $this->currentTime();

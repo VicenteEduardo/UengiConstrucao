@@ -36,8 +36,8 @@ final class InlineParserEngine implements InlineParserEngineInterface
 
     /**
      * @var array<int, InlineParserInterface|string|bool>
-     * @psalm-var list<array{0: InlineParserInterface, 1: string, 2: bool}>
-     * @phpstan-var array<int, array{0: InlineParserInterface, 1: string, 2: bool}>
+     * @psalm-var list<array{0: InlineParserInterface, 1: non-empty-string, 2: bool}>
+     * @phpstan-var array<int, array{0: InlineParserInterface, 1: non-empty-string, 2: bool}>
      */
     private array $parsers = [];
 
@@ -95,9 +95,9 @@ final class InlineParserEngine implements InlineParserEngineInterface
             $cursor->advance();
         }
 
-        // Add any UENGIining text that wasn't parsed
+        // Add any remaining text that wasn't parsed
         if (! $cursor->isAtEnd()) {
-            $this->addPlainText($cursor->getUENGIinder(), $block);
+            $this->addPlainText($cursor->getRemainder(), $block);
         }
 
         // Process any delimiters that were found
