@@ -17,7 +17,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="/site/images/favicon.png" />
     
     <!-- PAGE TITLE HERE -->
-    <title>Contruction-New</title>
+    <title>Uengi-@yield('titulo')</title>
     
     <!-- MOBILE SPECIFIC -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,7 @@
 	<![endif] -->
     
     <link rel="stylesheet" type="text/css" href="/site/css/bootstrap.min.css"><!-- BOOTSTRAP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="/site/css/fontawesome/css/font-awesome.min.css" /><!-- FONTAWESOME STYLE SHEET -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="/site/css/flaticon.min.css"><!-- FLATICON STYLE SHEET -->
     <link rel="stylesheet" type="text/css" href="/site/css/animate.min.css"><!-- ANIMATE STYLE SHEET --> 
 	<link rel="stylesheet" type="text/css" href="/site/css/owl.carousel.min.css"><!-- OWL CAROUSEL STYLE SHEET -->

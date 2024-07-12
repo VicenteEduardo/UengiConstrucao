@@ -1,5 +1,5 @@
 @extends('layouts.merge.site')
-@section('titulo', 'Oficial')
+@section('titulo', 'Galerias')
 @section('content')
 
 <div class="page-content">

@@ -278,11 +278,7 @@
                                 font-weight: 500; 
                                 color: rgba(255, 255, 255, 0.85);
                                 border-width:0px;">
-                                        <span style="font-family:'Roboto';">Lorem Ipsum is simply dummy text of the
-                                            printing
-                                            and typesetting industry.
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the when an
-                                            unknown printer.</span>
+                                   
                                     </div>
 
                                     <!-- LAYER NR. 4 [ for readmore botton ] -->
@@ -647,7 +643,7 @@
                             <div class="icon-content">
                                 <div class="font-26 font-weight-800 text-black m-b5"><span
                                         class="counter">1000</span><b>+</b></div>
-                                <span class="text-uppercase">Happy Clients</span>
+                                <span class="text-uppercase">PROJECTOS FINALIZADOS</span>
                             </div>
                         </div>
                     </div>
@@ -660,7 +656,7 @@
                             <div class="icon-content">
                                 <div class="font-26 font-weight-800 text-black m-b5"><span
                                         class="counter">1500</span><b>+</b></div>
-                                <span>HAPPY CLIENTS</span>
+                                <span>CLIENTES FELIZES</span>
                             </div>
                         </div>
                     </div>
@@ -672,7 +668,7 @@
                             </span>
                             <div class="icon-content">
                                 <div class="counter font-26 font-weight-800 text-black m-b5">4500</div>
-                                <span>WORKERS EMPLOYED</span>
+                                <span>TRABALHADORES EMPREGADOS</span>
                             </div>
                         </div>
                     </div>
@@ -684,7 +680,7 @@
                             </span>
                             <div class="icon-content">
                                 <div class="counter font-26 font-weight-800 text-black m-b5">260</div>
-                                <span>AWARDS WON</span>
+                                <span>PRÊMIOS GANHOS</span>
                             </div>
                         </div>
                     </div>

@@ -14,7 +14,7 @@
                 <div class="col-lg-4 col-md-4">
                     <div class="call-to-action-right p-tb30">
                         <a href="{{ route('site.contact') }}" class="site-button skew-icon-btn text-uppercase"  style="font-weight:600;">
-                            Contact us <i class="fa fa-angle-double-right"></i>
+                            Contate-nos <i class="fa fa-angle-double-right"></i>
                         </a>
                     </div>
                 </div>
@@ -31,12 +31,9 @@
                     <div class="widget widget_about">
                         <h4 class="widget-title">Sobre companhia</h4>
                         <div class="logo-footer clearfix p-b15">
-                            <a href="{{ route('site.home') }}"><img src="/site/images/logo.png" width="230" height="67" alt=""/></a>
+                            <a href="{{ route('site.home') }}"><img src="/site/LOGOAtivo16.png" width="230" height="67" alt=""/></a>
                         </div>
-                        <p>construct ipsum dolor sit consectetuer adipiscing elit,
-                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore agna aliquam erat .   
-                            wisi enim ad minim veniam, quis tation. sit amet, consec tetuer.
-                            ipsum dolor sit amet, consectetuer adipiscing. ipsum dolor sit .
+                        <p>A Uengi é uma empresa especializada em transformar visões em realidade através da construção. Nosso compromisso com a excelência e qualidade nos diferencia, oferecendo soluções personalizadas para projetos residenciais, comerciais e industriais.
                         </p>  
                     </div>
                 </div> 
@@ -104,12 +101,12 @@
                     <div class="widget widget_services">
                         <h4 class="widget-title">LINKS ÚTEIS</h4>
                         <ul>
-                            <li><a href="about-1.html">About</a></li>
-                            <li><a href="faq-1.html">FAQ</a></li>
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="our-team.html">Our Team</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="gallery-grid-1.html">Gallery</a></li>
+                            <li><a href="{{ route('site.home') }}">Home</a></li>
+                            <li><a href="{{ route('site.services') }}">Serviços</a></li>
+                            <li><a href="{{ route('site.gallery') }}">Galerias</a></li>
+                            <li><a href="{{ route('site.news') }}">Notícias</a></li>
+                            <li><a href="{{ route('site.services') }}">Services</a></li>
+                            <li><a href="{{ route('site.about') }}">Sobre</a></li>
                         </ul>
                     </div>
                 </div>
@@ -161,24 +158,13 @@
                             <span class="flaticon-smartphone"></span>
                         </div>
                         <div class="icon-content">
-                            <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                            <p class="m-b0">+41 555 888 9585</p>
-                            <p>+41 555 888 9585</p>
+                            <h5 class="wt-tilte text-uppercase m-b0">Telefone</h5>
+                            <p class="m-b0">+244 945 4552 4525</p>
+                            <p>+244 945 4552 4525</p>
                         </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-6 p-tb20">
-                   <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                        <div class="icon-md site-text-primary">
-                            <span class="flaticon-fax"></span>
-                        </div>
-                        <div class="icon-content">
-                            <h5 class="wt-tilte text-uppercase m-b0">Fax</h5>
-                            <p class="m-b0">FAX: +244 946359245</p>
-                            <p>FAX: +244 94625565</p>
-                        </div>
-                    </div>
-                </div>
+             
                <div class="col-lg-3 col-md-6 col-sm-6 p-tb20">
                    <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
                         <div class="icon-md site-text-primary">
@@ -203,8 +189,8 @@
             <div class="cpr-ftr-section">
                 <div class="wt-footer-bot-left">
                     <span class="copyrights-text">© @php
-                        echo date('y')
-                    @endphp UENGI.Todos os direitos reservados. Projetado por VRLIDENTIDADE.</span>
+                        echo date('Y')
+                    @endphp UENGI.Todos os direitos reservados. Projetado por <a target="_blank" href="https://vrlidentidade.ao/">VRLIDENTIDADE.</a> </span>
                 </div>
                 <div class="wt-footer-bot-right">
                     <ul class="copyrights-nav pull-right"> 

@@ -32,27 +32,23 @@
                     <div class="container">
                         <div class="logo-header">
                             <a href="{{ route('site.home') }}">
-                                UENGI
-                                <img src="" width="230" height="67" alt="" />
+                              
+                                <img src="/site/logo.png" width="140" height="60" alt="" />
                             </a>
                         </div>
                         <!-- NAV TOGGLE BUTTON -->
-                        <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button"
-                            class="navbar-toggler collapsed">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar icon-bar-first"></span>
-                            <span class="icon-bar icon-bar-two"></span>
-                            <span class="icon-bar icon-bar-three"></span>
+                        <button id="mobile-side-drawer" data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggler collapsed">
+                            
+                           
+                            <span  class="fa fa-bars"> </span>
+                          
                         </button>
-                        <!-- MAIN NAV -->
+                     
                         <div class="header-nav navbar-collapse collapse ">
                             <ul class=" nav navbar-nav">
                                 <li class="active">
                                     <a href="{{ route('site.home') }}">Home<i class="fa fa-chevron-down"></i></a>
-
                                 </li>
-
-
                                 <li>
                                     <a href="{{ route('site.services') }}">Serviços</a>
 
@@ -67,7 +63,7 @@
 
                                 </li>
                                 <li class="submenu-direction">
-                                    <a href="{{ route('site.news') }}">Noticias<i class="fa fa-chevron-down"></i></a>
+                                    <a href="{{ route('site.news') }}">Noticias</a>
 
                                 </li>
                                 <li>
@@ -82,17 +78,7 @@
 
                     </div>
                     <!-- SITE Search -->
-                    <div class="site-search">
-                        <form action="#">
-                            <div class="input-group">
-                                <input name="site-search" type="text" class="form-control"
-                                    placeholder="Type to search">
-                                <span class="input-group-btn">
-                                    <button type="button" class="site-button"><i class="fa fa-search"></i></button>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
+                   
                 </div>
             </div>
 

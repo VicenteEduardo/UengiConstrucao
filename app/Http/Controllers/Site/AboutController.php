@@ -16,9 +16,7 @@ class AboutController extends Controller
      */
     public function index()
     {
-        $response['services'] = Service::orderBy('id', 'desc')->paginate(3);
-        $response['agentes'] = Agente::get();
-        $response['agentesCount'] = Agente::count();
-        return view('site.about.index',$response);
+       
+        return view('site.about.index');
     }
 }
