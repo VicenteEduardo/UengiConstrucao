@@ -5,7 +5,7 @@
 <div class="page-content">
         
     <!-- INNER PAGE BANNER -->
-    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/blog-banner.jpg);">
+    <div class="wt-bnr-inr overlay-wraper" style="background-image:url(/site/images/banner/blog-banner.jpg);">
         <div class="overlay-main bg-black" style="opacity:0.5;"></div>
         <div class="container">
             <div class="wt-bnr-inr-entry">
@@ -20,7 +20,7 @@
         <div class="container">
             <ul class="wt-breadcrumb breadcrumb-style-1">
                 <li><a href="{{ route('site.home') }}">Home</a></li>
-                <li>Blog grid 2 with sidebar</li>
+                <li>Notícia</li>
             </ul>
         </div>
     </div>
@@ -37,185 +37,38 @@
                     <!-- BLOG GRID START -->
                     <div class="portfolio-wrap wt-blog-grid-2 row">
                     
-                        <!-- COLUMNS 1 --> 
+                        @foreach ($news as $item)
                         <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="blog-post blog-grid date-style-3 date-skew">
                                 <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic1.jpg" alt=""></a>
-                                </div>
-                                <div class="wt-post-info p-a30 p-b15  bg-white bdr-1 bdr-gray">
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
-                                    </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
-                                    <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 2 --> 
-                        <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic2.jpg" alt=""></a>
-                                </div>
-                                <div class="wt-post-info p-a30 p-b15  bg-white bdr-1 bdr-gray">
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
-                                    </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
-                                    <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 3 --> 
-                        <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic3.jpg" alt=""></a>
-                                </div>
-                                <div class="wt-post-info p-a30 p-b15  bg-white bdr-1 bdr-gray">
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
-                                    </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
-                                    <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 4 --> 
-                        <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic4.jpg" alt=""></a>
-                                </div>
-                                <div class="wt-post-info p-a30 p-b15  bg-white bdr-1 bdr-gray">
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
-                                    </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
-                                    <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 5 --> 
-                        <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic5.jpg" alt=""></a>
-                                </div>
-                                <div class="wt-post-info p-a30 p-b15  bg-white bdr-1 bdr-gray">
-                                    <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
-                                    </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
-                                    <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- COLUMNS 6 --> 
-                        <div class="post masonry-item col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <div class="blog-post blog-grid date-style-3 date-skew">
-                                <div class="wt-post-media wt-img-effect zoom-slow">
-                                    <a href="blog-single.html"><img src="images/blog/grid/pic6.jpg" alt=""></a>
+                                    <a href="{!! url('/noticia/' . urlencode($item->title)) !!}"><img src="/storage/{{ $item->path }}" alt=""></a>
                                 </div>
                                 <div class="wt-post-info p-a30 p-b15 bg-white bdr-1 bdr-gray">
                                     <div class="wt-post-title ">
-                                        <h3 class="post-title"><a href="blog-single.html">Post Title</a></h3>
+                                        <h3 class="post-title"><a href="{!! url('/noticia/' . urlencode($item->title)) !!}">{!! mb_substr($item->title, 0, 48, 'UTF-8') !!}</a></h3>
                                     </div>
-                                    <div class="wt-post-meta ">
-                                        <ul>
-                                        <li class="post-date"> <i class="fa fa-calendar"></i><strong>10 Jun</strong> <span> 2023</span> </li>
-                                        <li class="post-author"><i class="fa fa-user"></i><a href="blog-single.html">By <span>Devid</span></a> </li>
-                                        <li class="post-comment"><i class="fa fa-comments"></i> <a href="blog-single.html">17  Comments</a> </li>
-                                        </ul>
-                                    </div>
-                                    <div class="wt-post-text">
-                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over.</p> 
-                                    </div>
+                                  
+                                  
                                     <div class="wt-post-readmore">
-                                            <a href="blog-single.html" title="READ MORE" rel="bookmark" class="site-button">READ MORE</a>
+                                            <a href="{!! url('/noticia/' . urlencode($item->title)) !!}" title="READ MORE" rel="bookmark" class="site-button">Consulte Mais Informação</a>
                                     </div>
 
                                 </div>
                             </div>
                         </div>
-                        
+                        @endforeach
                     </div>
                     <!-- BLOG GRID END -->
-                    
-                    <!-- PAGINATION START -->
-                    <div class="pagination-bx col-lg-12 clearfix ">                                
-                        <ul class = "custom-pagination pagination-1">
-                            <li><a href = "#">&laquo;</a></li>
-                            <li class = "active"><a href = "#">1</a></li>
-                            <li><a href = "#">2</a></li>
-                            <li><a href = "#">3</a></li>
-                            <li><a href = "#">4</a></li>
-                            <li><a href = "#">5</a></li>
-                            <li><a href = "#">&raquo;</a></li>
-                        </ul>                                
+                    <div class="pagination-bx col-lg-12 clearfix">
+                        <div class="col-12">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-4 py-5">
+                                    <b>{{ $news->links() }}</b>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- PAGINATION END -->
+                   
                     
                 </div>
                 <!-- RIGHT PART END -->
@@ -229,65 +82,33 @@
 
                             <!-- 2. RECENT POSTS -->
                             <div class="widget bg-white  recent-posts-entry">
-                            <h4 class="widget-title">Posts</h4>
+                            <h4 class="widget-title">Postagens</h4>
                             <div class="section-content">
                                 <div class="wt-tabs tabs-default border">
                                     <ul class="nav nav-tabs">
-                                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#web-design-1">Recent</a></li>
+                                        <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#web-design-1">Recente</a></li>
                                         <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#graphic-design-1">Popular</a></li>
                                     </ul>
                                     <div class="tab-content">
                                     
                                         <div id="web-design-1" class="tab-pane active ">
                                             <div class="widget-post-bx">
+                                                @foreach ($lasted as $item)
                                                 <div class="widget-post clearfix bg-gray">
                                                     <div class="wt-post-media">
-                                                        <img src="images/blog/recent-blog/pic1.jpg"  alt="" class="radius-bx">
+                                                        <img src="/storage/{{ $item->path }}"  alt="" class="radius-bx">
                                                     </div>
                                                     <div class="wt-post-info">
                                                         <div class="wt-post-header">
-                                                            <h6 class="post-title">Lorem ipsum dolor sit </h6>
+                                                            <a href="{!! url('/noticia/' . urlencode($item->title)) !!}"> <h6 class="post-title">{!! mb_substr($item->title, 0, 48, 'UTF-8') !!} </h6></a>
+                                                           
                                                         </div>
-                                                        <div class="wt-post-meta">
-                                                            <ul>
-                                                                <li class="post-author">25 Dec</li>
-                                                                <li class="post-comment"><i class="fa fa-comments"></i> 20 comment</li>
-                                                            </ul>
-                                                        </div>
+
+                                                       
                                                     </div>
                                                 </div>
-                                                <div class="widget-post clearfix bg-gray">
-                                                    <div class="wt-post-media">
-                                                        <img src="images/blog/recent-blog/pic2.jpg" alt=""  class="radius-bx">
-                                                    </div>
-                                                    <div class="wt-post-info">
-                                                        <div class="wt-post-header">
-                                                            <h6 class="post-title">Debitis nihil placeat, illum</h6>
-                                                        </div>
-                                                        <div class="wt-post-meta">
-                                                            <ul>
-                                                                <li class="post-author">25 Dec</li>
-                                                                <li class="post-comment"><i class="fa fa-comments"></i> 15 comment</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="widget-post clearfix bg-gray">
-                                                    <div class="wt-post-media">
-                                                        <img src="images/blog/recent-blog/pic3.jpg" alt=""  class="radius-bx">
-                                                    </div>
-                                                    <div class="wt-post-info">
-                                                        <div class="wt-post-header">
-                                                            <h6 class="post-title">Elit Assumenda vel amet </h6>
-                                                        </div>
-                                                        <div class="wt-post-meta">
-                                                            <ul>
-                                                                <li class="post-author">25 Dec</li>
-                                                                <li class="post-comment"><i class="fa fa-comments"></i> 07 comment</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                @endforeach
+                                              
                                             </div>
                                         </div>
                                         
@@ -350,7 +171,7 @@
                         </div>
                         <!-- 4. OUR GALLERY  -->
                         <div class="widget widget_gallery mfp-gallery">
-                            <h4 class="widget-title">Our Gallery</h4>
+                            <h4 class="widget-title">Nossa Galeria</h4>
                             <ul>
                                 <li>
                                     <div class="wt-post-thum">
@@ -426,52 +247,8 @@
                             </ul>
                             
                         </div> 
-                        <!-- 7. OUR CLIENT -->
-                        <div class="widget">
-                            <h4 class="widget-title">Our Client</h4>
-                            <div class="owl-carousel widget-client p-t10">
-                            
-                                <!-- COLUMNS 1 --> 
-                                <div class="item">
-                                    <div class="ow-client-logo">
-                                        <div class="client-logo wt-img-effect on-color">
-                                            <a href="about-1.html"><img src="images/client-logo/logo1.png" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 2 --> 
-                                <div class="item">
-                                    <div class="ow-client-logo">
-                                        <div class="client-logo wt-img-effect on-color">
-                                            <a href="about-1.html"><img src="images/client-logo/logo2.png" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- COLUMNS 3 --> 
-                                <div class="item">
-                                    <div class="ow-client-logo">
-                                        <div class="client-logo wt-img-effect on-color">
-                                            <a href="about-1.html"><img src="images/client-logo/logo3.png" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-                
-                            </div>
-                        </div>                                 
-                        <!-- 13. SEARCH -->
-                        <div class="widget bg-white ">
-                            <h4 class="widget-title">Search</h4>
-                            <div class="search-bx">
-                                <form role="search" method="post">
-                                    <div class="input-group">
-                                        <input name="news-letter" type="text" class="form-control" placeholder="Write your text">
-                                        <span class="input-group-btn">
-                                            <button type="submit" class="site-button"><i class="fa fa-search"></i></button>
-                                        </span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>                                
+                                                     
+                                                       
                             <!-- 6. NEWSLETTER -->
                         <div class="widget widget_newsletter-2 bg-white  ">
                             <h4 class="widget-title">Newsletter</h4>
@@ -481,7 +258,7 @@
                                 </div>
                                 
                                 <div class="newsletter-content">
-                                    <i>Enter your e-mail and subscribe to our newsletter. Sit amet of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis</i>
+                                    <i>Digite seu e-mail e assine nossa newsletter.</i>
                                     </div>
                                     <div class="m-t20">
                                     <form role="search" method="post">
@@ -495,24 +272,7 @@
                                 </div>
                             </div>
                         </div>                                                                    
-                        <!-- 12. TAGS -->
-                        <div class="widget bg-white  widget_tag_cloud">
-                            <h4 class="widget-title">Tags</h4>
-                            <div class="tagcloud">
-                                <a href="about-1.html">Trouble </a>
-                                <a href="about-1.html">Programmers</a>
-                                <a href="about-1.html">Never</a>
-                                <a href="about-1.html">Tell</a>
-                                <a href="about-1.html">Doing</a>
-                                <a href="about-1.html">Person</a>
-                                <a href="about-1.html">Inventors Tag</a>
-                                <a href="about-1.html">Between </a>
-                                <a href="about-1.html">Abilities</a>
-                                <a href="about-1.html">Fault </a>
-                                <a href="about-1.html">Gets </a>
-                                <a href="about-1.html">Macho</a>
-                            </div>
-                        </div> 
+                     
                     </aside>
 
                 </div>

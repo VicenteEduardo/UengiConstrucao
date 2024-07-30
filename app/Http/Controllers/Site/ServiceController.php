@@ -17,8 +17,9 @@ class ServiceController extends Controller
     public function index()
     {
         //
-       
-        return view('site.services.all.index');
+        $response['services'] = Service::paginate(12);
+        $response['lasted'] = Service::paginate(6);
+        return view('site.services.all.index',$response);
     }
 
 
