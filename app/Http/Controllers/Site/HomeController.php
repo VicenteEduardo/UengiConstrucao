@@ -23,7 +23,11 @@ class HomeController extends Controller
     public function index()
     {
 
-      
-        return view('site.home.index',);
+         $response['services'] = Service::paginate(12);
+         $response['agentes'] = Agente::get();
+         $response['news'] = News::where([['state', 'Autorizada']])->orderBy('id', 'desc')->limit(3)->get();
+     
+         $response['post'] = News::where([['state', 'Autorizada']])->orderBy('id', 'asc')->limit(2)->get();
+         return view('site.home.index',$response);
     }
 }

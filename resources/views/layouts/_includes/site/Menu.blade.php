@@ -10,16 +10,17 @@
                     <div class="row">
                         <div class="wt-topbar-right clearfix">
                             <ul class="social-bx list-inline pull-right">
-                                <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                                <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                                <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                                <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
+                            
+
+
+                                <li><a target="_blank" href="{{ $configuration->facebook }}" class="fa fa-facebook"></a></li>
+                                <li><a target="_blank" href="{{ $configuration->twitter }}" class="fa fa-twitter"></a></li>
+                              
+                                <li><a  target="_blank" href="{{ $configuration->instagram }}" class="fa fa-instagram"></a></li>
                             </ul>
                             <ul class="list-unstyled e-p-bx pull-right">
-                                <li><i class="fa fa-envelope"></i>geral@UENGI.aom</li>
-                                <li><i class="fa fa-phone"></i>+244 999 999 999</li>
+                                <li><i class="fa fa-envelope"></i>{{ $configuration->email }}</li>
+                                <li><i class="fa fa-phone"></i>+244 {{ $configuration->telefone }}</li>
                             </ul>
 
                         </div>

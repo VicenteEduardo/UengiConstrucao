@@ -51,16 +51,25 @@
                                 </div>
                             </div>
 
-                            <form class="cons-contact-form" method="post" action="form-handler.php">
-
+                            <form class="cons-contact-form" method="post" action="{{ route('site.help.email') }}" action="form-handler.php">
+                                @csrf
+                                @if ($errors->any())
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            @endif
                                 <div class="row">
 
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                                <input name="username" type="text" required class="form-control"
-                                                    placeholder="Name">
+                                                <input  name="name" placeholder="Nome" type="text" required class="form-control"
+                                                 >
                                             </div>
                                         </div>
                                     </div>
@@ -69,25 +78,43 @@
                                         <div class="form-group">
                                             <div class="input-group">
                                                 <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                                <input name="email" type="text" class="form-control" required
+                                                <input name="email" placeholder="E-mail" class="form-control" required
                                                     placeholder="Email">
                                             </div>
                                         </div>
 
                                     </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                                <input name="phone_number" placeholder="Telefone" class="form-control" required
+                                                    >
+                                            </div>
+                                        </div>
 
+                                    </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
                                             <div class="input-group">
                                                 <span class="input-group-addon v-align-m"><i
                                                         class="fa fa-pencil"></i></span>
-                                                <textarea name="message" rows="4" class="form-control " required placeholder="Message"></textarea>
+                                                <textarea name="subject" rows="4" class="form-control " required placeholder="Message"></textarea>
                                             </div>
                                         </div>
                                     </div>
-
+                                    <div class="form-group{{ $errors->has('g-recaptcha-response') ? ' has-error' : '' }}">
+                                        <div class="col-md-12">
+                                            {!! RecaptchaV3::field('register') !!}
+                                            @if ($errors->has('g-recaptcha-response'))
+                                                <span class="help-block">
+                                                    <strong>{{ $errors->first('g-recaptcha-response') }}</strong>
+                                                </span>
+                                            @endif
+                                        </div>
+                                    </div>
                                     <div class="col-md-12 text-right">
-                                        <button name="submit" type="submit" value="Submit"
+                                        <button name="submit" type="submit" 
                                             class="site-button skew-icon-btn m-r15">Enviar <i
                                                 class="fa fa-angle-double-right"></i></button>
                                         <button name="Resat" type="reset" value="Reset"
@@ -123,7 +150,7 @@
                                                 class="icon-cell text-white"><i class="fa fa-phone"></i></span></div>
                                         <div class="icon-content">
                                             <h5>Telefone</h5>
-                                            <p>+91 564 548 4854</p>
+                                            <p>{{ $configuration->telefone }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -133,7 +160,7 @@
                                                 class="icon-cell text-white"><i class="fa fa-envelope"></i></span></div>
                                         <div class="icon-content">
                                             <h6>Email</h6>
-                                            <p>demo@gmail.com</p>
+                                            <p>{{ $configuration->email }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -143,7 +170,7 @@
                                                 class="icon-cell text-white"><i class="fa fa-map-marker"></i></span></div>
                                         <div class="icon-content">
                                             <h5>Endereço</h5>
-                                            <p>Luanda/Angola</p>
+                                            <p>{{ $configuration->adress }}</p>
                                         </div>
                                     </div>
                                 </div>

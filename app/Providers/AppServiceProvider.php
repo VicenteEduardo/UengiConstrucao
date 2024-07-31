@@ -6,6 +6,7 @@ use App\Models\Configuration;
 use App\Models\Copartner;
 use App\Models\Election;
 use App\Models\MediaLibraries;
+use App\Models\News;
 use App\Models\Service;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Schema;
@@ -34,7 +35,12 @@ class AppServiceProvider extends ServiceProvider
 
         Paginator::useBootstrap();
 
-
+        $response['configuration'] = Configuration::first();
+        /**lista de serviços */
+        $response['NewsP'] = News::where([['state', 'Autorizada']])->orderBy('id', 'desc')->paginate(4);
+        /**lista de parceiros */
+        $response['copartners'] = Copartner::get();
+        view()->share($response);
 
     }
 }

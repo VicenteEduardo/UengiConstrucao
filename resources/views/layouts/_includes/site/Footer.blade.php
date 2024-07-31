@@ -42,57 +42,23 @@
                     <div class="widget recent-posts-entry-date">
                         <h4 class="widget-title">Postagem recente</h4>
                         <div class="widget-post-bx">
+                          
+                          @foreach ($NewsP as $item )
+                              
+                       
                             <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
                                 <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                    <strong>20</strong>
-                                    <span>Mar</span>
+                                    <strong> {{ date('d', strtotime($item->date)) }}</strong>
+                                    <span> {{ date('m', strtotime($item->date)) }}</span>
                                 </div>
                                 <div class="wt-post-info">
                                     <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Título do blog primeiro</a></h6>
+                                        <h6 class="post-title"><a href="{!! url('/noticia/' . urlencode($item->title)) !!}">{!! mb_substr($item->title, 0, 48, 'UTF-8') !!} </a></h6>
                                     </div>
-                                    <div class="wt-post-meta">
-                                        <ul>
-                                            <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> 28</li>
-                                        </ul>
-                                    </div>
+                                 
                                 </div>
                             </div>
-                            <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                    <strong>30</strong>
-                                    <span>Mar</span>
-                                </div>
-                                <div class="wt-post-info">
-                                    <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                    </div>
-                                    <div class="wt-post-meta">
-                                        <ul>
-                                            <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> 29</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="bdr-light-blue widget-post clearfix  bdr-b-1 m-b10 p-b10">
-                                <div class="wt-post-date text-center text-uppercase text-white p-t5">
-                                    <strong>31</strong>
-                                    <span>Mar</span>
-                                </div>
-                                <div class="wt-post-info">
-                                    <div class="wt-post-header">
-                                        <h6 class="post-title"><a href="blog-single.html">Blog title first </a></h6>
-                                    </div>
-                                    <div class="wt-post-meta">
-                                        <ul>
-                                            <li class="post-author"><i class="fa fa-user"></i>By Admin</li>
-                                            <li class="post-comment"><i class="fa fa-comments"></i> 30</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                            @endforeach
                         </div>
                     </div>
                 </div>      
@@ -105,7 +71,6 @@
                             <li><a href="{{ route('site.services') }}">Serviços</a></li>
                             <li><a href="{{ route('site.gallery') }}">Galerias</a></li>
                             <li><a href="{{ route('site.news') }}">Notícias</a></li>
-                            <li><a href="{{ route('site.services') }}">Services</a></li>
                             <li><a href="{{ route('site.about') }}">Sobre</a></li>
                         </ul>
                     </div>
@@ -117,7 +82,7 @@
                         <div class="newsletter-bx">
                             <form role="search" method="post">
                                 <div class="input-group">
-                                <input name="news-letter" class="form-control" placeholder="ENTER YOUR EMAIL" type="text">
+                                <input name="news-letter" class="form-control" placeholder="DIGITE SEU E-MAIL" type="text">
                                 <span class="input-group-btn">
                                     <button type="submit" class="site-button"><i class="fa fa-paper-plane-o"></i></button>
                                 </span>
@@ -129,26 +94,24 @@
                     <div class="widget widget_social_inks">
                         <h4 class="widget-title">Social Links</h4>
                         <ul class="social-icons social-square social-darkest">
-                            <li><a href="javascript:void(0);" class="fa fa-facebook"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-twitter"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-rss"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                            <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
+                            <li><a target="_blank" href="{{ $configuration->facebook }}" class="fa fa-facebook"></a></li>
+                            <li><a target="_blank" href="{{ $configuration->twitter }}" class="fa fa-twitter"></a></li>
+                          
+                            <li><a  target="_blank" href="{{ $configuration->instagram }}" class="fa fa-instagram"></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row">
-            
+               
                <div class="col-lg-3 col-md-6 col-sm-6 p-tb20">
                    <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
                         <div class="icon-md site-text-primary">
                             <span class="flaticon-placeholder"></span>
                         </div>
                         <div class="icon-content">
-                            <h5 class="wt-tilte text-uppercase m-b0">ENDEREÇO</h5>
-                            <p>Luanda Angola</p>
+                            <h5 class="wt-tilte text-uppercase m-b0">Endereço</h5>
+                            <p>{{ $configuration->adress }}</p>
                         </div>
                    </div>
                 </div>
@@ -159,8 +122,8 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Telefone</h5>
-                            <p class="m-b0">+244 945 4552 4525</p>
-                            <p>+244 945 4552 4525</p>
+                            <p class="m-b0">+244 {{ $configuration->telefone }}</p>
+                           
                         </div>
                    </div>
                </div>
@@ -172,8 +135,8 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                            <p class="m-b0">info@demo.com</p>
-                            <p>info@demo1234.com</p>
+                            <p class="m-b0">{{ $configuration->email }}</p>
+                        
                         </div>
                     </div>
                 </div>
