@@ -4,7 +4,15 @@
 
 
     <div class="page-content">
-
+        <!-- INNER PAGE BANNER -->
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(/site/images/pic1.jpg);">
+            <div class="overlay-main bg-black" style="opacity:0.5;"></div>
+            <div class="container">
+                <div class="wt-bnr-inr-entry">
+                    <h1 class="text-white">Contactos</h1>
+                </div>
+            </div>
+        </div>
         <!-- BREADCRUMB ROW -->
         <div class="bg-gray-light p-tb20">
             <div class="container">
