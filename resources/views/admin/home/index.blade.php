@@ -1,12 +1,12 @@
 @extends('layouts.merge.dashboard')
-@section('titulo', 'Portal Oficial do Workaholic SA')
+@section('titulo', 'Portal Oficial do Uengi')
 @section('content')
 
 <div class="containe">
     <div class="card mb-2">
         <div class="card-body">
             <h2 class="h5 page-title">
-                Portal da  Workaholic SA<br>
+                Portal da  Uengi<br>
                 <small>Painel Administrativo</small>
             </h2>
         </div>

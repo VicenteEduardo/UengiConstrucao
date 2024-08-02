@@ -20,7 +20,7 @@
                             </ul>
                             <ul class="list-unstyled e-p-bx pull-right">
                                 <li><i class="fa fa-envelope"></i>{{ $configuration->email }}</li>
-                                <li><i class="fa fa-phone"></i>+244 {{ $configuration->telefone }}</li>
+                                <li><i class="fa fa-phone"></i> {{ $configuration->telefone }}</li>
                             </ul>
 
                         </div>

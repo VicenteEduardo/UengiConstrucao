@@ -1,6 +1,6 @@
 <footer class="py-1 mt-4 bg-primary">
 
-    <p class="text-center mt-3 text-white">© {{date('Y')}} Workaholic SA</p>
+    <p class="text-center mt-3 text-white">© {{date('Y')}} Uengi</p>
 </footer>
 @if (session('create'))
     <script>

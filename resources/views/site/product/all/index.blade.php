@@ -66,7 +66,7 @@
                         </div>
                         <div class="sidebar-card sidebar-download mt-30">
                             <h3>Solicitar Produto</h3>
-                            <p>Na Workaholic SA, nossa paixão é impulsionar o sucesso do seu negócio por meio de soluções
+                            <p>Na Uengi, nossa paixão é impulsionar o sucesso do seu negócio por meio de soluções
                                 tecnológicas de ponta. Simplificamos sua jornada para o topo, oferecendo qualidade e
                                 eficiência incomparáveis. Não perca mais tempo. Converse conosco agora para transformar sua
                                 empresa e alcançar o sucesso que você merece. Sua trajetória rumo ao êxito começa aqui! .

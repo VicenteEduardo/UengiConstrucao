@@ -122,7 +122,7 @@
                         </div>
                         <div class="icon-content">
                             <h5 class="wt-tilte text-uppercase m-b0">Telefone</h5>
-                            <p class="m-b0">+244 {{ $configuration->telefone }}</p>
+                            <p class="m-b0"> {{ $configuration->telefone }}</p>
                            
                         </div>
                    </div>

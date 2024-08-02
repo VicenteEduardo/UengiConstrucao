@@ -30,7 +30,7 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->subject('Correspondência do Workaholic SA')
+        return $this->subject('Correspondência do Uengi')
         ->view('mail.contact.index');
     }
 }

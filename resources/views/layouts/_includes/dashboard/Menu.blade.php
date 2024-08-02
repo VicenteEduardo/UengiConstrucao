@@ -42,7 +42,7 @@
         <!-- nav bar -->
         <div class="w-100  d-flex">
             <a class="navbar-brand mx-auto  flex-fill text-center" href="{{ route('admin.home') }}">
-                <img rel="icon" src="/site/images/logo2.png" style="width:220px; margin:auto" />
+                <img rel="icon" src="/site/logo.png" style="width:220px; margin:auto" />
 
             </a>
         </div>
@@ -228,6 +228,31 @@
 
 
             @endif
+
+{{-- Menu de Slideshows --}}
+<p class="text-muted nav-heading mt-2 mb-1">
+    <span>Galerias</span>
+</p>
+<li class="nav-item dropdown">
+    <a href="#gallery" data-toggle="collapse" aria-expanded="false"
+        class="dropdown-toggle nav-link">
+        <i class="fe fe-image fe-16"></i>
+        <span class="ml-3 item-text">Galeria de Imagens</span>
+    </a>
+    <ul class="collapse list-unstyled pl-4 w-100" id="gallery">
+
+        <li class="nav-item">
+            <a class="nav-link pl-3" href="{{ route('admin.gallery.create') }}">
+                <span class="ml-1 item-text">Cadastrar Galeria</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link pl-3" href="{{ route('admin.gallery.index') }}">
+                <span class="ml-1 item-text">Listar Galerias</span>
+            </a>
+        </li>
+    </ul>
+</li>
 
             @if ('Editor' == Auth::user()->level || 'Administrador' == Auth::user()->level)
             {{-- Menu de Multimédia --}}
